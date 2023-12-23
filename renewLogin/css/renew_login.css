@@ -11,9 +11,9 @@
 	font-weight: normal;
 }
 [class*='button-type-sky'] {
-	border: 1px solid #3382e9;
+	border: 1px solid #72a044;
 	color: #fff !important;
-	background-color: #3382e9;
+	background-color: #72a044;
 }
 [class*='button-type-blue'] {
 	border: 1px solid #1c5a94;
@@ -224,7 +224,7 @@
 	display: inline-block;
 	position: relative;
 	padding: 0 17px 0 0;
-	color: #3382e9;
+	color: #72a044;
 }
 .renewLogin .join a:after {
 	content: '';
@@ -471,7 +471,7 @@
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 1.5;
-	background: #013763;
+	background: #3db42e;
 }
 .renewLogin-pop .pop-inner {
 	position: relative;
