@@ -1,0 +1,628 @@
+@charset "UTF-8";
+html{position:relative;}
+.wrapper-element{position:relative; z-index:9999;}
+.wrapper-element.main,.wrapper-element.mygov{position:relative; padding-top:0px;width:auto;max-width:100%;margin:auto; z-index:999;}
+.wrapper-element:after,.container-element:after{content:'';display:block;clear:both;}
+.header-element.active{background-color:#fff;}
+.header-element.search{height:257px;border-bottom:3px solid #233671;}
+.header-element .top-area{position:relative;height:33px;background-color:#033075}
+.header-element .top-area .left-element{float:left;}
+.header-element .top-area .left-element > li:first-child{padding:0px 15px 0px 0px;}
+.header-element .top-area .right-element{float:right;overflow:hidden;}
+.header-element .top-area li{position:relative;float:left;padding:0px 15px;margin-top:5px;font-size:14px;color:#fff;font-weight:bold}
+.header-element .top-area li:after{content:'';display:block;position:absolute;right:0px;top:50%;margin-top:-6px;z-index:1;width:1px;height:12px;background-color:#6d88b4}
+.header-element .top-area li:last-child:after{display:none;}
+.header-element .top-area li span{display:inline-block;vertical-align:middle;margin-top:-2px;}
+.header-element .top_inner li .zoom-element{display:inline-block;height:18px;margin-left:8px;}
+.header-element .top_inner li .zoom-element .zoom-btn{display:inline-block;}
+.header-element .top_inner li .zoom-element .zoom-btn a{display:block;width:18px;height:18px; background-image:url(https://www.gov.kr/2019/lib/image/main/icon_smlr.png);}
+.header-element .top_inner li .zoom-element .zoom-btn.in{background-image:url(https://www.gov.kr/2019/lib/image/main/icon_lgr.png);}
+.header-element .top_inner li .zoom-element .zoom-text{display:inline-block;padding:0 4px; font-size:14px;font-weight:700;text-align:center;height:18px;line-height:18px}
+.header-element .top-area a{display:block;font-size:14px;color:#fff;font-weight:bold}
+.header-element .top-area a:focus{outline-color:#fff;}
+.header-element .top-area .renew-lang-select .toggle-target a:focus{outline-color:#000;}/*20221115 접근성*/
+.header-element .inner-area{width:100%;max-width:1280px;margin:0 auto;font-family: "Open Sans", sans-serif;} /* 211025 수정 */
+.header-element .gov_top_info{background:#033075;}
+.header-element .gov_top_info .top_inner{max-width: 1280px; height:36px; align-items:center; margin:0 auto; display:flex; justify-content:space-between;}
+.header-element .gov_top_info p{height:33px; line-height:33px;  font-size:14px; font-weight: 500; padding-left:47px; color:#fff; background:url(https://www.gov.kr/2019/lib/image/eg_logo.png) no-repeat center left;}
+.header-element .gov_top_info .top_right_menu > ul{display:flex; align-items:center;}
+.header-element .gov_top_info .top_right_menu > ul > li {letter-spacing: -0.35px;}
+.header-element .gov_top_info .top_right_menu > ul > li +li{position:relative; padding-left:10px; margin-left:10px;}
+.header-element .gov_top_info .top_right_menu > ul > li +li:before{content:''; display:block; width:1px; height:12px; position:absolute; background:#ccc; top:50%; transform:translateY(-50%); left:0; opacity: 0.5;}
+.header-element .gov_top_info .top_right_menu > ul > li a{color:#fff; font-size:14px; font-weight: 500;}
+.header-element .gov_top_info .top_right_menu > ul > li a.blank{padding-right:18px; background:url(https://www.gov.kr/2019/lib/image/main/icon_blank_white.png) no-repeat center right;}
+.header-element .gov_top_info .top_right_menu > ul > li span{display:inline; color:#fff; font-size:14px; font-weight: 500; vertical-align: text-bottom;}
+.header-element .gov_top_info .top_right_menu > ul > li a:focus{outline-color:#fff;}
+.header-element .search-element{display:none;position:absolute;left:0px;right:0px;top:74px;height:150px;border-top:0;z-index:999;}
+.header-element.search .search-element{display:block}
+.header-element.search .search-element{border-top:1px solid #ddd;top:73px;z-index:999;background-color:#f9f9f9}
+.header-element .search-element .search-inner{position:relative;width:100%;max-width:1280px;margin:0 auto;padding:35px 0px;}
+.header-element .search-open{position:absolute;right:0px;top:-10px;z-index:10000;width:75px;height:75px;}
+.header-element .search-open a{display:block;width:75px;height:73px;border-width:1px 1px 0px 1px;border-style:solid;border-color:#fff;background-color:#fff;background-repeat:no-repeat;background-image:url(https://www.gov.kr/2019/lib/image/ico-search-open.png);background-position:center; }
+.header-element.search .search-open a{border-color:#ccc;background-image:url(https://www.gov.kr/2019/lib/image/ico-search-close.png);background-color:#f9f9f9}
+.header-element .search-element .search-inner .search-area{display:none;position:relative;width:930px;margin:0 auto;box-sizing:border-box;padding:0px 100px 0px 200px;border-bottom:4px solid #233671;height:60px;}
+.header-element.search .search-element .search-inner .search-area{display:block}
+.header-element .search-element .search-inner .search-area .select-element{position:absolute;left:0px;top:0px;z-index:1;width:200px;height:60px;border:4px solid #233671;border-bottom-width:0px;box-sizing:border-box;background-color:#d0dcea;background-image:url(https://www.gov.kr/2019/lib/image/ico-select-arrow.png);background-repeat:no-repeat;background-position:150px center;overflow:hidden;}
+.header-element .search-element .search-inner .search-area input{width:100%;min-height:50px;box-sizing:border-box;font-size:20px;padding:10px 15px;color:#333;background-color:transparent;outline:none}
+.header-element .search-element .search-inner .search-area select{border:0px;width:220px;height:50px;background-color:transparent;padding:0px 10px;font-size:18px;color:#233671;font-weight:bold}
+.header-element .search-element .search-inner .search-area button{position:absolute;right:0px;top:0px;z-index:1;width:100px;height:60px;border:0px;background:url(https://www.gov.kr/2019/lib/image/ico-search-btn.png) no-repeat center 5px;}
+
+.header-element .gnb-element .mobile-other-element{display:none;}
+
+.gnb-mobile-element .gnb-header{display:none;}
+/* s_20191212 : css 추가 */
+.header-element .gnb-mobile-element .gnb-area .infoArea {margin-top:25px; padding:15px 15px 20px; border-radius:10px; background-color:#eaf3fe}
+.header-element .gnb-mobile-element .gnb-area .infoArea .tit {padding-bottom:10px; font-size:24px; color:#a0e65b; font-weight:bold}
+.header-element .gnb-mobile-element .gnb-area .infoArea .sub {font-size:18px}
+
+.body-area{position:relative; border-bottom:1px solid #e2e5eb; background:#fff;}
+.body-area.sticky{position:fixed; top:0; z-index:999; width:100%; box-shadow: 0 5px 8px 0 rgba(0,0,0,0.16);}
+.sticky .gnb-element{height:68px;}
+.sticky .gnb-element .depth-2{top:68px;}
+.gnb-element{display:flex; justify-content:space-between; max-width:1280px; margin: 0 auto; height:110px; align-items:center;}
+.gnb-element .gnb-area{display:flex; justify-content:space-between;}
+.gnb-element .gnb-area li{font-size:20px; font-weight: bold; letter-spacing: -0.5px; color:#222;}
+.gnb-element .gnb-area li+li{margin-left:50px;}
+.gnb-element .gnb-area li a:hover{text-decoration: none;}
+.gnb-element .gnb-area li a.active{color:#a0e65b;}
+/*.gnb-element .gnb-area li.active:after{content:""; display:block; position:absolute; width:100%; height:100vh; background:rgba(0,0,0,0.5);top:110px; left:0; z-index:99;}*/
+.gnb-element .gnb-area > li:hover >a,
+.gnb-element .gnb-area > li:focus >a{color:#a0e65b; }
+.gnb-element .gnb-area > li.active>a{position:relative;}
+.gnb-element .gnb-area > li.active>a:after{content:""; position:absolute; bottom:-41px; display:block; width:100%; height:4px; background:#a0e65b;}
+.sticky .gnb-element .gnb-area > li.active>a:after{bottom:-22px;}
+.sticky .gnb-element .gnb-area li{font-size:18px;}
+.gnb-element .btn-menu-all>ul{display:flex; justify-content:space-between;}
+.gnb-element .btn-menu-all>ul>li{display:flex;}
+.gnb-element .btn-menu-all .all_search{display:inline-block; width:24px; height:24px; background:url(https://www.gov.kr/2019/lib/image/icon_search_main.png) no-repeat center;}
+.gnb-element .btn-menu-all .depth-2 .gnb_search_box{max-width:620px; margin:0 auto;}
+.gnb_search_box .ipt_search{position:relative;}
+.gnb_search_box .ipt_search input[type="text"]{font-size:18px; font-weight: 400; letter-spacing: -0.45px; color:#888; padding:11px 72px 11px 24px; border:2px solid #222; border-radius: 8px; width:100%; box-sizing: border-box;}
+.gnb_search_box .ipt_search .btn_search{width:24px; height:24px; background:url(https://www.gov.kr/2019/lib/image/icon_search_main.png) no-repeat center; position: absolute; right: 24px; top: 50%; transform: translateY(-50%); cursor:pointer;}
+.gnb_search_box .ipt_search .btn_del{position:absolute; right:-64px; top:50%; transform:translateY(-50%); width:24px; height:24px; background:url(https://www.gov.kr/2019/lib/image/2023/icon_close.png) no-repeat center; cursor:pointer;}
+.gnb-element .btn-menu-all .all_menu{display:inline-block; margin-left:24px; width:24px; height:24px; background:url(https://www.gov.kr/2019/lib/image/icon_menu.png) no-repeat center;}
+.search_box_list{display:flex; margin-left:20px; margin-top:40px;}
+.search_box_list div+div{margin-left:40px;}
+.search_box_list .search_box_list_tit{font-size:18px; font-weight: bold; color:#222; }
+.search_box_list ul{display:flex; margin-top:20px;flex-direction:column; min-width: 280px;}
+.search_box_list li{display:flex; align-items:center; width:100%;}
+.search_box_list li:nth-child(-n+3) em{background:#006ae2;}
+.search_box_list li+li{margin-top:8px;}
+.search_box_list li em{display:inline-flex; font-size:11px; font-weight:bold; width:20px; min-width:20px; height:20px; color:#fff; background:#6f7681; border-radius: 4px; justify-content:center; align-items:center;}
+.search_box_list li a{margin-left:8px; font-size:15px; letter-spacing: -0.15px; color:#222; overflow:hidden; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; text-overflow:ellipsis;}
+.dark_overlay{position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); z-index:998; display:none;}
+.gnb-element .depth-2{display:none; position:absolute; padding-bottom:64px; padding-top:40px;  min-height:360px; z-index:999; background:#fff; left:0; width:100%; top:110px; border-top:1px solid #e2e5eb; box-sizing: border-box;}
+.gnb-element .gnb-area li.active .depth-2{display:block;}
+.gnb-element .gnb-menu{max-width:1280px; margin:0 auto; padding-left:320px; position:relative; box-sizing: border-box;}
+.gnb-element .gnb-menu .depth2_box{display:flex; flex-wrap:wrap; }
+.gnb-element .gnb-menu .depth2_box>li{float:left; max-width:320px; padding:0 30px; width:calc( 100% / 3 ); box-sizing: border-box;}
+.gnb-element .gnb-menu .depth2_box>li:nth-child(n+4){margin-top:54px;}
+.gnb-element .gnb-menu .depth2_box li +li{margin-left:0;}
+.gnb-element .gnb-menu .depth2_box:after{content:""; display:block; clear:both;}
+.gnb-element .gnb-menu .depth2_tit{display:flex; justify-content: space-between; align-items:center; font-size:18px; font-weight: bold; color:#222; letter-spacing: -0.45px; }
+.gnb-element .gnb-menu .depth2_tit .blank{padding-right:22px; font-weight:bold; background:url(https://www.gov.kr/2019/lib/image/2023/icon_blank.png) no-repeat center right;}
+.gnb-element .gnb-menu .depth2_tit:hover .blank,
+.gnb-element .gnb-menu .depth2_tit:focus .blank{background:url(https://www.gov.kr/2019/lib/image/2023/icon_blank_hover.png) no-repeat center right;}
+.gnb-element .gnb-menu .depth2_info{margin-top:8px; padding-top:8px; border-top:1px solid #e2e5eb; font-size:13px; font-weight: 400; letter-spacing: -0.33px; color:#777; word-break:keep-all;}
+.depth2_box .arrow_btn{width:16px; height:16px; background:url(https://www.gov.kr/2019/lib/image/2023/btn_arrow_up.png) no-repeat center;}
+.depth2_box .arrow_btn.down{ background:url(https://www.gov.kr/2019/lib/image/2023/btn_arrow_down.png) no-repeat center;}
+.depth2_box .depth2_subbox{display:none; margin-top:16px;}
+.depth2_box .depth2_subbox li{margin-top:8px; line-height: 19px;}
+.depth2_box .depth2_subbox li a{position:relative; padding-left:12px; font-size:15px; letter-spacing: -0.38px; font-weight: 500; color:#444;}
+.depth2_box .depth2_subbox li a:after{content:""; display:block; width:4px; height:4px; position:absolute; top:50%; left:0; transform:translateY(-50%); background:#888;}
+.depth2_box .depth2_subbox li a:hover,
+.depth2_box .depth2_subbox li a:focus,
+.gnb-element .gnb-menu .depth2_tit:hover,
+.gnb-element .gnb-menu .depth2_tit:focus{color:#006ae2;}
+.depth3_link{display:flex; margin-top:16px;}
+.depth3_link a{display:inline-flex; align-items:center;}
+.depth3_link a:hover span,
+.depth3_link a:focus span{color:#006ae2;}
+.depth3_link span{position:relative; padding-left:12px; font-size:15px; font-weight: 500; color:#444; line-height: 1.2}
+.depth3_link span:after{content:""; display:block; position:absolute; left:0; top:50%; transform:translateY(-50%); width:4px; height:4px; background:#888;}
+.depth3_link em{display:inline-block; margin-left:6px; padding:1px 6px; font-size:11px; color:#006ae2; border-radius: 9px; border:1px solid #7eb8fb; font-weight:400; line-height:14px; background:#ebf3ff;}
+html.nonscroll{overflow-y:hidden !important;}
+.gnb-element .depth-2.all_menu_box{position:fixed; left:0; top:0; width:100%; height:calc( 100% + 110px ); background:#fff; z-index:9999; padding-bottom:0; padding-top:0; border-top:0;}
+.all_menu_box .all_menu_top span{font-size:24px; color:#222; letter-spacing: -0.6px; font-weight: bold;}
+.all_menu_box .all_menu_top button{width:24px; height:24px; background:url(https://www.gov.kr/2019/lib/image/2023/icon_close.png) no-repeat center;}
+.all_menu_box .all_depth1{margin-bottom:24px; height: calc( 100% + -220px ); overflow-y:scroll; border-top:1px solid #e2e5eb;}
+.all_menu_box .all_depth1>li{padding:40px 0; }
+.all_menu_box .all_depth1>li+li{border-top:1px solid #e2e5eb;}
+.all_menu_box .all_depth_box{position:relative; padding-left:290px; margin:0 auto; width:1280px; box-sizing: border-box;}
+.all_menu_box .all_depth_box > span{position:absolute; left:0; font-size:24px; font-weight: bold; color:#222; letter-spacing: -0.6px; margin-left:40px; }
+.all_menu_box .all_depth2{display:flex; flex-wrap:wrap; width:100%;}
+.all_menu_box .all_depth2 > li{padding-left:30px; max-width:330px; width: calc( 100% / 3 ); box-sizing: border-box;}
+.all_menu_box .all_depth2 > li:nth-child(n+4){margin-top:40px;}
+.all_menu_box .all_depth2 > li >div{display:flex; align-items:center;}
+.all_menu_box .all_depth2 > li >div>a,
+.all_menu_box .all_depth2 > li >a{ font-size:18px; letter-spacing: -0.45px; color:#222; font-weight: bold;}
+.all_menu_box .all_depth2 > li >div .blank{position:relative;}
+.all_menu_box .all_depth2 > li >div .blank:after{position:absolute; content:""; display:block; top:50%; transform:translateY(-50%); right:-66px;  width:12px; height:12px; background:url(https://www.gov.kr/2019/lib/image/2023/icon_blank.png) no-repeat center right; }
+.all_menu_box .all_depth2 > li >div .blank:hover:after,
+.all_menu_box .all_depth2 > li >div .blank:focus:after{background:url(https://www.gov.kr/2019/lib/image/2023/icon_blank_hover.png) no-repeat center right;}
+.all_menu_box .all_depth3 >li{margin-top:8px; display:flex; align-items:center;}
+.all_menu_box .all_depth3 >li >a{font-size:15px; color:#444; font-weight: 500; letter-spacing: -0.38px;} 
+.all_menu_box .all_depth3 >li >a:hover,
+.all_menu_box .all_depth3 >li >a:focus,
+.all_menu_box .all_depth3 >li >a.active,
+.all_menu_box .all_depth2 > li >div>a:hover,
+.all_menu_box .all_depth2 > li >div>a:focus,
+.all_menu_box .all_depth2 > li >div>a.active{color:#006ae2;}
+.all_menu_box .mo_bedge{display:inline-block; font-size:11px; font-weight:400; letter-spacing: -0.28px; color:#487bd0; border:1px solid #b4c4f7; border-radius: 12px; width: 42px; height: 18px; line-height: 16px; text-align: center; margin-left: 6px;}
+.all_menu_box .depth3_link{margin-top:8px;}
+.all_menu_box .depth3_link span{padding-left:0;}
+.all_menu_box .depth3_link span:after{content:none;}
+.mo_gnb_menu{display:none;}
+.mo_gnb_menu_box{display:none;}
+.mobile-other-element li.top-qrcode,
+.logo-area,
+.logo-area a{display:inherit; }
+.mobile-other-element li.top-qrcode a{background-image:url(https://www.gov.kr/2019/lib/image/main-mobile/icon-qrcode.svg); background-size: 36px; }
+
+
+
+.gnb-element .gnb-visual{position:absolute; width:320px; padding-top:106px; margin:0 auto; text-align:center; top:0; left:0;}
+.gnb-element .gnb-visual span{font-size:24px; letter-spacing: -0.6px; color:#222; font-weight: bold;}
+.gnb-element .gnb-visual p{margin-top:16px; font-size:14px; letter-spacing: -0.35px; color:#444; font-weight: 400;}
+.gnb-element .gnb-visual.menu1{background:url(https://www.gov.kr/2019/lib/image/2023/ico_menu1.png) no-repeat center top;}
+.gnb-element .gnb-visual.menu2{background:url(https://www.gov.kr/2019/lib/image/2023/ico_menu2.png) no-repeat center top;}
+.gnb-element .gnb-visual.menu3{background:url(https://www.gov.kr/2019/lib/image/2023/ico_menu3.png) no-repeat center top;}
+.gnb-element .gnb-visual.menu4{background:url(https://www.gov.kr/2019/lib/image/2023/ico_menu4.png) no-repeat center top;}
+.gnb-element .gnb-visual.menu5{background:url(https://www.gov.kr/2019/lib/image/2023/ico_menu5.png) no-repeat center top;}
+.gnb-element .gnb-visual.menu6{background:url(https://www.gov.kr/2019/lib/image/2023/ico_menu6.png) no-repeat center top;}
+
+.border-blue{ border-color: #2196f3 !important; background-color: #fff !important; font-weight: 700!important; color: #2196f3!important;}/* 2020-12-10 */
+
+.depth-3,.depth-2{display:none;}
+
+.renew-lang-select {
+	float: left;
+	position: relative;
+}
+.renew-lang-select .toggle-btn {
+	position: relative;
+	padding-right: 24px;
+}
+.renew-lang-select .toggle-btn:after {
+	content: "";
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 7px;
+	height: 7px;
+	margin-top:4px;
+	-webkit-transform:translate(-50%, -50%) rotate(-135deg);
+	transform:translate(-50%, -50%) rotate(-135deg);
+	border-top:1.2px solid #fff;
+	border-left:1.2px solid #fff;
+}
+.renew-lang-select .toggle-btn.active:after {
+	top:9px;
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+.renew-lang-select .toggle-target {
+	display: none;
+	position: absolute;
+	top: 26px;
+	left: -16px;
+	z-index: 9999;
+	padding:5px 0;
+	width: 96px;
+	border: 1px solid #e3e3e3;
+	background-color: #fff;
+	border-radius:4px;
+	box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.05);
+}
+.renew-lang-select .toggle-target li {
+	float: none;
+	margin-top: 0;
+}
+.renew-lang-select .toggle-target li:after {
+	display: none;
+}
+.renew-lang-select .toggle-target li a {
+	display:block;
+	padding: 3px 12px;
+	text-align: left;
+	font-family:  -apple-system, BlinkMacSystemFont, "Waping", sans-serif,  "Apple Gothic", "Apple SD Gothic Neo";
+}
+.renew-lang-select .toggle-target li a span{ color: #444 !important;}
+.renew-lang-select .toggle-target li a span.blank{padding-right:22px; background:url(https://www.gov.kr/2019/lib/image/main/icon_blank_grey.png) no-repeat center right;}
+.renew-lang-select .toggle-target li a:hover,
+.renew-lang-select .toggle-target li a:focus{background:#eff1f5; text-decoration: inherit;}
+.renew-lang-select .toggle-target li:last-child a span{font-weight: 700 !important;}
+
+/* 푸터 */
+#footer{border-top:1px solid #d9d9d9;}
+#footer > .private{padding:10px 0; background-color:#f5f7fa; border-bottom:1px solid #e8e8e8;}
+#footer > .private .inner{align-items:center; justify-content:space-between;}
+#footer > .private div.left ul{display:flex;}
+#footer > .private div.left ul li+li{margin-left:30px;}
+#footer > .private div.left ul li a{font-size:15px; color:#333;}
+#footer > .private div.left ul li a:hover, #footer > .private div.left ul li a:focus{font-weight: bold;}
+#footer > .private div.left ul li.private a{color:#006ae2; text-decoration: underline;}
+#footer > .private div.left ul li.private a:hover, #footer > .private div.left ul li.private a:focus{font-weight: bold;}
+#footer > .private div.sns ul{display:flex;}
+#footer > .private div.sns ul li+li{margin-left:10px;}
+#footer > .private div.sns ul li a{display:block; width:36px; height:36px; position:relative; border-radius:50%; background-color:#EDEDED; border:1px solid #e8e8e8;}
+#footer > .private div.sns ul li a:hover, #footer > .private div.sns ul li a:focus{background-color:#e1e1e1;}
+#footer > .private div.sns ul li a::before{content:""; display:block; width:36px; height:36px; background:url(https://www.gov.kr/2019/lib/image/logo_sns.png) no-repeat 0 50%; background-size:cover;}
+#footer > .private div.sns ul li:nth-child(2) a::before{background-position:-36px 0;}
+#footer > .private div.sns ul li:nth-child(3) a::before{background-position:-72px 0;}
+#footer > .private div.sns ul li:nth-child(4) a::before{background-position:-108px 0;}
+#footer > .private div.sns ul li:nth-child(5) a::before{background-position:-144px 0;}
+
+#footer .inner{display:flex; width:1280px; margin:0 auto;}
+#footer .top{background-color:#f5f7fa;}
+#footer .top .inner{justify-content:space-between; padding-top:20px;}
+#footer .top .inner > div.bi h5{width:110px; height:36px; background:url(https://www.gov.kr/2019/lib/image/logo_footer.png) no-repeat 50% 50%/cover; transform:translateY(-5px);}
+#footer .top .inner > div.bi ul li{margin-top:35px;}
+#footer .top .inner > div.bi ul li a{font-size:14px;}
+#footer .top .inner > div.bi ul li.private a{color:#003765;}
+#footer .top .inner > div h3{padding-bottom:10px; font-size:17px; font-weight:bold; color:#000;}
+#footer .top .inner > div.contact > ul{display:flex; padding-right:40px;}
+#footer .top .inner > div.contact > ul > li{position:relative;}
+#footer .top .inner > div.contact > ul > li +li{margin-left:100px;}
+#footer .top .inner > div.contact > ul > li > strong{display:block; margin-bottom:5px; font-size:16px;}
+#footer .top .inner > div.contact > ul > li > span{display:block; font-size:16px;}
+#footer .top .inner > div.contact > ul > li > span span{color:#666; font-weight:350;}
+#footer .top .inner > div.contact > ul > li.type1 ul li{position:relative; font-size:17px; color:#000; font-weight: bold;}
+#footer .top .inner > div.contact > ul > li.type1 > span, #footer .top .inner > div.contact > ul > li.type2 > span{color:#666; font-weight:350;}
+#footer .top .inner > div.contact > ul > li.type1 > div{margin-top:6px;}
+#footer .top .inner > div.contact > ul > li.type1 > div p{font-size:16px; color:#666; font-weight:700; line-height:1.75}
+#footer .top .inner > div.contact > ul > li.type1 ol li{padding-left:38px; position:relative; font-size:16px; color:#666; font-weight:350; line-height:1.55; word-break:keep-all;}
+#footer .top .inner > div.contact > ul > li.type1 ol li::before{position:absolute; top:0; left:0; font-weight:bold;}
+#footer .top .inner > div.contact > ul > li.type1 ol li:nth-child(1)::before{content:"[1번]";}
+#footer .top .inner > div.contact > ul > li.type1 ol li:nth-child(2)::before{content:"[2번]";}
+#footer .top .inner > div.contact > ul > li.type1 ol li:nth-child(3)::before{content:"[3번]";}
+#footer .top .inner > div.contact > ul > li.type1 ol li:nth-child(4)::before{content:"[4번]";}
+#footer .top .inner > div.contact > ul > li.type2 span:first-of-type{color:#000; font-weight: inherit;}
+#footer .top .inner > div.link{transform:translateY(-13px);}
+#footer .top .inner > div.link ul{margin-top:5px;}
+#footer .top .inner > div.link ul li a{display:flex; flex-direction:column; justify-content:center; width:300px; height:42px; position:relative; font-size:16px; box-sizing:border-box;}
+#footer .top .inner > div.link ul li a::after{content:""; width:5px; height:5px; position:absolute; top:50%; right:5px; border-top:1.5px solid #7c7c7c; border-right:1.5px solid #7c7c7c; transform:translateY(-50%) rotate(45deg);}
+#footer .top .inner > div.link ul li a:hover, #footer .top .inner > div.link ul li a:focus{font-weight:bold;}
+#footer .inner_info{font-size:15px; font-weight: normal;}
+#footer .inner_info .f_red{color:#e3412f; font-style:normal;}
+
+
+#footer .bot{background-color:#f5f7fa;}
+#footer .bot .inner{align-items:center; justify-content:flex-end; padding-bottom:30px;}
+#footer .bot .inner > div.right{display:flex; align-items:center;}
+#footer .bot .inner > div.right span.copyright{font-size:14px; color:#838383; letter-spacing:0;}
+#footer .bot .inner > div.right span.copyright br{display:none;}
+#footer .bot .inner > div.right div.wa{display:flex; align-items:center; font-size:13px; color:#000; margin-left:10px;}
+#footer .bot .inner > div.right div.wa::before{content:""; display:inline-block; width:60px; height:42px; background:url(https://www.gov.kr/2019/lib/image/main/logo_wa.png) no-repeat 50% 50%/contain;}
+
+.cb-ico{position:fixed;right:140px;bottom:280px;z-index:999;}
+.cb-ico a{display:block;}
+.cb-ico span{opacity:0;position:absolute;left:-10px;top:-40px;z-index:3;width:130px;height:33px;background-color:#eb193a;border-top-left-radius:18px;border-bottom-left-radius:18px;border-bottom-right-radius:18px;font-size:12px;color:#fff;line-height:33px;text-align:center;transition:0.1s ease-out;}
+.cb-ico.active span{opacity:1;top:-50px;transition:0.3s ease-out;}
+.cb-ico span:after{position:absolute;left:12px;bottom:-4px;z-index:1;width:44px;height:19px;display:block;background:url(https://www.gov.kr/2019/lib/image/main/ico-cb-arrow.png) no-repeat;content:'';}
+
+.top_banner{display:none;}
+
+
+/* 200820 접근성 */
+.pc-only{display:block;}
+.mo-only{display:none;}
+/* //200820 접근성 */
+
+@media all and (max-width:1530px){
+	.footer-element .body-element .body-inner .footer-top-btn{display:none;}
+}
+@media all and (max-width:1279px){
+	.wrapper-element.main, .wrapper-element.mygov{padding-top:81px}
+	.cb-ico{right:20px;bottom:20px;}
+	.cb-ico img{width:90%}
+	.cb-ico.active span{top:-40px}
+	.cb-ico span{opacity:1;left:-40px}
+	.cb-ico span:after{left:50px}
+	 /* 푸터 */
+    #footer > .private{padding:10px 20px;}
+    #footer .inner{width:100%;}
+    #footer .top .inner{padding:20px; box-sizing:border-box;}
+    #footer .top .inner > div.contact > ul> li+li{margin-left:70px;}
+    #footer .top .inner > div.link ul li a{width:260px;}
+    #footer .bot .inner{padding:0 20px 20px; box-sizing:border-box;}
+}
+@media all and (max-width:1279px){
+	.wrapper-element.main, .wrapper-element.mygov{padding-top:0px !important;}
+	.wrapper-element.fixed{width:auto;}
+	.notice-banner-element,
+	.header-element.main .body-area .gnb-element .guide-element,
+	.header-element .top-area{display:none;}
+	.header-element{height:auto;}
+	.header-element .body-area{height:60px; border-bottom:1px solid #e2e5eb;}
+	.header-element .gov_top_info p{margin:0 20px; padding-left:34px; font-weight:400; font-size:13px; background-size:26px; }
+	.header-element .body-area .btn-menu-all{display:none;}
+	.header-element .body-area .gnb-element{position:inherit;padding-left:0px; height:60px; margin:0 16px;}
+	
+
+	.header-element .body-area .gnb-element .gnb-area > li > div.depth-2 .gnb-visual{display:none;}
+	.header-element .body-area .gnb-element .gnb-area > li > div.depth-2 .gnb-menu{float:none;margin-left:0px;}
+	.header-element .body-area .gnb-element .gnb-area > li > div.depth-2 .gnb-menu > ul{float:none;width:auto;margin-right:0px;padding-top:0px; margin-bottom:0;  line-height:inherit;}
+	.header-element .body-area .gnb-element .gnb-area > li > div.depth-2 .gnb-menu > ul > li{display:block; max-width:inherit;  width:100%; border:0; padding:0; margin-top:4px;}
+	
+	.header-element .body-area .gnb-element .gnb-area > li > div.depth-2 .gnb-menu > ul > li a.active{background:#f5f7fa;}
+	.header-element .body-area .gnb-element .gnb-area > li > div.depth-2 .gnb-menu ul > li.gnb-other{display:none;}
+	.header-element .body-area .gnb-element .gnb-area > li > div.depth-2 .gnb-menu > ul.has-gnb-other .mo-state {display: block;} /* 211025 추가 */
+	.footer-element .body-element .body-inner{padding:20px;box-sizing:border-box;}	
+	.footer-element .top-element .top-inner .footer-menu{padding-left:20px;}
+	
+	.header-element .body-area .gnb-element .guide-element{display:none;}
+	.header-element .search-element{display:none;}
+	.search-open{display:none;}
+	
+	/* 전자문서지갑 이용 안내 */
+	.gnb_inner_info{position: absolute; bottom: 70px; text-align: center; width: 100%; margin-left: -28px; font-size:24px;}
+	.gnb_inner_info_txt{margin-top: 20px; font-size: 20px;}
+	.gnb_inner_info_txt span{display:block;}
+	.dark_overlay{display:none !important;}
+	.mo_gnb_menu{height:24px;}
+	.mo_gnb_menu,
+	.mo_gnb_menu_box{display:block;}
+	.mo_gnb_menu a{display:inline-block; width:24px; height:24px; background:url(https://www.gov.kr/2019/lib/image/2023/icon_menu_mo.png) no-repeat center left; background-size:24px;}
+	.top_right_menu{display:none;}
+	.header-element .gov_top_info .top_inner{height:33px;}
+	.header-element .gov_top_info p{margin:0 16px; padding-left:25px; font-size:12px; font-weight: 500; background-size:22px;}
+	.header-element .gnb-element .mobile-other-element{display:block;}
+	.header-element .gnb-element .mobile-other-element ul{display: flex; justify-content: space-between; min-width: 60px;}
+	.header-element .gnb-element .mobile-other-element a{display:inline-block; width:24px; height:24px;}
+	.header-element .gnb-element .mobile-other-element li.top-mygov{display:inherit;}
+	.header-element .gnb-element .mobile-other-element li.top-mygov a{ background:url(https://www.gov.kr/2019/lib/image/2023/icon_login_mo.png) no-repeat center left; background-size:24px;}
+	.header-element .gnb-element .mobile-other-element li.top-search a{background-image: url(https://www.gov.kr/2019/lib/image/main-mobile/icon-search.svg); background-size: 24px;}
+	.header-element .gnb-mobile-element{display:none; position:fixed; top:0; left:0; padding:27px 16px; padding-bottom:0; width:100%; height:100%; background:#fff; overflow-y:scroll; box-sizing: border-box;}
+	.mo_gnb_top{display:flex; justify-content:space-between;}
+	.mo_gnb_top .login_box{display:inline-block; padding:1px 0; padding-left:30px; margin-bottom:9px; font-size:14px; background:url(https://www.gov.kr/2019/lib/image/2023/icon_login_mo.png) no-repeat center left; background-size:24px;}
+	.mo_gnb_top .login_box > a{position:relative;; padding-right:24px; background:url(https://www.gov.kr/2019/lib/image/2023/icon_arrow.png) no-repeat center right; background-size:20px;}
+	.mo_gnb_top .login_box.login > a{padding:0; }
+	.mo_gnb_top .login_box.login{padding-left:0; margin-bottom:0; background:none; font-size:16px;}
+	.mo_gnb_top .login_box.login div{margin-top:10px;}
+	.mo_gnb_top .login_box.login div a{font-size:14px; color:#444; }
+	.mo_gnb_top .login_box.login div a + a{position:relative; margin-left:10px; padding-left:10px;}
+	.mo_gnb_top .login_box.login div a + a:before{content:""; display:block; position:absolute; left:0; top:50%; transform:translateY(-50%); width:2px; height:13px; background:#ddd;}
+	.mo_gnb_btn{display:flex;}
+	.mo_gnb_btn a{display:inline-block; width:24px; height:24px; background:url(https://www.gov.kr/2019/lib/image/2023/icon_setting.png) no-repeat center; background-size:cover;}
+	.mo_gnb_btn a.close{margin-left:12px; background:url(https://www.gov.kr/2019/lib/image/2023/icon_menuclose.png) no-repeat center; background-size:cover; position:inherit;}
+	.mo_gnb_center_box{margin-top:8px; margin-bottom:8px; border-radius:8px; background:#f5f7fa;}
+	.mo_gnb_center_box ul{display: flex; height:48px; align-items:center; justify-content:space-evenly;}
+	.mo_gnb_center_box li a span{padding:5px 0; padding-left:25px; font-size:14px; color:#222; background:url(https://www.gov.kr/2019/lib/image/2023/icon_set1.png) no-repeat center left; background-size:20px;}
+	.mo_gnb_center_box li:nth-child(2) a span{background:url(https://www.gov.kr/2019/lib/image/2023/icon_set4.png) no-repeat center left; background-size:20px;}
+	.gnb-element .gnb-area{display:block;}
+	.gnb-element .gnb-area li+li{margin-left:0; margin-bottom:0;}
+	.gnb-element .gnb_menu.active>a{background:url(https://www.gov.kr/2019/lib/image/2023/icon_arrow_mo_up.png) no-repeat right 8px center; background-size:16px;}
+	.gnb-element .gnb-area li.active:after,
+	.gnb-element .gnb-area > li.active>a:after{content:none;}
+	.menu1 >a:before{background:url(https://www.gov.kr/2019/lib/image/2023/ico_menu5_mo.png) no-repeat center left; background-size:28px;}
+	.menu2 >a:before{background:url(https://www.gov.kr/2019/lib/image/2023/ico_menu2_mo.png) no-repeat center left; background-size:28px;}
+	.menu3 >a:before{background:url(https://www.gov.kr/2019/lib/image/2023/ico_menu3_mo.png) no-repeat center left; background-size:28px;}
+	.menu4 >a:before{background:url(https://www.gov.kr/2019/lib/image/2023/ico_menu4_mo.png) no-repeat center left; background-size:28px;}
+	.menu5 >a:before{background:url(https://www.gov.kr/2019/lib/image/2023/ico_menu1_mo.png) no-repeat center left; background-size:28px;}
+	.menu6 >a:before{width:20px !important; height:20px !important; background:url(https://www.gov.kr/2019/lib/image/2023/ico_menu6_mo.png) no-repeat center left; background-size:20px;}
+	.menu7 >a:before{width:20px !important; height:20px !important; background:url(https://www.gov.kr/2019/lib/image/2023/ico_menu7_mo.png) no-repeat center left; background-size:20px;}
+	.menu8 >a:before{width:20px !important; height:20px !important; background:url(https://www.gov.kr/2019/lib/image/2023/ico_menu8_mo.png) no-repeat center left; background-size:20px;}
+	.gnb-element .gnb-area li{font-size:16px;}
+	.gnb-element .gnb-area li.active{color:inherit;}
+	.gnb-element .gnb_menu > a{position:relative; display:block; padding:15px 0; padding-left:38px; padding-right:24px;  border-bottom:1px solid #e2e5eb; background:url(https://www.gov.kr/2019/lib/image/2023/icon_arrow_mo.png) no-repeat center right 8px; background-size:16px;}
+	.gnb-element .gnb_menu > a:before{content:""; display:block; position:absolute; width:28px; height:28px; left:4px;}
+	.gnb-element .gnb-area > li:hover >a, .gnb-element .gnb-area > li:focus >a{color:inherit;}
+	.header-element .body-area .gnb-element .gnb-area > li > div.depth-2 .gnb-menu{padding-left:0;}
+	.gnb-element .depth-2{position:inherit; padding:0; border:0; min-height: inherit; top:0;}
+	.gnb-element .gnb-menu .depth2_tit{padding:0 12px; height:40px; font-size:14px; font-weight: 500;}
+	.gnb-element .gnb-menu .depth2_tit.active{color:#222;}
+	.gnb-element .gnb-menu .depth2_tit .blank{font-weight: 500;}
+	.gnb-element .gnb-menu .depth2_info{display:none;}
+	.depth2_box .arrow_btn{background:url(https://www.gov.kr/2019/lib/image/2023/btn_arrow_up_mo.png) no-repeat center; background-size:16px;}
+	.depth2_box .arrow_btn.down{background:url(https://www.gov.kr/2019/lib/image/2023/btn_arrow_down_mo.png) no-repeat center; background-size:16px;}
+	.depth2_box .depth2_subbox{ margin-top:4px; padding:6px 0; border-radius: 8px; background:#f5f7fa; }
+	.depth2_box .depth2_subbox li{margin:0; padding:0; }
+	.depth2_box .depth2_subbox li + li{margin-top:6px;}
+	.depth2_box .depth2_subbox li a{display:block; padding:5.5px 20px; font-size:14px;}
+	.depth2_box .depth2_subbox li a:after{display:none;}
+	.depth2_box .depth2_subbox li a:hover,
+	.depth2_box .depth2_subbox li a:focus,
+	.depth2_box .depth2_subbox li a.active{background:#ebedf1 !important; color:inherit;}
+	.gnb-element .mo_gnb_bottom{margin:0 -16px; margin-top:30px; background:#f5f7fa;}
+	.gnb-element .mo_gnb_bottom li{padding:0 16px; }
+	.gnb-element .mo_gnb_bottom li a{position:relative; display:block; padding:13px 0; width:100%; padding-right:24px; padding-left:34px; font-size:15px; font-weight: 500; box-sizing: border-box;}
+	.a_link_icon{background:none !important; border-bottom:0 !important;}
+	.a_link_icon:after{position:absolute; content:""; display:block; right:8px; top:16px;  width:16px; height:16px; background:url(https://www.gov.kr/2019/lib/image/2023/icon_arrow_mo.png) no-repeat center;  background-size: cover;
+    transform: rotate(-90deg);}
+    .my_data_menu{padding:15px 4px; display:block; font-weight:500; font-size:15px; color:#444 !important; position:relative;}
+    .mo_gnb_bottom .depth-2{background:none;}
+    .mo_gnb_bottom .gnb-menu{padding-left:0;}
+    .mo_gnb_bottom .gnb-menu .depth2_box>li{float:inherit; max-width: inherit; width:100%; padding:0;}
+    .depth2_box .depth2_subbox li a:hover, .depth2_box .depth2_subbox li a:focus, .gnb-element .gnb-menu .depth2_tit:hover, .gnb-element .gnb-menu .depth2_tit:focus{color:inherit;}
+    .depth3_link{margin-top:15px; padding:12px 20px; border-radius: 8px; background:#f5f7fa;}
+    .depth3_link span{padding-left:0; font-size:14px;}
+    .depth3_link span:after{content:none;}
+    .depth3_link em{font-size:12px;}
+    
+    #footer > .private div.left .center{display:none;}
+    
+    .top_banner {position:relative; background:#fee7d4; max-height:50px; text-align:center; padding-right: 51px; padding-left: 16px;}
+	.top_banner .img_box{display:inline-block; }
+	.top_banner .img_box img{width:100%; max-height:50px;}
+	.top_banner .banner_close{width:20px; height:20px; background:url(https://www.gov.kr/2023/img/ic40_line_close.png) no-repeat center; background-size:100%; position:absolute; top:50%; transform:translateY(-50%); right:16px;}
+    
+
+}
+@media all and (max-width:1000px) {
+	.footer-element .top-element .top-inner .footer-sns li{width:60px;}
+	.footer-element .top-element .top-inner .footer-sns li a{width:60px;}
+	.footer-element .top-element .top-inner .footer-sns li.blog a{background-position:-7px 0;}
+	.footer-element .top-element .top-inner .footer-sns li.tw a{background-position:-82px 0;}
+	.footer-element .top-element .top-inner .footer-sns li.fb a{background-position:-158px 0;}
+	.footer-element .top-element .top-inner .footer-sns li.ks a{background-position:-231px 0;}
+	.footer-element .top-element .top-inner .footer-sns li.yt a{background-position:-307px 0px;}
+	.footer-element .top-element .top-inner .footer-sns li.cb a{background-position:-380px 0px;}
+	#footer .top .inner > div.contact > ul>li+li{margin-left:30px;}
+    #footer .top .inner > div.link ul li a{width:220px; height:60px; padding-left:12px; font-size:15px;}
+    #footer .top .inner > div.link ul li a::after{right:15px;}
+    #footer .top .inner > div.contact > ul > li > strong{font-size:15px;}
+}
+@media all and (max-width:900px) {
+	.footer-element .body-element .body-inner .logo_wa {position:absolute; right:-9999px; display:none;}
+	#footer .top .inner{display:grid; grid-template-columns:repeat(12, 1fr);}
+    #footer .top .inner > div.bi{grid-column:1 / 13; margin-bottom:30px;}
+    #footer .top .inner > div.contact{grid-column:1 / 9;}
+    #footer .top .inner > div.contact > ul{ justify-content:space-between; padding:0;}
+    #footer .top .inner > div.contact > ul > li +li{margin-left:20px;}
+    #footer .top .inner > div.contact > ul > li.type1 > div p{font-size:14px;}
+    #footer .top .inner > div.contact > ul > li.type1 ol li{font-size:14px;}
+    #footer .top .inner > div.link{grid-column:9 / 13; margin-top:-13px; margin-left:30px;}
+    #footer .top .inner > div.link ul li a{width:100%;}
+    #footer .bot .inner{padding:25px 20px 20px;}
+}
+@media all and (max-width:860px) {
+	.footer-element .top-element{height:auto;padding-bottom:10px;}
+	.footer-element .top-element .top-inner .footer-menu{float:none;padding-left:0px;text-align:center;}
+	.footer-element .top-element .top-inner .footer-menu li{margin:0px 8px !important;display:inline-block;float:none;}
+	.footer-element .top-element .top-inner .footer-sns{text-align:center;float:none;width:100%;box-sizing:border-box;}
+	.footer-element .top-element .top-inner .footer-sns li{display:inline-block;margin:0px 10px;width:50px;float:none;}
+	.footer-element .top-element .top-inner .footer-sns li a{border-radius:25px;background-position:center center;width:50px;}
+	.footer-element .top-element .top-inner .footer-sns li.blog a{background-position:-12px 0px}
+	.footer-element .top-element .top-inner .footer-sns li.tw a{background-position:-87px 0px}
+	.footer-element .top-element .top-inner .footer-sns li.fb a{background-position:-163px 0px}
+	.footer-element .top-element .top-inner .footer-sns li.ks a{background-position:-237px 0px}
+	.footer-element .top-element .top-inner .footer-sns li.yt a{background-position:-312px 0px}
+	.footer-element .top-element .top-inner .footer-sns li.cb a{background-position:-387px 0px}
+
+	.header-element .gnb-mobile-element.active .gnb-area > li.active > div.depth-2 .gnb-menu li.pc-menu-block{display:none}
+	/* .header-element .gnb-mobile-element.active .gnb-area > li.etc-menu > a{background-size: 128px auto;} */ /* 2020-12-23 */
+}
+@media all and (max-width:749px) {
+	
+	}
+@media all and (max-width:719px) {
+	.header-element .gnb-mobile-element.active:before { top:60px;}
+	.header-element .gnb-mobile-element.active .gnb-header {height:60px;}
+	.header-element .gnb-mobile-element.active .gnb-header .alarm-push {right:60px;width:60px;height:60px;background-size:28px auto;}
+	.header-element .gnb-mobile-element.active .gnb-header .btn-menu-all-close { width:60px;height:60px;background-size:20px auto;}
+	.header-element .gnb-mobile-element.active .gnb-area {top:60px;}
+	.header-element .gnb-mobile-element.active .gnb-area > li.active > div.depth-2 > li.has-child > a > span { width:21px;height:21px;margin-top:-10px;background-size:100% auto;}
+	/* 200820 접근성 */
+	.pc-only{display:none;}
+	.mo-only{display:block;}
+	/* //200820 접근성 */
+
+	#footer .top .inner{display:flex; flex-direction:column;}
+    #footer .bot .inner{flex-direction:column; height:auto; padding:15px 20px;}
+    #footer .top .inner > div.link ul li a{padding-left:0;}
+    #footer .top .inner > div.link{margin-top:30px; margin-left:0;}
+}
+@media all and (max-width:640px) {
+	.footer-element .body-element .body-inner .footer-logo{float:none;text-align:center}
+	.footer-element .body-element .body-inner .footer-infor{float:none;padding:20px;margin:0px;}
+}
+@media all and (max-width:480px) {
+	.footer-element .body-element .body-inner{padding:20px 5px}
+	.footer-element .body-element .body-inner .footer-infor{font-size:14px;}
+	.footer-element .top-element .top-inner .footer-menu{padding:6px 0px;}
+	.footer-element .top-element .top-inner .footer-menu li a{font-size:13px;line-height:30px}
+	.mobile-other-element li.top-qrcode a{background-size:24px}
+}
+
+@media (max-width: 480px) {
+	 #footer > .private{padding:20px;}
+    #footer > .private .inner{display:block;}
+    #footer > .private div.left{margin-bottom:16px;} 
+    #footer > .private div.left ul li+li{margin-left:20px;}
+    #footer > .private div.sns ul li+li{margin-left:12px;}
+    #footer .top .inner{padding:15px 20px 0;}
+    #footer .top .inner > div h6{font-size:15px;}
+    #footer .top .inner > div.bi{margin-bottom:20px;}
+    #footer .top .inner > div.bi h5{width:102px; height:34px; transform:initial; }
+    #footer .top .inner > div.link{margin-left:0; margin-top:20px;}
+    #footer .top .inner > div.contact > ul{flex-direction:column; padding-right:0;}
+    #footer .top .inner > div.contact > ul > li.type1{overflow:hidden;}
+    #footer .top .inner > div.contact > ul > li.type1 ul{gap:0 18px; padding-right:3px; margin-bottom:0;}
+    #footer .top .inner > div.contact > ul > li.type1 ul li{font-size:14px;}
+    #footer .top .inner > div.contact > ul > li.type1 ul li:first-child::after{right:-10px;}
+    #footer .top .inner > div.contact > ul > li.type1 > div{margin-top:4px;}
+    #footer .top .inner > div.contact > ul > li.type1 > div p{font-size:14px;}
+    #footer .top .inner > div.contact > ul > li.type1 ol li{padding-left:30px; font-size:14px;}
+    #footer .top .inner > div.contact > ul > li.type2{margin-bottom:20px;margin-top:20px; margin-left:0;}
+    #footer .top .inner > div.contact > ul > li > strong{margin-bottom:2px; font-size:14px;}
+    #footer .top .inner > div.contact > ul > li > span{font-size:14px; color:#333;}
+    #footer .top .inner > div.contact > ul > li > span br{display:none;}
+    #footer .top .inner > div.link ul{margin-top:0;}
+    #footer .top .inner > div.link ul li a{height:36px; font-size:14px;}
+    #footer .bot .inner{padding:5px 20px 38px;}
+    #footer .top .inner > div.contact > ul > li > span span{margin-left:4px;}
+    #footer .bot .inner > div.right{width:100%; align-items:flex-start; justify-content:space-between; gap:0;}
+    #footer .bot .inner > div.right span.copyright br{display:block;}
+    #footer .bot .inner > div.right div.wa::before{display:none;}
+	#footer .inner_info{font-size:14px;}
+	
+}
+
+/* mobile search */
+.header-search-layer { display:none;overflow:hidden;position:fixed;left:20px;right:20px;top:80px;z-index:9999;width:auto;height:auto;background:#fff;box-shadow:0 10px 10px rgba(0,0,0,0.1);}
+.header-search-layer .header-search-inner {display:block;width:auto;padding:30px;}
+.mask-layout {display:none;position:fixed;left:0;top:0;z-index:1001;width:100%;height:100%;background:#000;opacity:0.6;}
+.search-area .input-search-wrap {display:block;overflow:hidden;position:relative;padding:15px 0;border-bottom:3px solid #0c436e;}
+.search-area .input-search-wrap .input-wrap { display:block;position:relative;margin-right:130px;}
+.search-area .input-search-wrap .input-wrap input { width:100%;height:60px;padding:0 0 0 20px;font-size:30px;color:#a0a1a1;}
+.search-area .input-search-wrap .btn-area { display:block;position:absolute;right:0;bottom:15px;}
+.search-area .input-search-wrap .btn-voice,
+.search-area .input-search-wrap .btn-search {display:inline-block;float:left;width:60px;height:60px;background-repeat:no-repeat;background-position:50% 50%;border-radius:50%;}
+.search-area .input-search-wrap .btn-voice {background-color:#0c436e;background-image:url(https://www.gov.kr/2019/lib/image/main-mobile/icon-header-voice.svg);background-size:auto 30px;margin-right:10px;}
+.search-area .input-search-wrap .btn-search {background-color:#0077d4;background-image:url(https://www.gov.kr/2019/lib/image/main-mobile/icon-header-search.png);background-size:auto 27px;}
+.search-area .keyword-title {display:block;padding:20px 10px;font-size:20px;color:#ef304e;}
+.search-area .keyword-list-area { display:block;border-top:1px solid #c2c2c2;border-bottom:1px solid #c2c2c2;padding:10px;}
+.search-area .keyword-list-area .keyword-item { display:inline-block;padding:10px;color:#333333;font-size:24px;}
+.search-area .btn-close { display:block;float:right;padding:10px 0;text-align:right;font-size:26px;font-weight:bold;color:#333333;background-color:#fff}
+.search-area .btn-close span { display:block;text-align:right;}
+.search-area .keyword-title {padding:20px 10px;font-size:20px;}
+.search-area .keyword-list-area {padding:10px 0;}
+.search-area .keyword-list-area .keyword-item { padding:4px 10px;font-size:20px;}
+.search-area .btn-close { font-size:20px;}
+
+@media all and (max-width:719px) {
+	.header-search-layer {left:10px;right:10px;}
+	.header-search-layer .header-search-inner { padding:20px;}
+	.search-area .input-search-wrap {padding:10px 0;}
+	.search-area .input-search-wrap .btn-area{ bottom:10px;}
+	.search-area .input-search-wrap .input-wrap { margin-right:90px;}
+	.search-area .input-search-wrap .input-wrap input {height:40px;padding-left:5px;font-size:18px;outline:none}
+	.search-area .input-search-wrap .btn-voice{ width:40px;height:40px;background-size:auto 20px;}
+	.search-area .input-search-wrap .btn-search{ width:40px;height:40px;background-size:auto 18px;}
+	.search-area .input-search-wrap .btn-voice {margin-right:5px;}
+	.search-area .keyword-title {padding:10px 10px;}
+	.search-area .btn-close { font-size:18px;}
+}
+@media all and (max-width:480px) {
+	.search-area .input-search-wrap .input-wrap input {font-size:16px;}
+}
+
+/* search auto */
+.header-element.search .autocomplete{top:60px;left:200px;right:0px;}
+.header-element.search .autocomplete .tab-auto > li.word-recent{float:left;width:100%;padding:5px 10px;box-sizing:border-box;border-right:0px solid #cecece;}
+.header-element.search .autocomplete .tab-auto > li.word-de{display:none;float:left;width:70%;padding:0px;text-align:left;}
+.header-element.search .autocomplete .tab-auto > li.word-de dt{font-size:1.6rem;background:#f5f5f5;color:#656565;line-height:40px;padding-left:20px;}
+.header-element.search .autocomplete .tab-auto > li.word-de dt strong{font-size:1.6rem;}
+.header-element.search .autocomplete .tab-auto > li.word-de dd{padding:12px 18px;}
+
+@media all and (max-width:805px) {
+	.header-element.search .autocomplete{width:auto;left: 0px;right: 0px;top: 50px;}
+	.header-element.search .autocomplete .tab-auto > li.word-recent{width:auto}
+	.header-element.search .autocomplete .tab-auto > li.word-de{display:none}
+}
+
+
+/* location */
+.breadclumbs-wrap{border-bottom:1px solid #ebe9e9; background:#f5f7fa;}
+.breadclumbs .bc-list li{line-height:32px;padding-top:4px;background:url("https://www.gov.kr/2017/img/common/ico_bc_list.png") no-repeat left 8px;}
+.breadclumbs,
+.breadclumbs .bc-list{overflow:inherit;}
+.breadclumbs .bc-list:after,
+.breadclumbs:after{content:""; display:block; clear:both;}
+
+/* hd-element */
+.hd-element {position:absolute; width:0; height:0; overflow:hidden; font-size:1px; line-height:0;}
+
+/* 211025 추가 */
+/* 2단 좌측 column */
+.aside-link {display: block; margin-top: 20px; width: 230px; height: 104px; background: url('/2019/lib/image/img-aside-subsidy.png') no-repeat 0 0;}
