@@ -405,7 +405,7 @@ input[type="checkbox"], input[type="radio"] {width:18px !important; height:18px;
 .frequent-swiper .swiper-button-next3 { right:0; background:url('https://www.gov.kr/2022/lib/images/common/ico/ico-swiper-next2.png') center no-repeat; z-index:6;}
 .frequent-swiper .swiper-pagination {display:block; margin:0 auto; bottom:0; text-align:center; width:100%;}
 .frequent-swiper .swiper-pagination .swiper-pagination-bullet {margin:0 3px; width:6px; height:6px;background:#4f545c; opacity:1;}
-.frequent-swiper .swiper-pagination .swiper-pagination-bullet-active {width:16px; background:#0550b2; border-radius:3px;}
+.frequent-swiper .swiper-pagination .swiper-pagination-bullet-active {width:16px; background:#05b22a; border-radius:3px;}
 
 @media screen and (max-width: 1280px) {
     .frequent-service {display:none; margin-top:30px; padding:30px 0; height:auto;}
@@ -492,7 +492,7 @@ input[type="checkbox"], input[type="radio"] {width:18px !important; height:18px;
 .onestop-swiper .swiper-button-next4 { right:0; background:url('https://www.gov.kr/2022/lib/images/common/ico/ico-swiper-next2.png') center no-repeat; z-index:6;}
 .onestop-swiper .swiper-pagination {display:block; margin:0 auto; bottom:0; text-align:center; width:100%;}
 .onestop-swiper .swiper-pagination .swiper-pagination-bullet {margin:0 3px; width:6px; height:6px;background:#4f545c; opacity:1;}
-.onestop-swiper .swiper-pagination .swiper-pagination-bullet-active {width:16px; background:#0550b2; border-radius:3px;}
+.onestop-swiper .swiper-pagination .swiper-pagination-bullet-active {width:16px; background:#05b22a; border-radius:3px;}
 
 .onestop-service-box span.righten.only-mb {display:none;}
 .onestop-service-box a.btn-more {display:none;}
