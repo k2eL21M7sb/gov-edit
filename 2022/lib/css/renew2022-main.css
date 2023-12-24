@@ -440,7 +440,7 @@ input[type="checkbox"], input[type="radio"] {width:18px !important; height:18px;
 .mb-link-box ul.ico-list li i.ico {position:absolute; top:13px; left:-33px; width:28px; height:28px;}
 .mb-link-box ul.ico-list li i.ico.mb-ico-gubbi {background:url('https://www.gov.kr/2022/lib/images/images/main-mb-ico-gubbi.png') no-repeat; background-size:28px 28px;}
 .mb-link-box ul.ico-list li i.ico.mb-ico-idcard {background:url('https://www.gov.kr/2022/lib/images/images/main-mb-ico-idcard.png') no-repeat; background-size:28px 28px;}
-.mb-link-box ul.ico-list li i.ico.nation-wrap-jumin2 {background:url('/images/nfFact_small.png') no-repeat; background-size:28px 28px;}
+.mb-link-box ul.ico-list li i.ico.nation-wrap-jumin2 {background:url('https://www.gov.kr/2022/lib/images/nfFact_small.png') no-repeat; background-size:28px 28px;}
 
 
 @media screen and (min-width: 720px) {

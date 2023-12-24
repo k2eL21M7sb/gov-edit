@@ -9,318 +9,1679 @@
     font-style: normal;
 }
 
-*{ font-family:-apple-system, BlinkMacSystemFont, "Waping", sans-serif,  "Apple Gothic", "Apple SD Gothic Neo" !important;}
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo" !important;
+}
+
 .mo_only,
-.mo_only_block{display: none !important; }
-.pc_only{display: inline-block !important;}
-.pc_only_block{display:block !important;}
-.blind {overflow:hidden;  position:absolute;  clip:rect(0,0,0,0); display:block;  margin:-1px;  width:1px;  height:1px;  font-size:1px;  line-height:0;  text-indent:-9999em}
+.mo_only_block {
+    display: none !important;
+}
+
+.pc_only {
+    display: inline-block !important;
+}
+
+.pc_only_block {
+    display: block !important;
+}
+
+.blind {
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    display: block;
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+    font-size: 1px;
+    line-height: 0;
+    text-indent: -9999em
+}
+
 /* guide */
-.new_font,h1, h2, h3, h4, h5, h6{ font-family:-apple-system, BlinkMacSystemFont, "Waping", sans-serif,  "Apple Gothic", "Apple SD Gothic Neo" !important;}
-em{font-style:normal !important;}
-button:focus, a:focus{text-decoration: underline;}
-.new_font big,.new_font strong,.new_font b,.new_font dt,.new_font th, .new_font button,.new_font input,.new_font button{font-family:Waping, sans-serif !important;}
-.gov_2023_f {margin:30px 0 30px 0; font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif,  "Apple Gothic", "Apple SD Gothic Neo";}
-.gov_2023_f a.link{text-decoration: underline;}
-.gov_2023_f b{font-family:-apple-system, BlinkMacSystemFont, "Waping", sans-serif,  "Apple Gothic", "Apple SD Gothic Neo"}
+.new_font,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo" !important;
+}
 
-.flex_between{display:flex; justify-content:space-between; align-items:end; }
-.total_txt{font-size:15px; letter-spacing: -0.38px; color:#444;}
-.total_txt em{font-weight: bold;}
-a.total_txt{padding-right:24px; background:url(../img/ico_arrow_g.png) no-repeat center right;}
+em {
+    font-style: normal !important;
+}
 
-.ellipsis1{overflow:hidden; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; text-overflow:ellipsis;}
-.ellipsis{overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; text-overflow:ellipsis;}
+button:focus,
+a:focus {
+    text-decoration: underline;
+}
+
+.new_font big,
+.new_font strong,
+.new_font b,
+.new_font dt,
+.new_font th,
+.new_font button,
+.new_font input,
+.new_font button {
+    font-family: Waping, sans-serif !important;
+}
+
+.gov_2023_f {
+    margin: 30px 0 30px 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo";
+}
+
+.gov_2023_f a.link {
+    text-decoration: underline;
+}
+
+.gov_2023_f b {
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo"
+}
+
+.flex_between {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.total_txt {
+    font-size: 15px;
+    letter-spacing: -0.38px;
+    color: #444;
+}
+
+.total_txt em {
+    font-weight: bold;
+}
+
+a.total_txt {
+    padding-right: 24px;
+    background: url(https://www.gov.kr/2023/img/ico_arrow_g.png) no-repeat center right;
+}
+
+.ellipsis1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.ellipsis {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
 
 /* font-color */
-.font-blue{color:#006ae2 !important; font-weight: 500;}
-.font_blue_default{color:#006ae2;}
+.font-blue {
+    color: #006ae2 !important;
+    font-weight: 500;
+}
 
-.advice_box .w100{width:100% !important;}
-.mt0{margin-top:0px !important;}
-.mt10{margin-top:10px !important;}
-.mt20{margin-top:20px !important;}
-.mt30{margin-top:30px !important;}
-.mt40{margin-top:40px !important;}
-.mt50{margin-top:50px !important;}
-.mb80{margin-bottom:80px !important}
-.pr0{padding-right:0px !important;}
+.font_blue_default {
+    color: #006ae2;
+}
 
-.text_align_center{text-align: center !important;}
+.advice_box .w100 {
+    width: 100% !important;
+}
+
+.mt0 {
+    margin-top: 0px !important;
+}
+
+.mt10 {
+    margin-top: 10px !important;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+.mt30 {
+    margin-top: 30px !important;
+}
+
+.mt40 {
+    margin-top: 40px !important;
+}
+
+.mt50 {
+    margin-top: 50px !important;
+}
+
+.mb80 {
+    margin-bottom: 80px !important
+}
+
+.pr0 {
+    padding-right: 0px !important;
+}
+
+.text_align_center {
+    text-align: center !important;
+}
 
 /* title */
-.content_inner_title{margin-top:50px; margin-bottom:18px;}
-.content_inner_title h3{display:inline-block; font-size:20px; line-height: 1.5; font-weight: bold; color:#222; letter-spacing: -0.5px; font-family: 'Waping'; }
-.content_inner_title h3+.font-blue{font-size:20px; font-weight: 400;}
+.content_inner_title {
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+
+.content_inner_title h3 {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #222;
+    letter-spacing: -0.5px;
+    font-family: 'Waping';
+}
+
+.content_inner_title h3+.font-blue {
+    font-size: 20px;
+    font-weight: 400;
+}
 
 /* page*/
-.pagination_box { display: block; margin-top: 64px; text-align: center; }
-.pagination_box > ul { font-size: 0px; }
-.pagination_box > ul > li { display: inline-block; margin: 0px 6px; vertical-align: middle; }
-.pagination_box > ul > li > a { overflow: hidden; display: inline-block; position: relative; min-width: 28px; width:inherit; height: 28px; font-size: 16px; color: rgb(102, 102, 102); line-height: 26px; outline-offset:-1px;}
-.pagination_box > ul > li > a:focus, 
-.pagination_box > ul > li > a:hover, 
-.pagination_box > ul > li.active a { font-weight: 500; color: rgb(0, 106, 226); text-decoration: none;}
-.pagination_box > ul > li.active a::before { content: ""; display: block; position: absolute; left: 50%; bottom: 5px; width: 65%; height: 1px; background-color: rgb(0, 106, 226); transform: translateX(-50%); }
-.pagination_box > ul > li.page_first a { border: 1px solid rgb(189, 189, 189); border-radius: 50%; background: url("/rcvfvrSvc/images/icon/btn_page_first.png") center center / 16px no-repeat rgb(255, 255, 255); }
-.pagination_box > ul > li.page_prev a { border: 1px solid rgb(189, 189, 189); border-radius: 50%; background: url("/rcvfvrSvc/images/icon/btn_page_prev.png") center center / 16px no-repeat rgb(255, 255, 255); }
-.pagination_box > ul > li.page_next a { border: 1px solid rgb(189, 189, 189); border-radius: 50%; background: url("/rcvfvrSvc/images/icon/btn_page_next.png") center center / 16px no-repeat rgb(255, 255, 255); }
-.pagination_box > ul > li.page_last a { border: 1px solid rgb(189, 189, 189); border-radius: 50%; background: url("/rcvfvrSvc/images/icon/btn_page_last.png") center center / 16px no-repeat rgb(255, 255, 255); }
+.pagination_box {
+    display: block;
+    margin-top: 64px;
+    text-align: center;
+}
+
+.pagination_box>ul {
+    font-size: 0px;
+}
+
+.pagination_box>ul>li {
+    display: inline-block;
+    margin: 0px 6px;
+    vertical-align: middle;
+}
+
+.pagination_box>ul>li>a {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    min-width: 28px;
+    width: inherit;
+    height: 28px;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 26px;
+    outline-offset: -1px;
+}
+
+.pagination_box>ul>li>a:focus,
+.pagination_box>ul>li>a:hover,
+.pagination_box>ul>li.active a {
+    font-weight: 500;
+    color: rgb(0, 106, 226);
+    text-decoration: none;
+}
+
+.pagination_box>ul>li.active a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    width: 65%;
+    height: 1px;
+    background-color: rgb(0, 106, 226);
+    transform: translateX(-50%);
+}
+
+.pagination_box>ul>li.page_first a {
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 50%;
+    background: url("https://www.gov.kr/rcvfvrSvc/images/icon/btn_page_first.png") center center / 16px no-repeat rgb(255, 255, 255);
+}
+
+.pagination_box>ul>li.page_prev a {
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 50%;
+    background: url("https://www.gov.kr/rcvfvrSvc/images/icon/btn_page_prev.png") center center / 16px no-repeat rgb(255, 255, 255);
+}
+
+.pagination_box>ul>li.page_next a {
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 50%;
+    background: url("https://www.gov.kr/rcvfvrSvc/images/icon/btn_page_next.png") center center / 16px no-repeat rgb(255, 255, 255);
+}
+
+.pagination_box>ul>li.page_last a {
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 50%;
+    background: url("https://www.gov.kr/rcvfvrSvc/images/icon/btn_page_last.png") center center / 16px no-repeat rgb(255, 255, 255);
+}
 
 
 /* input */
-.gov_2023_f .input_wrap .ipt_wrap, .gov_2023_f .input_wrap select{display:inline-flex; }
+.gov_2023_f .input_wrap .ipt_wrap,
+.gov_2023_f .input_wrap select {
+    display: inline-flex;
+}
+
 .gov_2023_f .input_wrap .ipt_wrap input,
-.gov_2023_f .input_wrap select{padding:0 15px; width:200px; height:50px; font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif,  "Apple Gothic", "Apple SD Gothic Neo"; border:1px solid #ccc; border-radius: 8px; color:#444; font-size:16px; font-weight: 500; line-height: 24px; letter-spacing: -0.4px; background:#fff; }
-.gov_2023_f .input_wrap select{ padding:0 40px 0 16px; -webkit-appearance: none; appearance: none; background:#fff url(../img/ic16_line_down.png) no-repeat center right 16px;}
-.gov_2023_f .select_wrap{display:inline-flex; margin-left:10px;  vertical-align: top;}
-.tel_wrap .ipt_wrap input:disabled{background:#eff1f5;}
-.tel_wrap .ipt_wrap +.ipt_wrap{position: relative; margin-left:10px; padding-left:22px;}
-.tel_wrap .ipt_wrap +.ipt_wrap:before{content:""; display: inline-block; position: absolute; top:50%; left:0; transform: translateY(-50%); width:12px; height:1px; background:#707070;}
-.email_wrap .ipt_wrap input::placeholder{font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif,  "Apple Gothic", "Apple SD Gothic Neo"; font-size:16px; line-height: 40px; letter-spacing: -0.4px; font-weight: 400; color:#ccc !important;}
-.email_wrap .ipt_wrap +.ipt_wrap{position: relative; margin-left:9px; padding-left:24px;}
-.email_wrap .ipt_wrap +.ipt_wrap:before{content:"@"; display: inline-block; position: absolute; top:50%; left:0; transform: translateY(-50%); font-size: 16px; font-weight: 400; color:#444;}
+.gov_2023_f .input_wrap select {
+    padding: 0 15px;
+    width: 200px;
+    height: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo";
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #444;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    background: #fff;
+}
 
-.chk_default input[type="radio"]{overflow: hidden; position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;  border: 0;  white-space: nowrap;  clip: rect(0,0,0,0); font-size: 1px;}
-.chk_default .chk_wrap +.chk_wrap{margin-left:30px;}
-.chk_default input[type="radio"] + label{position:relative; padding-left:34px; font-size:16px; font-weight: 500; line-height: 24px; letter-spacing: -0.4px; color:#444;}
-.chk_default input[type="radio"] + label:before{content:""; display:inline-block; position:absolute; left:0; top:50%; transform:translateY(-50%); width:24px; height:24px; border:1px solid #444; border-radius: 50%; box-sizing: border-box; background:#fff;}
-.chk_default input[type="radio"]:checked + label{color:#006ae2;}
-.chk_default input[type="radio"]:checked + label:before{border:6px solid #006ae2;}
+.gov_2023_f .input_wrap select {
+    padding: 0 40px 0 16px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #fff url(https://www.gov.kr/2023/img/ic16_line_down.png) no-repeat center right 16px;
+}
 
-.chk_guide_wrap input[type="radio"]{overflow: hidden; position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;  border: 0;  white-space: nowrap;  clip: rect(0,0,0,0); font-size: 1px;}
-.chk_guide_wrap input[type="radio"] + label{display:inline-block; padding:7px 24px; border:1px solid #033075; color:#1b2a60; font-size:16px; font-weight: bold; letter-spacing: -0.4px; line-height: 1.63; border-radius: 100px; box-sizing: border-box; cursor:pointer;}
-.chk_guide_wrap input[type="radio"]:checked + label{background:#dbe7ff;}
-.chk_guide_wrap input[type="radio"]:disabled + label{border:1px solid #919191; color:#fff; background:#919191; font-weight: 400;}
-.chk_guide_wrap .chk_wrap{display:inline-block;}
-.chk_guide_wrap .chk_wrap+.chk_wrap{margin-left:10px;}
+.gov_2023_f .select_wrap {
+    display: inline-flex;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.tel_wrap .ipt_wrap input:disabled {
+    background: #eff1f5;
+}
+
+.tel_wrap .ipt_wrap+.ipt_wrap {
+    position: relative;
+    margin-left: 10px;
+    padding-left: 22px;
+}
+
+.tel_wrap .ipt_wrap+.ipt_wrap:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 1px;
+    background: #707070;
+}
+
+.email_wrap .ipt_wrap input::placeholder {
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo";
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: -0.4px;
+    font-weight: 400;
+    color: #ccc !important;
+}
+
+.email_wrap .ipt_wrap+.ipt_wrap {
+    position: relative;
+    margin-left: 9px;
+    padding-left: 24px;
+}
+
+.email_wrap .ipt_wrap+.ipt_wrap:before {
+    content: "@";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+}
+
+.chk_default input[type="radio"] {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip: rect(0, 0, 0, 0);
+    font-size: 1px;
+}
+
+.chk_default .chk_wrap+.chk_wrap {
+    margin-left: 30px;
+}
+
+.chk_default input[type="radio"]+label {
+    position: relative;
+    padding-left: 34px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #444;
+}
+
+.chk_default input[type="radio"]+label:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    border: 1px solid #444;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.chk_default input[type="radio"]:checked+label {
+    color: #006ae2;
+}
+
+.chk_default input[type="radio"]:checked+label:before {
+    border: 6px solid #006ae2;
+}
+
+.chk_guide_wrap input[type="radio"] {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip: rect(0, 0, 0, 0);
+    font-size: 1px;
+}
+
+.chk_guide_wrap input[type="radio"]+label {
+    display: inline-block;
+    padding: 7px 24px;
+    border: 1px solid #033075;
+    color: #1b2a60;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+    line-height: 1.63;
+    border-radius: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.chk_guide_wrap input[type="radio"]:checked+label {
+    background: #dbe7ff;
+}
+
+.chk_guide_wrap input[type="radio"]:disabled+label {
+    border: 1px solid #919191;
+    color: #fff;
+    background: #919191;
+    font-weight: 400;
+}
+
+.chk_guide_wrap .chk_wrap {
+    display: inline-block;
+}
+
+.chk_guide_wrap .chk_wrap+.chk_wrap {
+    margin-left: 10px;
+}
 
 /* textarea */
-.gov_2023_f .textarea_box{display:flex; padding:15px; border:1px solid #919191; border-radius: 8px; }
-.gov_2023_f .textarea_wrap textarea{padding-right:10px; width:100%; min-height: 185px; font-size:16px; line-height: 24px; border:0; letter-spacing: -0.4px; color:#444; font-weight: 400; font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif,  "Apple Gothic", "Apple SD Gothic Neo";}
-.gov_2023_f .textarea_wrap textarea::placeholder{ font-family: 'Waping'; color:#999; font-size: 16px; font-weight: 400;}
-.gov_2023_f .textarea_wrap .textarea_bot{margin-top:10px;}
-.gov_2023_f .textarea_wrap .textarea_bot:after{content:""; display:block; clear:both;}
-.textarea_info{display:inline-block; font-size:14px; font-weight: bold; line-height: 20px; letter-spacing: -0.35px; color:#eb193a;}
-.gov_2023_f .textarea_wrap .textarea_count{float:right; font-size: 14px; font-weight: 400; letter-spacing: -0.35px; line-height: 20px; color:#888;}
-.gov_2023_f .textarea_wrap .textarea_count em{font-style: normal;}
-.gov_2023_f .textarea_wrap textarea::-webkit-scrollbar{width:6px !important;}
-.gov_2023_f .textarea_wrap textarea::-webkit-scrollbar-track{background:#f5f5f5 !important;}
-.gov_2023_f .textarea_wrap textarea::-webkit-scrollbar-thumb{background:#888 !important;}
-.gov_2023_f .textarea_wrap textarea::-webkit-resizer{display:none !important;}
+.gov_2023_f .textarea_box {
+    display: flex;
+    padding: 15px;
+    border: 1px solid #919191;
+    border-radius: 8px;
+}
+
+.gov_2023_f .textarea_wrap textarea {
+    padding-right: 10px;
+    width: 100%;
+    min-height: 185px;
+    font-size: 16px;
+    line-height: 24px;
+    border: 0;
+    letter-spacing: -0.4px;
+    color: #444;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo";
+}
+
+.gov_2023_f .textarea_wrap textarea::placeholder {
+    font-family: 'Waping';
+    color: #999;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.gov_2023_f .textarea_wrap .textarea_bot {
+    margin-top: 10px;
+}
+
+.gov_2023_f .textarea_wrap .textarea_bot:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.textarea_info {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: -0.35px;
+    color: #eb193a;
+}
+
+.gov_2023_f .textarea_wrap .textarea_count {
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+    line-height: 20px;
+    color: #888;
+}
+
+.gov_2023_f .textarea_wrap .textarea_count em {
+    font-style: normal;
+}
+
+.gov_2023_f .textarea_wrap textarea::-webkit-scrollbar {
+    width: 6px !important;
+}
+
+.gov_2023_f .textarea_wrap textarea::-webkit-scrollbar-track {
+    background: #f5f5f5 !important;
+}
+
+.gov_2023_f .textarea_wrap textarea::-webkit-scrollbar-thumb {
+    background: #888 !important;
+}
+
+.gov_2023_f .textarea_wrap textarea::-webkit-resizer {
+    display: none !important;
+}
 
 /* 컨텐츠 상단 info */
-.content_top_info{padding:30px; padding-left:40px; border-radius: 15px; text-align:left;  background:#eff1f5;}
-.content_top_info .list_info li{font-size:16px; font-weight: 500; line-height: 1.5; letter-spacing: -0.32px; color:#444; text-indent: -10px;}
+.content_top_info {
+    padding: 30px;
+    padding-left: 40px;
+    border-radius: 15px;
+    text-align: left;
+    background: #eff1f5;
+}
+
+.content_top_info .list_info li {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.32px;
+    color: #444;
+    text-indent: -10px;
+}
 
 /*컨텐츠 중간 info*/
-.content_mid_info {margin:0 10px;}
-.content_mid_info li{padding-left:28px; font-size:16px; font-weight: 400; color:#666; line-height: 24px; letter-spacing: -0.4px; background:url(../img/pc_ico_info.png) no-repeat top 1px left;}
-.content_mid_info li+li{margin-top:5px;}
+.content_mid_info {
+    margin: 0 10px;
+}
+
+.content_mid_info li {
+    padding-left: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    background: url(https://www.gov.kr/2023/img/pc_ico_info.png) no-repeat top 1px left;
+}
+
+.content_mid_info li+li {
+    margin-top: 5px;
+}
 
 /* 컨텐츠 하단 info */
-.content_bot_info{margin-top:80px; border-top:1px solid #ccc;}
-.content_bot_info .tit{display:inline-block; margin-top:40px; padding-left:28px; font-size:20px; font-weight: 400; line-height: 36px; letter-spacing: -0.5px; color:#222; background:url(../img/pc_ico_circle.png) no-repeat center left;}
-.content_bot_info .tit+.list_info{margin-top:16px;}
-.content_bot_info .list_info li{padding-left:10px; font-size:16px; line-height: 24px; letter-spacing: -0.4px; color:#666; font-weight: 400; text-indent: -10px;}
-.gov_2023_f .bg_wrap{padding:24px 30px; border-radius: 8px; background:#eff1f5;}
-.gov_2023_f .bg_wrap .content_mid_info{margin:0; margin-top:10px;}
+.content_bot_info {
+    margin-top: 80px;
+    border-top: 1px solid #ccc;
+}
 
-.info_normal{margin-top:10px;}
-.info_normal .icon_txt{display:inline-block; font-size:14px; color:#666; padding-left:24px; background:url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_notice.png) no-repeat center left; letter-spacing: -0.35px; line-height: 1.57;}
-.info_normal .icon_txt+ .link_txt{margin-left:8px;}
+.content_bot_info .tit {
+    display: inline-block;
+    margin-top: 40px;
+    padding-left: 28px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    color: #222;
+    background: url(https://www.gov.kr/2023/img/pc_ico_circle.png) no-repeat center left;
+}
+
+.content_bot_info .tit+.list_info {
+    margin-top: 16px;
+}
+
+.content_bot_info .list_info li {
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #666;
+    font-weight: 400;
+    text-indent: -10px;
+}
+
+.gov_2023_f .bg_wrap {
+    padding: 24px 30px;
+    border-radius: 8px;
+    background: #eff1f5;
+}
+
+.gov_2023_f .bg_wrap .content_mid_info {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.info_normal {
+    margin-top: 10px;
+}
+
+.info_normal .icon_txt {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    padding-left: 24px;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_notice.png) no-repeat center left;
+    letter-spacing: -0.35px;
+    line-height: 1.57;
+}
+
+.info_normal .icon_txt+.link_txt {
+    margin-left: 8px;
+}
 
 /* 버튼 */
-.gov_2023_f .btn_wrap{margin-top:60px; text-align:center;}
-.gov_2023_f .btn_wrap a{display: inline-block; padding:13px 24px; width:146px; border:1px solid #919191; border-radius: 8px; color:#919191; font-weight: 400; font-size: 18px; pointer-events:none; text-align: center; box-sizing: border-box;}
-.gov_2023_f .btn_wrap a+a{margin-left:10px;}
-.gov_2023_f .btn_wrap a.btn_glay{background:#919191; color:#fff;}
-.gov_2023_f .btn_wrap.active a{border:1px solid #033075; color:#1b2a60; pointer-events:auto;}
-.gov_2023_f .btn_wrap.active a.btn_glay{color:#fff; background:#033075;}
+.gov_2023_f .btn_wrap {
+    margin-top: 60px;
+    text-align: center;
+}
 
-.cont_title_right_wrap{float:right; margin-top:8px;}
-.cont_title_right_wrap span{position:relative; padding-left:48px; margin-left:15px; color:#666; line-height: 22px; font-size:14px; font-weight: 400; letter-spacing: -0.35px;}
-.cont_title_right_wrap span:before{position:absolute; content:""; left:0; display:inline-block; width:40px; height:22px; border-radius: 4px; border:1px solid #919191; box-sizing: border-box; background:#eff1f5;}
-.cont_title_right_wrap span:first-child:before{border:1px solid #033075; color:#fff; background:#fff;}
+.gov_2023_f .btn_wrap a {
+    display: inline-block;
+    padding: 13px 24px;
+    width: 146px;
+    border: 1px solid #919191;
+    border-radius: 8px;
+    color: #919191;
+    font-weight: 400;
+    font-size: 18px;
+    pointer-events: none;
+    text-align: center;
+    box-sizing: border-box;
+}
 
-.time_wrap{position:relative;}
-.time_wrap .time_table{display:-webkit-box;  padding:24px; padding-left:14px; padding-top:10px; border:1px solid #033075; border-radius: 8px; clear:both; }
-.time_wrap input[type="radio"]{overflow: hidden; position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;  border: 0;  white-space: nowrap;  clip: rect(0,0,0,0); font-size: 1px;}
-.time_wrap input[type="radio"]+label{display: inline-block; margin-left:8px; margin-top:10px; width:calc( (100%/5) - 8px ); cursor:pointer; height:40px; padding:9px 0px 8px; text-align: center; border:1px solid #033075; line-height: 21px; letter-spacing: -0.4px;  border-radius: 4px; box-sizing: border-box;}
-.time_wrap input[type="radio"]+label span{ font-size:16px; font-weight: 400; color:#1b2a60;}
-.time_wrap input[type="radio"]:checked+label{box-sizing: border-box; background:#dbe7ff;}
-.time_wrap input[type="radio"]:checked+label span{position:relative; padding-right:27px; font-weight: bold;}
-.time_wrap input[type="radio"]:checked+label span:after{content:""; display:block; position:absolute; right:0; top:50%; transform: translateY(-50%); width:22px; height:22px; border-radius: 50%; background:#006ae2 url(../img/ic16_check_line.png) no-repeat center;}
-.time_wrap input[type="radio"]:disabled+label {border:1px solid #919191; background:#eff1f5; cursor:default;}
-.time_wrap input[type="radio"]:disabled+label span{color:#666; text-decoration: line-through;  }
-.time_wrap + .content_mid_info{margin-top:16px;}
-.time_wrap .time_end{position:absolute; width:100%; height:100%; top:0; left:0;border-radius: 7px; box-sizing: border-box; background:rgba(34, 34, 34, 0.5); }
-.time_wrap .time_end p{position: absolute; top:50%; transform:translateY(-50%); width:100%; font-size:30px; line-height: 30px; letter-spacing: -0.75px; text-align: center; color:#fff; font-weight: bold;}
-.chk_guide_wrap + .bg_wrap{margin-top:18px; min-height:122px;}
-.chk_default {margin-bottom:14px;}
+.gov_2023_f .btn_wrap a+a {
+    margin-left: 10px;
+}
+
+.gov_2023_f .btn_wrap a.btn_glay {
+    background: #919191;
+    color: #fff;
+}
+
+.gov_2023_f .btn_wrap.active a {
+    border: 1px solid #033075;
+    color: #1b2a60;
+    pointer-events: auto;
+}
+
+.gov_2023_f .btn_wrap.active a.btn_glay {
+    color: #fff;
+    background: #033075;
+}
+
+.cont_title_right_wrap {
+    float: right;
+    margin-top: 8px;
+}
+
+.cont_title_right_wrap span {
+    position: relative;
+    padding-left: 48px;
+    margin-left: 15px;
+    color: #666;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+}
+
+.cont_title_right_wrap span:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    border-radius: 4px;
+    border: 1px solid #919191;
+    box-sizing: border-box;
+    background: #eff1f5;
+}
+
+.cont_title_right_wrap span:first-child:before {
+    border: 1px solid #033075;
+    color: #fff;
+    background: #fff;
+}
+
+.time_wrap {
+    position: relative;
+}
+
+.time_wrap .time_table {
+    display: -webkit-box;
+    padding: 24px;
+    padding-left: 14px;
+    padding-top: 10px;
+    border: 1px solid #033075;
+    border-radius: 8px;
+    clear: both;
+}
+
+.time_wrap input[type="radio"] {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip: rect(0, 0, 0, 0);
+    font-size: 1px;
+}
+
+.time_wrap input[type="radio"]+label {
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 10px;
+    width: calc((100%/5) - 8px);
+    cursor: pointer;
+    height: 40px;
+    padding: 9px 0px 8px;
+    text-align: center;
+    border: 1px solid #033075;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.time_wrap input[type="radio"]+label span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1b2a60;
+}
+
+.time_wrap input[type="radio"]:checked+label {
+    box-sizing: border-box;
+    background: #dbe7ff;
+}
+
+.time_wrap input[type="radio"]:checked+label span {
+    position: relative;
+    padding-right: 27px;
+    font-weight: bold;
+}
+
+.time_wrap input[type="radio"]:checked+label span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #006ae2 url(https://www.gov.kr/2023/img/ic16_check_line.png) no-repeat center;
+}
+
+.time_wrap input[type="radio"]:disabled+label {
+    border: 1px solid #919191;
+    background: #eff1f5;
+    cursor: default;
+}
+
+.time_wrap input[type="radio"]:disabled+label span {
+    color: #666;
+    text-decoration: line-through;
+}
+
+.time_wrap+.content_mid_info {
+    margin-top: 16px;
+}
+
+.time_wrap .time_end {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 7px;
+    box-sizing: border-box;
+    background: rgba(34, 34, 34, 0.5);
+}
+
+.time_wrap .time_end p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -0.75px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.chk_guide_wrap+.bg_wrap {
+    margin-top: 18px;
+    min-height: 122px;
+}
+
+.chk_default {
+    margin-bottom: 14px;
+}
 
 /*title*/
-.new_h1{font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif,  "Apple Gothic", "Apple SD Gothic Neo"; font-size:24px; line-height: 30px; font-weight: bold; letter-spacing: -0.48px; border-bottom: 2px solid #333; padding-top:20px; padding-bottom: 16px;}
-.new_h20{font-size:20px; letter-spacing: -0.5px; font-weight: bold; color:#222; }
-.new_h20 span{margin-left:6px; font-size:15px; letter-spacing: -0.38px; color:#888; font-weight: 400;}
-.new_h20 span em{font-weight:bold;}
-.cont_tit{margin-top:50px; padding-bottom:12px; border-bottom:1px solid #666;}
-.cont_tit.no_line{border:0; padding-bottom:0; line-height:25px;}
+.new_h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo";
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: -0.48px;
+    border-bottom: 2px solid #333;
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+.new_h20 {
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    font-weight: bold;
+    color: #222;
+}
+
+.new_h20 span {
+    margin-left: 6px;
+    font-size: 15px;
+    letter-spacing: -0.38px;
+    color: #888;
+    font-weight: 400;
+}
+
+.new_h20 span em {
+    font-weight: bold;
+}
+
+.cont_tit {
+    margin-top: 50px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #666;
+}
+
+.cont_tit.no_line {
+    border: 0;
+    padding-bottom: 0;
+    line-height: 25px;
+}
 
 /*text*/
-.cont_txt_20{font-size:20px; font-weight:bold; color:#222;}
-.cont_txt_18{font-size:18px; font-weight: bold; color:#222; word-break:keep-all;}
-.cont_txt_16{display:inline-block; margin-top:10px; font-size:16px; color:#444; letter-spacing: -0.4px; line-height: 21px; }
-.tbl_box{overflow:hidden;}
+.cont_txt_20 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+}
+
+.cont_txt_18 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    word-break: keep-all;
+}
+
+.cont_txt_16 {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #444;
+    letter-spacing: -0.4px;
+    line-height: 21px;
+}
+
+.tbl_box {
+    overflow: hidden;
+}
 
 /*tab*/
-.tabs_box{margin:0; padding:0; display:flex;border:1px solid #ccc; border-radius:8px;}
-.tabs_box li{flex-grow:1;}
-.tabs_box li a{display: block; padding:12px 10px 11px; font-size:18px; font-weight:500; color:#444; text-align:center;}
-.tabs_box li a:focus-visible{outline-color:#033075;  outline-style: dashed; outline-width: 2px; outline-offset:-3px;}
-.tabs_box li.active a{margin:-1px; color:#fff; background:#033075; border:1px solid #033075; border-radius:8px;}
-.tabs_box li.active a:focus-visible{outline-color:#fff; outline-offset:-3px;}
-.tabs_box li + li{position:relative;}
-.tabs_box li + li:before{position:absolute; content:''; display:block; width:1px; height:28px; background:#ddd; left:0; top:50%; transform:translateY(-50%);}
-.tabs_box li.active +li:before,
-.tabs_box li + li.active:before{display: none;}
-.tab_content_box{display:inline-block; width:100%; min-height:443px;}
-.tab_content_box .con_box{display:none; }
-.tab_content_box .con_box.active{display:block;}
+.tabs_box {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
 
-.tab_container.type2 .tabs_box{padding:0 20px; border:0; border-top:1px solid #ccc; border-bottom:1px solid #ccc; border-radius:inherit; background:#f5f6f7; }
-.type2 .tabs_box li{flex-grow: 0; position:relative;}
-.type2 .tabs_box li+li{margin-left:30px;}
-.type2 .tabs_box li a{padding:0; color:#666; font-size:15px; letter-spacing: -0.38px; border:0; line-height:43px; background:none;}
-.type2 .tabs_box li a .count{margin-left:4px; font-size:14px; color:#888; font-weight: bold;}
-.type2 .tabs_box li.active:after{content:""; display:block; position:absolute; bottom:-1px; left:0; width:100%; height:2px; background:#222;}
-.type2 .tabs_box li.active a{display:contents; color:#222; font-weight: bold;}
-.type2 .tabs_box li + li:before{content:none;}
-.type2 .tab_content_box{min-height:inherit;}
+.tabs_box li {
+    flex-grow: 1;
+}
+
+.tabs_box li a {
+    display: block;
+    padding: 12px 10px 11px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    text-align: center;
+}
+
+.tabs_box li a:focus-visible {
+    outline-color: #033075;
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-offset: -3px;
+}
+
+.tabs_box li.active a {
+    margin: -1px;
+    color: #fff;
+    background: #033075;
+    border: 1px solid #033075;
+    border-radius: 8px;
+}
+
+.tabs_box li.active a:focus-visible {
+    outline-color: #fff;
+    outline-offset: -3px;
+}
+
+.tabs_box li+li {
+    position: relative;
+}
+
+.tabs_box li+li:before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 1px;
+    height: 28px;
+    background: #ddd;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tabs_box li.active+li:before,
+.tabs_box li+li.active:before {
+    display: none;
+}
+
+.tab_content_box {
+    display: inline-block;
+    width: 100%;
+    min-height: 443px;
+}
+
+.tab_content_box .con_box {
+    display: none;
+}
+
+.tab_content_box .con_box.active {
+    display: block;
+}
+
+.tab_container.type2 .tabs_box {
+    padding: 0 20px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: inherit;
+    background: #f5f6f7;
+}
+
+.type2 .tabs_box li {
+    flex-grow: 0;
+    position: relative;
+}
+
+.type2 .tabs_box li+li {
+    margin-left: 30px;
+}
+
+.type2 .tabs_box li a {
+    padding: 0;
+    color: #666;
+    font-size: 15px;
+    letter-spacing: -0.38px;
+    border: 0;
+    line-height: 43px;
+    background: none;
+}
+
+.type2 .tabs_box li a .count {
+    margin-left: 4px;
+    font-size: 14px;
+    color: #888;
+    font-weight: bold;
+}
+
+.type2 .tabs_box li.active:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #222;
+}
+
+.type2 .tabs_box li.active a {
+    display: contents;
+    color: #222;
+    font-weight: bold;
+}
+
+.type2 .tabs_box li+li:before {
+    content: none;
+}
+
+.type2 .tab_content_box {
+    min-height: inherit;
+}
 
 /*icon_txt*/
-.icon_txt_box{display:block; padding:28px 0; text-align: center; border:1px solid #ddd; border-radius: 16px; } 
-.icon_txt_box div{padding-top:82px; }
-.icon_txt_box .icon_txt{display:inline-block; font-size:18px; line-height:26px; letter-spacing: -0.45px; color:#222; font-weight: 500;}
-.icon_txt_box .sm_txt{display:block; font-size:16px; line-height: 24px; letter-spacing: -0.4px; color:#666;}
+.icon_txt_box {
+    display: block;
+    padding: 28px 0;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+}
+
+.icon_txt_box div {
+    padding-top: 82px;
+}
+
+.icon_txt_box .icon_txt {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.45px;
+    color: #222;
+    font-weight: 500;
+}
+
+.icon_txt_box .sm_txt {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #666;
+}
+
 .icon_txt_box:hover,
-.icon_txt_box.active{background:rgba(219,231,255,0.42); border: 1px solid #1b3a60; text-decoration: none; cursor:pointer;}
+.icon_txt_box.active {
+    background: rgba(219, 231, 255, 0.42);
+    border: 1px solid #1b3a60;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .icon_txt_box:hover .icon_txt,
-.icon_txt_box.active .icon_txt{font-weight: bold;}
+.icon_txt_box.active .icon_txt {
+    font-weight: bold;
+}
+
 .icon_txt_box:hover .sm_txt,
-.icon_txt_box.active .sm_txt{font-weight: 500;}
+.icon_txt_box.active .sm_txt {
+    font-weight: 500;
+}
 
 /*text button*/
-.link_txt a{padding-right:20px; font-size:16px; line-height:24px; letter-spacing: -0.4px; color:#006ae2 !important; text-underline-offset:4px; background:url(../img/ico_arrow.png) no-repeat center right;}
-.link_txt.medium a{font-size:15px; font-weight: 500; background:url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_arrow.png) no-repeat center right;}
+.link_txt a {
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #006ae2 !important;
+    text-underline-offset: 4px;
+    background: url(https://www.gov.kr/2023/img/ico_arrow.png) no-repeat center right;
+}
+
+.link_txt.medium a {
+    font-size: 15px;
+    font-weight: 500;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_arrow.png) no-repeat center right;
+}
 
 /*accordion*/
-.accordion_box{}
-.accordion_group{border:1px solid #d1dbf3; border-radius: 10px; overflow: hidden;}
-.accordion_group+.accordion_group{margin-top:10px;}
-.accordion_header{padding:6px 24px;  background:#f4f7ff;}
-.accordion_header .accordion_title{position:relative; padding-right:40px; font-size:18px; line-height: 36px; letter-spacing: -0.45px; color:#222; font-weight: 500; }
-.accordion_header .accordion_title:after{content:""; position:absolute; right:0; top:-2px; width:40px; height:40px;}
-.accordion_cont{display:none; padding:20px 30px; border-top:1px solid #d1dbf3;}
+.accordion_box {}
 
-.info_box_new{border-top:1px solid #ccc; padding-top:40px; text-align: left;}
-.info_box_new .info_title{position:relative; display:inline-block; padding-left:28px; font-size:18px; line-height: 22px; letter-spacing: -0.45px; color:#222; font-weight: 500; background:url(../img/pc_ico_circle.png) no-repeat center left;}
-.info_box_new .info_title:after{content:""; position:absolute; right:0; top:-2px; width:40px; height:40px;}
-.info_box_new .info_list li{position:relative; padding-left:12px; font-size:16px; letter-spacing: -0.4px; color:#444;}
-.info_box_new .info_list li:before{content:""; position:absolute; display:block; width:4px; height:4px; background:#444; border-radius: 50%; left:0; top:10px;}
-.info_box_new .info_list li+li{margin-top:4px;}
-.info_box_new .info_title + .info_list{margin-left:10px; margin-top:16px;}
-.info_box_new .info_title + .link_txt{margin-left:10px;}
-.info_box_new.line{margin-top:24px; padding:30px 40px; border:1px solid #ddd; border-radius: 16px; background:#fff;}
-.info_list.txt_indent li{padding-left:46px; text-indent:-35px; line-height: 22px;}
-.info_list_normal{margin-top:18px;}
-.info_list_normal li{padding-left:15px; font-size:16px; color:#444; line-height: 24px; text-indent: -14px;}
-.info_list_normal li+li{margin-top:8px;}
-.info_list_normal li:nth-child(n+10){padding-left:23px; text-indent:-23px;}
-.info_box_new .info_list_normal li{font-weight: 400;}
-.info_box_new .info_list_normal li+li{margin-top:0;}
-.info_box_bg{margin-top:20px; border-radius:16px; padding:30px; background:#eef6ff url(https://www.gov.kr/2023/img/image/img_120.png) no-repeat center right 60px;}
-.info_box_bg .info_list li{position:relative; font-size:16px; font-weight: bold; color:#222; letter-spacing: -0.32px;}
-.info_box_bg .info_list li + li{margin-top:2px;}
-.info_box_bg .info_list li:before{content:""; position:absolute; display:block; width:4px; height:4px; background:#444; border-radius: 50%; left:0; top:10px;}
-.info_box_bg .info_list li b{color:#006ae2;}
-.info_box_bg .info_list_normal{margin-top:20px;}
-.info_box_bg .info_list_normal li{color:#222;}
-.info_box_bg .info_list_normal li+li{margin-top:0;}
+.accordion_group {
+    border: 1px solid #d1dbf3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.accordion_group+.accordion_group {
+    margin-top: 10px;
+}
+
+.accordion_header {
+    padding: 6px 24px;
+    background: #f4f7ff;
+}
+
+.accordion_header .accordion_title {
+    position: relative;
+    padding-right: 40px;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: -0.45px;
+    color: #222;
+    font-weight: 500;
+}
+
+.accordion_header .accordion_title:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -2px;
+    width: 40px;
+    height: 40px;
+}
+
+.accordion_cont {
+    display: none;
+    padding: 20px 30px;
+    border-top: 1px solid #d1dbf3;
+}
+
+.info_box_new {
+    border-top: 1px solid #ccc;
+    padding-top: 40px;
+    text-align: left;
+}
+
+.info_box_new .info_title {
+    position: relative;
+    display: inline-block;
+    padding-left: 28px;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.45px;
+    color: #222;
+    font-weight: 500;
+    background: url(https://www.gov.kr/2023/img/pc_ico_circle.png) no-repeat center left;
+}
+
+.info_box_new .info_title:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -2px;
+    width: 40px;
+    height: 40px;
+}
+
+.info_box_new .info_list li {
+    position: relative;
+    padding-left: 12px;
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    color: #444;
+}
+
+.info_box_new .info_list li:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: #444;
+    border-radius: 50%;
+    left: 0;
+    top: 10px;
+}
+
+.info_box_new .info_list li+li {
+    margin-top: 4px;
+}
+
+.info_box_new .info_title+.info_list {
+    margin-left: 10px;
+    margin-top: 16px;
+}
+
+.info_box_new .info_title+.link_txt {
+    margin-left: 10px;
+}
+
+.info_box_new.line {
+    margin-top: 24px;
+    padding: 30px 40px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    background: #fff;
+}
+
+.info_list.txt_indent li {
+    padding-left: 46px;
+    text-indent: -35px;
+    line-height: 22px;
+}
+
+.info_list_normal {
+    margin-top: 18px;
+}
+
+.info_list_normal li {
+    padding-left: 15px;
+    font-size: 16px;
+    color: #444;
+    line-height: 24px;
+    text-indent: -14px;
+}
+
+.info_list_normal li+li {
+    margin-top: 8px;
+}
+
+.info_list_normal li:nth-child(n+10) {
+    padding-left: 23px;
+    text-indent: -23px;
+}
+
+.info_box_new .info_list_normal li {
+    font-weight: 400;
+}
+
+.info_box_new .info_list_normal li+li {
+    margin-top: 0;
+}
+
+.info_box_bg {
+    margin-top: 20px;
+    border-radius: 16px;
+    padding: 30px;
+    background: #eef6ff url(https://www.gov.kr/2023/img/image/img_120.png) no-repeat center right 60px;
+}
+
+.info_box_bg .info_list li {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+    letter-spacing: -0.32px;
+}
+
+.info_box_bg .info_list li+li {
+    margin-top: 2px;
+}
+
+.info_box_bg .info_list li:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: #444;
+    border-radius: 50%;
+    left: 0;
+    top: 10px;
+}
+
+.info_box_bg .info_list li b {
+    color: #006ae2;
+}
+
+.info_box_bg .info_list_normal {
+    margin-top: 20px;
+}
+
+.info_box_bg .info_list_normal li {
+    color: #222;
+}
+
+.info_box_bg .info_list_normal li+li {
+    margin-top: 0;
+}
 
 
 /* 버튼 */
-.btn_wrap_new{margin-top:50px; text-align:center;}
-.btn_wrap_new a{display: inline-block; border:1px solid #033075; color:#1b2a60; pointer-events:auto; padding:13px 23px; letter-spacing:-0.45px; min-width:146px;  border-radius: 8px;  font-weight: 500; font-size: 18px;  text-align: center; box-sizing: border-box;}
-.btn_wrap_new a+a{margin-left:10px;}
-.btn_wrap_new a.btn_glay{background:#919191; color:#fff; pointer-events:none; border:1px solid #919191;}
-.btn_wrap_new.active a.btn_glay{color:#fff; background:#033075;border:1px solid #033075; pointer-events:auto;}
-.small_btn{display:inline-block; padding:0 24px; font-size:15px; letter-spacing: -0.38px; color:#033075 !important; font-weight: 500; border:1px solid #033075; border-radius: 8px; line-height: 38px; box-sizing: border-box;}
-.small_btn.type2{color:#fff !important; background:#033075; }
-.small_btn.disabled{color:#fff !important; background:#919191; border:1px solid #919191;}
-.small_btn.disabled:hover{text-decoration: none;}
-.small_btn:focus-visible{outline-style:dashed; outline-width:2px; outline-offset:2px;}
-.small_btn:focus{outline-style:dashed !important; outline-width:2px !important; outline-offset:2px !important;}
+.btn_wrap_new {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn_wrap_new a {
+    display: inline-block;
+    border: 1px solid #033075;
+    color: #1b2a60;
+    pointer-events: auto;
+    padding: 13px 23px;
+    letter-spacing: -0.45px;
+    min-width: 146px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.btn_wrap_new a+a {
+    margin-left: 10px;
+}
+
+.btn_wrap_new a.btn_glay {
+    background: #919191;
+    color: #fff;
+    pointer-events: none;
+    border: 1px solid #919191;
+}
+
+.btn_wrap_new.active a.btn_glay {
+    color: #fff;
+    background: #033075;
+    border: 1px solid #033075;
+    pointer-events: auto;
+}
+
+.small_btn {
+    display: inline-block;
+    padding: 0 24px;
+    font-size: 15px;
+    letter-spacing: -0.38px;
+    color: #033075 !important;
+    font-weight: 500;
+    border: 1px solid #033075;
+    border-radius: 8px;
+    line-height: 38px;
+    box-sizing: border-box;
+}
+
+.small_btn.type2 {
+    color: #fff !important;
+    background: #033075;
+}
+
+.small_btn.disabled {
+    color: #fff !important;
+    background: #919191;
+    border: 1px solid #919191;
+}
+
+.small_btn.disabled:hover {
+    text-decoration: none;
+}
+
+.small_btn:focus-visible {
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-offset: 2px;
+}
+
+.small_btn:focus {
+    outline-style: dashed !important;
+    outline-width: 2px !important;
+    outline-offset: 2px !important;
+}
+
 /*badge*/
-.badge_box{display:block; font-family:-apple-system, BlinkMacSystemFont, "Waping", sans-serif,  "Apple Gothic", "Apple SD Gothic Neo";}
-.badge_box span{display:inline-block;  font-size:15px; line-height:28px; letter-spacing: -0.33px; color:#666;}
-.badge_box .badge_gray{margin-right:6px; padding:0px 9px; font-size:13px; line-height:26px; min-width:55px;  text-align: center; border:1px solid #ccc; border-radius: 20px; box-sizing: border-box;}
-.badge_box .badge_gray + span{padding-left:0; margin-left:0; }
-.badge_box .badge_gray +span:after{display:none;}
-.badge_box span + span{position:relative; padding-left:6px; margin-left:6px;}
-.badge_box span + span:after{content:""; position: absolute; left: 0px; top: 50%; right: auto; width: 1px; height: 14px; background-color: #ccc; transform: translateY(-50%);}
+.badge_box {
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo";
+}
+
+.badge_box span {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: -0.33px;
+    color: #666;
+}
+
+.badge_box .badge_gray {
+    margin-right: 6px;
+    padding: 0px 9px;
+    font-size: 13px;
+    line-height: 26px;
+    min-width: 55px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.badge_box .badge_gray+span {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.badge_box .badge_gray+span:after {
+    display: none;
+}
+
+.badge_box span+span {
+    position: relative;
+    padding-left: 6px;
+    margin-left: 6px;
+}
+
+.badge_box span+span:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    right: auto;
+    width: 1px;
+    height: 14px;
+    background-color: #ccc;
+    transform: translateY(-50%);
+}
 
 /*플랫폼*/
-.platform_box{display:flex; margin-top:10px; align-items:center;}
-.platform_box .txt{font-size:15px; letter-spacing: -0.38px; color:#666; vertical-align: top;}
-.platform_link_box{display:flex; margin-left:10px; align-items:center;}
-.platform_link_box a{display:inline-block; width:24px; height:24px; }
-.platform_link_box a + a{margin-left:6px;}
-.platform_link_box a.onestore{background:url(https://www.gov.kr/2023/img/bi_onestore.png) no-repeat center;}
-.platform_link_box a.appstore{background:url(https://www.gov.kr/2023/img/bi_ios.png) no-repeat center;}
-.platform_link_box a.googlestore{background:url(https://www.gov.kr/2023/img/bi_google.png) no-repeat center;}
-.qr_box{display:inline-block; margin-left:30px; position:relative;}
-.qr_layer{position:absolute; padding:20px; left:110px; bottom:-36px; border:1px solid #222; box-shadow: 0px 3px 6px 0 rgba(0,0,0,0.16); border-radius: 16px; background:#fff;}
-.qr_layer ul{display:flex; clear:both;}
-.qr_layer ul img{width:80px; height:80px;}
-.qr_layer li{margin-left:20px; text-align: center;}
-.qr_layer li:first-child{margin-left:0;}
-.qr_layer li span{display:inline-block; font-size:15px; color:#444; margin-top:4px;}
-.qr_layer .closed{display:inline-block; float:right; width:20px; height:20px; margin-top:-2px; margin-bottom:15px; background:url(https://www.gov.kr/2019/lib/image/2023/icon_close.png) no-repeat center; background-size:21px; cursor: pointer;}
+.platform_box {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.platform_box .txt {
+    font-size: 15px;
+    letter-spacing: -0.38px;
+    color: #666;
+    vertical-align: top;
+}
+
+.platform_link_box {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.platform_link_box a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.platform_link_box a+a {
+    margin-left: 6px;
+}
+
+.platform_link_box a.onestore {
+    background: url(https://www.gov.kr/2023/img/bi_onestore.png) no-repeat center;
+}
+
+.platform_link_box a.appstore {
+    background: url(https://www.gov.kr/2023/img/bi_ios.png) no-repeat center;
+}
+
+.platform_link_box a.googlestore {
+    background: url(https://www.gov.kr/2023/img/bi_google.png) no-repeat center;
+}
+
+.qr_box {
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+}
+
+.qr_layer {
+    position: absolute;
+    padding: 20px;
+    left: 110px;
+    bottom: -36px;
+    border: 1px solid #222;
+    box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 16px;
+    background: #fff;
+}
+
+.qr_layer ul {
+    display: flex;
+    clear: both;
+}
+
+.qr_layer ul img {
+    width: 80px;
+    height: 80px;
+}
+
+.qr_layer li {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.qr_layer li:first-child {
+    margin-left: 0;
+}
+
+.qr_layer li span {
+    display: inline-block;
+    font-size: 15px;
+    color: #444;
+    margin-top: 4px;
+}
+
+.qr_layer .closed {
+    display: inline-block;
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+    margin-bottom: 15px;
+    background: url(https://www.gov.kr/2019/lib/image/2023/icon_close.png) no-repeat center;
+    background-size: 21px;
+    cursor: pointer;
+}
 
 /* 라디오 / 체크박스 */
 .check_box input[type="checkbox"],
-.rad_box input[type="radio"]{overflow: hidden; position: absolute; width: 1px;  height: 1px; margin: -1px; padding: 0px; border: 0px; white-space: nowrap; clip: rect(0px, 0px, 0px, 0px); font-size: 1px;}
+.rad_box input[type="radio"] {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0px;
+    border: 0px;
+    white-space: nowrap;
+    clip: rect(0px, 0px, 0px, 0px);
+    font-size: 1px;
+}
+
 .check_box label,
 .rad_box label,
-.check_box{display:inline-block;}
-.check_box label span,
-.rad_box label span{display: inline-block;; position: relative;  padding-left: 26px; font-size: 13px;  color: #444; vertical-align: middle; cursor: pointer; letter-spacing: -0.26px;}
-.check_box label span:before{content: ""; display: block; position: absolute; left: 0px; top: 50%; width: 20px; height: 20px; border: 1px solid #ddd; box-sizing:border-box; border-radius: 4px; background-color: rgb(255, 255, 255); transform: translateY(-50%);}
-.rad_box label span:before{content: ""; display: block; position: absolute; left: 0px; top: 50%; width: 20px; height: 20px; border: 1px solid #ddd; box-sizing:border-box; border-radius: 50%; background-color: rgb(255, 255, 255); transform: translateY(-50%);}
-.check_box input:focus + label span,
-.rad_box input:focus + label span{  outline: -webkit-focus-ring-color auto 1px;}
-.check_box input[type="checkbox"]:checked + label span:after{content: ""; display: block; position: absolute; left: 0 ; top: 50%; width: 20px; height: 20px; box-sizing:border-box; transform: translateY(-50%); background: url(../img/check_on.png) no-repeat center left;}
-.rad_box input[type="radio"]:checked + label span::after{content: ""; display: block; position: absolute; left: 0 ; top: 50%; width: 20px; height: 20px; box-sizing:border-box; transform: translateY(-50%); background: url(../img/radio_on.png) no-repeat center left;}
-.sel_box select{appearance:none; -webkit-appearance:none; border:0 !important;}
-.sel_box{display:inline-block; position:relative; margin-right:10px; }
-.sel_box select{padding-left:14px;  color:#222; text-align:left; min-width:104px;  padding-right:16px; font-size:15px;  letter-spacing: -0.38px; box-sizing:border-box; background:url(../img/icon_sel_arrow.png) no-repeat center right;}
-input[type="text"]:focus,
-input[type="radio"]:focus +label span:before,
-input[type="checkbox"]:focus +label span:before{outline-style: dashed; outline-width: 2px;}
+.check_box {
+    display: inline-block;
+}
 
-/*.sel_box .sel_box_wrap >button{padding:0; padding-left:14px;  color:#222; text-align:left; min-width:104px;  padding-right:16px; font-size:15px; font-weight: bold; letter-spacing: -0.38px; box-sizing:border-box; background:url(../img/icon_sel_arrow.png) no-repeat center right;}
+.check_box label span,
+.rad_box label span {
+    display: inline-block;
+    ;
+    position: relative;
+    padding-left: 26px;
+    font-size: 13px;
+    color: #444;
+    vertical-align: middle;
+    cursor: pointer;
+    letter-spacing: -0.26px;
+}
+
+.check_box label span:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-50%);
+}
+
+.rad_box label span:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-50%);
+}
+
+.check_box input:focus+label span,
+.rad_box input:focus+label span {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+
+.check_box input[type="checkbox"]:checked+label span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    transform: translateY(-50%);
+    background: url(https://www.gov.kr/2023/img/check_on.png) no-repeat center left;
+}
+
+.rad_box input[type="radio"]:checked+label span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    transform: translateY(-50%);
+    background: url(https://www.gov.kr/2023/img/radio_on.png) no-repeat center left;
+}
+
+.sel_box select {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 0 !important;
+}
+
+.sel_box {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+
+.sel_box select {
+    padding-left: 14px;
+    color: #222;
+    text-align: left;
+    min-width: 104px;
+    padding-right: 16px;
+    font-size: 15px;
+    letter-spacing: -0.38px;
+    box-sizing: border-box;
+    background: url(https://www.gov.kr/2023/img/icon_sel_arrow.png) no-repeat center right;
+}
+
+input[type="text"]:focus,
+input[type="radio"]:focus+label span:before,
+input[type="checkbox"]:focus+label span:before {
+    outline-style: dashed;
+    outline-width: 2px;
+}
+
+/*.sel_box .sel_box_wrap >button{padding:0; padding-left:14px;  color:#222; text-align:left; min-width:104px;  padding-right:16px; font-size:15px; font-weight: bold; letter-spacing: -0.38px; box-sizing:border-box; background:url(https://www.gov.kr/2023/img/icon_sel_arrow.png) no-repeat center right;}
 .sel_box ul{display:none; position:absolute; top: 30px; left:0; width:100%; border:1px solid #e3e3e3; border-radius: 4px; padding:8px 0; background:#fff; z-index:999; box-sizing: border-box;}
 .sel_box li button{padding:6px 8px; color:#444; font-weight: 400; font-size:15px; width:100%; text-align:left; background:#fff;}
 .sel_box li:hover button,
 .sel_box li:focus button{background:#eff1f5; color:#000;}
 */
-.plus_btn{position:relative; padding-right:70px; box-sizing: border-box;}
-.plus_btn.md select{min-width:122px;}
-.plus_btn.lo select{min-width:180px;}
-.plus_btn select{border:1px solid #ccc !important; padding-right:34px !important; border-radius: 4px; height:32px; padding:5px 12px; min-width:220px; background-position:center right 12px;}
-.plus_btn .small_btn{position:absolute; right:0 ; top:0; line-height:30px; border-radius: 4px; padding:0 16px; border:1px solid #999; color:#444 !important;}
-.plus_btn select+ select{margin-left:10px;}
+.plus_btn {
+    position: relative;
+    padding-right: 70px;
+    box-sizing: border-box;
+}
+
+.plus_btn.md select {
+    min-width: 122px;
+}
+
+.plus_btn.lo select {
+    min-width: 180px;
+}
+
+.plus_btn select {
+    border: 1px solid #ccc !important;
+    padding-right: 34px !important;
+    border-radius: 4px;
+    height: 32px;
+    padding: 5px 12px;
+    min-width: 220px;
+    background-position: center right 12px;
+}
+
+.plus_btn .small_btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 30px;
+    border-radius: 4px;
+    padding: 0 16px;
+    border: 1px solid #999;
+    color: #444 !important;
+}
+
+.plus_btn select+select {
+    margin-left: 10px;
+}
+
 /*.plus_btn .sel_box_wrap{display:inline-block; position:relative;}
 .plus_btn .sel_box_wrap>button{border:1px solid #ccc; padding-right:24px; border-radius: 4px; padding:4px 12px; min-width:220px; background-position:center right 12px;}
 .plus_btn .sel_box_wrap+.sel_box_wrap{margin-left:10px;}
@@ -331,681 +1692,3204 @@ input[type="checkbox"]:focus +label span:before{outline-style: dashed; outline-w
 */
 
 /*input*/
-.input_field{border:1px solid #ddd; border-radius:4px; padding:8px 12px;font-size:13px; letter-spacing: -0.33px; color:#444; width:100%;}
+.input_field {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 13px;
+    letter-spacing: -0.33px;
+    color: #444;
+    width: 100%;
+}
+
 .input_field:focus,
-.input_field:hover{border:1px solid #006ae2;}
-.input_wrap_new .ipt_wrap input, 
-.input_wrap_new select{padding: 0 15px; width: 200px; height: 50px; font-family:-apple-system, BlinkMacSystemFont, "Waping", sans-serif,  "Apple Gothic", "Apple SD Gothic Neo"; border: 1px solid #ccc; border-radius: 8px; color: #444; font-size: 16px; font-weight: 500; line-height: 24px; letter-spacing: -0.4px; background: #fff;}
-.input_wrap_new .ipt_wrap input::placeholder{font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif,  "Apple Gothic", "Apple SD Gothic Neo"; font-size:16px; line-height: 50px; letter-spacing: -0.4px; font-weight: 400; color:#ccc !important;}
-.input_wrap_new .ipt_wrap + .ipt_wrap{margin-top:10px;}
-.label_inp{position:relative;  margin:0 auto; width:434px;}
-.label_inp + .label_inp{margin-top:10px;}
-.label_inp .ipt_wrap + .ipt_wrap{margin-top:0px;}
-.label_inp label{position:absolute; left:-141px; top:50%; transform:translateY(-50%); font-size:18px; color:#222; letter-spacing: -0.45px; font-weight: bold; text-align: left;}
+.input_field:hover {
+    border: 1px solid #006ae2;
+}
+
+.input_wrap_new .ipt_wrap input,
+.input_wrap_new select {
+    padding: 0 15px;
+    width: 200px;
+    height: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo";
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #444;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    background: #fff;
+}
+
+.input_wrap_new .ipt_wrap input::placeholder {
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo";
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: -0.4px;
+    font-weight: 400;
+    color: #ccc !important;
+}
+
+.input_wrap_new .ipt_wrap+.ipt_wrap {
+    margin-top: 10px;
+}
+
+.label_inp {
+    position: relative;
+    margin: 0 auto;
+    width: 434px;
+}
+
+.label_inp+.label_inp {
+    margin-top: 10px;
+}
+
+.label_inp .ipt_wrap+.ipt_wrap {
+    margin-top: 0px;
+}
+
+.label_inp label {
+    position: absolute;
+    left: -141px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #222;
+    letter-spacing: -0.45px;
+    font-weight: bold;
+    text-align: left;
+}
+
 .label_inp .ipt_wrap input,
-.label_inp .ipt_wrap +.ipt_wrap input[type="password"]{width:100%; box-sizing: border-box;}
-.label_inp .sub_label{display:block; font-size:16px; letter-spacing: -0.4px; font-weight:500;}
-div[class*=inp_dash] .ipt_wrap{width:calc(50% - 17px); display:inline-block; }
-div[class*=inp_dash] .ipt_wrap + .ipt_wrap{position:relative; margin-left:30px;}
-div[class*=inp_dash] .ipt_wrap + .ipt_wrap:before{width:12px; height:1px; content:""; display:block; position:absolute; background:#707070; top:50%; left:-22px;}
-div[class*=inp_dash_30] .ipt_wrap{width:calc((100% / 3) - 23px);}
+.label_inp .ipt_wrap+.ipt_wrap input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.label_inp .sub_label {
+    display: block;
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    font-weight: 500;
+}
+
+div[class*=inp_dash] .ipt_wrap {
+    width: calc(50% - 17px);
+    display: inline-block;
+}
+
+div[class*=inp_dash] .ipt_wrap+.ipt_wrap {
+    position: relative;
+    margin-left: 30px;
+}
+
+div[class*=inp_dash] .ipt_wrap+.ipt_wrap:before {
+    width: 12px;
+    height: 1px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #707070;
+    top: 50%;
+    left: -22px;
+}
+
+div[class*=inp_dash_30] .ipt_wrap {
+    width: calc((100% / 3) - 23px);
+}
+
 /*input[type="radio"]:focus + label,
 input[type="checkbox"]:focus + label  {outline: rgb(3, 48, 117) solid 2px;}*/
 
 
-.result_ico_box{display:inline-block; padding:3px 0; padding-left:46px; font-size:20px; font-weight: bold; color:#222; letter-spacing: -0.5px;}
-.result_ico_box.ico_success{background:url(../img/ico32_success.png) no-repeat center left;}
-.result_ico_box.ico_fail{background:url(../img/ico48_fail.png) no-repeat center left;}
-.result_txt{text-align: center;}
-.result_txt p{font-size:18px; font-weight: 500; line-height: 1.44; letter-spacing: -0.45px; color:#222;}
-.result_txt span{display:inline-block; margin-top:8px; font-size:15px; line-height: 1.47; color:#666; letter-spacing: -0.38px;}
-.y_underline{position:relative; font-style: normal;}
-.y_underline:before{content: ''; display: block; position: absolute; left: 0; bottom: 0px; width: 100%; height: 10px; background-color: #ffdf50; opacity: 0.5; z-index: -1;}
+.result_ico_box {
+    display: inline-block;
+    padding: 3px 0;
+    padding-left: 46px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    letter-spacing: -0.5px;
+}
+
+.result_ico_box.ico_success {
+    background: url(https://www.gov.kr/2023/img/ico32_success.png) no-repeat center left;
+}
+
+.result_ico_box.ico_fail {
+    background: url(https://www.gov.kr/2023/img/ico48_fail.png) no-repeat center left;
+}
+
+.result_txt {
+    text-align: center;
+}
+
+.result_txt p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.44;
+    letter-spacing: -0.45px;
+    color: #222;
+}
+
+.result_txt span {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 15px;
+    line-height: 1.47;
+    color: #666;
+    letter-spacing: -0.38px;
+}
+
+.y_underline {
+    position: relative;
+    font-style: normal;
+}
+
+.y_underline:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 10px;
+    background-color: #ffdf50;
+    opacity: 0.5;
+    z-index: -1;
+}
 
 
 /*아이디 비밀번호 찾기*/
-.new_content_box{width: 100%; max-width: 1140px; margin: 0 auto 0; overflow: hidden; font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif,  "Apple Gothic", "Apple SD Gothic Neo" !important;}
-.content_box{margin:30px 0;}
-.id_pw_box .con_box{margin-top:50px; margin-bottom:70px;}
-.id_pw_box .tab_title{margin-bottom:18px; font-size:20px; letter-spacing: -0.5px; color:#222; font-weight: bold; text-align: center;}
-.id_pw_box .icon_txt_box{width:calc( (100% - 60px) / 3 ); display:inline-block;}
+.new_content_box {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto 0;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo" !important;
+}
+
+.content_box {
+    margin: 30px 0;
+}
+
+.id_pw_box .con_box {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.id_pw_box .tab_title {
+    margin-bottom: 18px;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+}
+
+.id_pw_box .icon_txt_box {
+    width: calc((100% - 60px) / 3);
+    display: inline-block;
+}
+
 /*.tab_content_box.id_pw_box{min-height:393px;}*/
-.tab_content_box.id_pw_box .con_box{text-align:center;}
-.id_pw_box .icon_txt_box + .icon_txt_box{margin-left:21px;}
-.id_pw_box .pw_box{}
-.id_pw_box input[type="password"]{width:338px; font-size:22px; height:50px; line-height:50px; box-sizing: border-box;}
-.id_pw_box input[type="password"]::placeholder{font-size:16px;}
-.id_pw_box .content_top_info{margin-top:50px;}
-.id_pw_box .info_box_new{margin-top:80px;}
-.id_pw_box .info_box_new.no_line{margin-top:60px; padding-top:0; border:0;}
-.id_pw_box a.link{text-decoration: underline;}
-.id_pw_box .result_txt{margin-top:50px; margin-bottom:30px;}
-.id_pw_box .textarea_info{display:block; margin:0 auto; width:434px; margin-top:10px; text-align: left;}
-.id_pw_box .textarea_info+ .btn_wrap_new{margin-top:22px;}
+.tab_content_box.id_pw_box .con_box {
+    text-align: center;
+}
 
-.ico1{background:url(../img/ico_line_cert1.png) no-repeat center top;}
-.ico2{background:url(../img/ico_line_cert2.png) no-repeat center top;}
-.ico3{background:url(../img/ico_line_cert3.png) no-repeat center top;}
-.ico4{background:url(../img/ico_line_cert4.png) no-repeat center top;}
-.ico5{background:url(../img/ico_line_cert5.png) no-repeat center top;}
-.ico6{background:url(../img/ico_line_cert6.png) no-repeat center top;}
+.id_pw_box .icon_txt_box+.icon_txt_box {
+    margin-left: 21px;
+}
 
-.icon_qna_q{padding:0 0 3px 0; padding-left:34px; background:url(../img/ico_q.png) no-repeat top left;}
-.icon_qna_a{padding:0 0 3px 0; padding-left:34px; background:url(../img/ico_a.png) no-repeat top left;}
-.icon_qna_q+.icon_qna_a{margin-top:12px !important;}
+.id_pw_box .pw_box {}
+
+.id_pw_box input[type="password"] {
+    width: 338px;
+    font-size: 22px;
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+}
+
+.id_pw_box input[type="password"]::placeholder {
+    font-size: 16px;
+}
+
+.id_pw_box .content_top_info {
+    margin-top: 50px;
+}
+
+.id_pw_box .info_box_new {
+    margin-top: 80px;
+}
+
+.id_pw_box .info_box_new.no_line {
+    margin-top: 60px;
+    padding-top: 0;
+    border: 0;
+}
+
+.id_pw_box a.link {
+    text-decoration: underline;
+}
+
+.id_pw_box .result_txt {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.id_pw_box .textarea_info {
+    display: block;
+    margin: 0 auto;
+    width: 434px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.id_pw_box .textarea_info+.btn_wrap_new {
+    margin-top: 22px;
+}
+
+.ico1 {
+    background: url(https://www.gov.kr/2023/img/ico_line_cert1.png) no-repeat center top;
+}
+
+.ico2 {
+    background: url(https://www.gov.kr/2023/img/ico_line_cert2.png) no-repeat center top;
+}
+
+.ico3 {
+    background: url(https://www.gov.kr/2023/img/ico_line_cert3.png) no-repeat center top;
+}
+
+.ico4 {
+    background: url(https://www.gov.kr/2023/img/ico_line_cert4.png) no-repeat center top;
+}
+
+.ico5 {
+    background: url(https://www.gov.kr/2023/img/ico_line_cert5.png) no-repeat center top;
+}
+
+.ico6 {
+    background: url(https://www.gov.kr/2023/img/ico_line_cert6.png) no-repeat center top;
+}
+
+.icon_qna_q {
+    padding: 0 0 3px 0;
+    padding-left: 34px;
+    background: url(https://www.gov.kr/2023/img/ico_q.png) no-repeat top left;
+}
+
+.icon_qna_a {
+    padding: 0 0 3px 0;
+    padding-left: 34px;
+    background: url(https://www.gov.kr/2023/img/ico_a.png) no-repeat top left;
+}
+
+.icon_qna_q+.icon_qna_a {
+    margin-top: 12px !important;
+}
 
 /*통합검색*/
-.cont_wrap_2023{width:100%; margin-bottom:100px;}
-.content_top_search_box{padding:27px 0; text-align:center; background:#cfe6ff url(../img/bg_230516.png) no-repeat center;}
-.input_search_box{position:relative; display:inline-block; max-width:620px; width:100%; }
-.input_search_box input[type="text"]{padding:14px 76px 13px 24px; border:2px solid #222; border-radius: 8px; font-size:18px; letter-spacing: -0.45px; color:#222; width:100%;}
-.input_search_box button{position:absolute; cursor: pointer;  top:50%; transform:translateY(-50%);}
-.input_search_box button img{background:#fff;}
-.input_search_box .btn_search{right:24px;}
-.input_search_box .btn_del{right:64px;}
+.cont_wrap_2023 {
+    width: 100%;
+    margin-bottom: 100px;
+}
 
-.font_006ae2{color:#006ae2 !important;}
-.font_eb193a{color:#eb193a !important;}
-.font_bold{font-weight: bold !important;}
-.search_box_layer{display:table; position:absolute; top:60px; padding:24px 8px 24px 10px; border:2px solid #222; width:100%; border-radius: 8px; box-sizing:border-box; background:#fff;}
-.search_box_layer .keyword_auto{display:table-cell; padding-right:8px; min-width:187px; text-align: left; border-right:1px solid #e3e3e3;}
-.search_box_layer .keyword_auto a{word-break:keep-all;}
-.search_box_layer .direct_service{display:table-cell; text-align: left; }
-.search_box_layer .direct_service p{margin-left:24px; font-size:18px; letter-spacing: -0.45px; color:#222; font-weight: bold;}
-.search_box_layer li a{display:block; padding:5px 14px 3px 14px; font-size:16px; letter-spacing: -0.4px; color:#222;}
-.search_box_layer li a:hover{border-radius:4px; background:#eff1f5; text-decoration: none;}
-.search_box_layer .direct_service a{margin:0 10px;}
-.keyword_layer_inner{max-height:272px; overflow-y: auto;}
-.keyword_layer_inner::-webkit-scrollbar{width:6px;}
-.keyword_layer_inner::-webkit-scrollbar-thumb{border-radius:4px; background:#ddd; }
-.keyword_layer_inner::-webkit-scrollbar-track{background:#f1f1f1;border-radius: 4px; overflow:hidden;}
-.total_sum_box{margin-top:40px; margin-bottom:30px;}
-.total_sum_box p{font-size:24px; text-align: center; letter-spacing: -0.6px; color:#222;}
-.content_result_box{display: table; width:100%;}
+.content_top_search_box {
+    padding: 27px 0;
+    text-align: center;
+    background: #cfe6ff url(https://www.gov.kr/2023/img/bg_230516.png) no-repeat center;
+}
+
+.input_search_box {
+    position: relative;
+    display: inline-block;
+    max-width: 620px;
+    width: 100%;
+}
+
+.input_search_box input[type="text"] {
+    padding: 14px 76px 13px 24px;
+    border: 2px solid #222;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: -0.45px;
+    color: #222;
+    width: 100%;
+}
+
+.input_search_box button {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input_search_box button img {
+    background: #fff;
+}
+
+.input_search_box .btn_search {
+    right: 24px;
+}
+
+.input_search_box .btn_del {
+    right: 64px;
+}
+
+.font_006ae2 {
+    color: #006ae2 !important;
+}
+
+.font_eb193a {
+    color: #eb193a !important;
+}
+
+.font_bold {
+    font-weight: bold !important;
+}
+
+.search_box_layer {
+    display: table;
+    position: absolute;
+    top: 60px;
+    padding: 24px 8px 24px 10px;
+    border: 2px solid #222;
+    width: 100%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.search_box_layer .keyword_auto {
+    display: table-cell;
+    padding-right: 8px;
+    min-width: 187px;
+    text-align: left;
+    border-right: 1px solid #e3e3e3;
+}
+
+.search_box_layer .keyword_auto a {
+    word-break: keep-all;
+}
+
+.search_box_layer .direct_service {
+    display: table-cell;
+    text-align: left;
+}
+
+.search_box_layer .direct_service p {
+    margin-left: 24px;
+    font-size: 18px;
+    letter-spacing: -0.45px;
+    color: #222;
+    font-weight: bold;
+}
+
+.search_box_layer li a {
+    display: block;
+    padding: 5px 14px 3px 14px;
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    color: #222;
+}
+
+.search_box_layer li a:hover {
+    border-radius: 4px;
+    background: #eff1f5;
+    text-decoration: none;
+}
+
+.search_box_layer .direct_service a {
+    margin: 0 10px;
+}
+
+.keyword_layer_inner {
+    max-height: 272px;
+    overflow-y: auto;
+}
+
+.keyword_layer_inner::-webkit-scrollbar {
+    width: 6px;
+}
+
+.keyword_layer_inner::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: #ddd;
+}
+
+.keyword_layer_inner::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.total_sum_box {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.total_sum_box p {
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: -0.6px;
+    color: #222;
+}
+
+.content_result_box {
+    display: table;
+    width: 100%;
+}
 
 /*조건검색*/
-.left_menu_box{display:table-cell; width:200px;}
-.left_menu_box .w100{width:100%;}
-.left_menu_box .search_sort{display:flex; justify-content:space-between; padding-bottom:13px; border-bottom:1px solid #666;}
-.left_menu_box .search_sort .sort_tit{padding-left:30px; font-size: 15px; font-weight:bold; color:#444; background:url(../img/ico_filter.png) no-repeat center left;}
-.left_menu_box .search_sort .btn_reset{padding-left:24px; font-size:14px; font-weight: 500; color:#666; background:url(../img/ico_reset.png) no-repeat center left; cursor: pointer;}
-.search_sort_list li{}
-.search_sort_list .accor_tit{display:flex; justify-content:space-between; line-height: 44px; height:44px; align-items:center; cursor: pointer; text-decoration: none; outline-offset:-1px;}
-.search_sort_list .left_tit{font-size:14px; color:#222; letter-spacing: -0.28px; font-weight: 500;}
-.search_sort_list .left_half{display:table; width:100%;}
-.search_sort_list .arrow_btn{width:24px; height:24px; background:url(../img/btn_arrow_up.png) no-repeat center;}
-.search_sort_list .arrow_btn.down{width:24px; height:24px; background:url(../img/btn_arrow_down.png) no-repeat center;}
-.left_half > div{display:inline-table; width:50%;}
-.left_cont{margin-bottom:16px;}
-.left_cont > div{margin-top:6px;}
-.left_cont .inp_date_box{margin-top:12px; width:100%;}
-.left_cont .inp_date_box .ipt_wrap{display:inline-block; width:calc( 50% - 10px );}
-.left_cont .inp_date_box .ipt_wrap + .ipt_wrap{margin-left:20px; position:relative; }
-.left_cont .inp_date_box .ipt_wrap + .ipt_wrap:before{width: 8px; height: 1px; content: ""; display: block; position: absolute; background: #888; top: 50%; left: -14px;}
-.search_btn_box{margin-top:10px;}
-.search_btn_box button{border:1px solid #006ae2;padding:12px 21px;border-radius: 8px; text-align: center; color:#006ae2;  font-weight:500; background:#fff; cursor: pointer; width:200px;}
-.search_btn_box button span{padding:3px 0; padding-right:30px;background:url(../img/ico_search.svg) no-repeat center right;}
-.search_btn_box button.active{background:#006ae2;}
-.search_btn_box button.active span{color:#fff; background:url(../img/ico_search_btn_hover.png) no-repeat center right;}
+.left_menu_box {
+    display: table-cell;
+    width: 200px;
+}
+
+.left_menu_box .w100 {
+    width: 100%;
+}
+
+.left_menu_box .search_sort {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #666;
+}
+
+.left_menu_box .search_sort .sort_tit {
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #444;
+    background: url(https://www.gov.kr/2023/img/ico_filter.png) no-repeat center left;
+}
+
+.left_menu_box .search_sort .btn_reset {
+    padding-left: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+    background: url(https://www.gov.kr/2023/img/ico_reset.png) no-repeat center left;
+    cursor: pointer;
+}
+
+.search_sort_list li {}
+
+.search_sort_list .accor_tit {
+    display: flex;
+    justify-content: space-between;
+    line-height: 44px;
+    height: 44px;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    outline-offset: -1px;
+}
+
+.search_sort_list .left_tit {
+    font-size: 14px;
+    color: #222;
+    letter-spacing: -0.28px;
+    font-weight: 500;
+}
+
+.search_sort_list .left_half {
+    display: table;
+    width: 100%;
+}
+
+.search_sort_list .arrow_btn {
+    width: 24px;
+    height: 24px;
+    background: url(https://www.gov.kr/2023/img/btn_arrow_up.png) no-repeat center;
+}
+
+.search_sort_list .arrow_btn.down {
+    width: 24px;
+    height: 24px;
+    background: url(https://www.gov.kr/2023/img/btn_arrow_down.png) no-repeat center;
+}
+
+.left_half>div {
+    display: inline-table;
+    width: 50%;
+}
+
+.left_cont {
+    margin-bottom: 16px;
+}
+
+.left_cont>div {
+    margin-top: 6px;
+}
+
+.left_cont .inp_date_box {
+    margin-top: 12px;
+    width: 100%;
+}
+
+.left_cont .inp_date_box .ipt_wrap {
+    display: inline-block;
+    width: calc(50% - 10px);
+}
+
+.left_cont .inp_date_box .ipt_wrap+.ipt_wrap {
+    margin-left: 20px;
+    position: relative;
+}
+
+.left_cont .inp_date_box .ipt_wrap+.ipt_wrap:before {
+    width: 8px;
+    height: 1px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #888;
+    top: 50%;
+    left: -14px;
+}
+
+.search_btn_box {
+    margin-top: 10px;
+}
+
+.search_btn_box button {
+    border: 1px solid #006ae2;
+    padding: 12px 21px;
+    border-radius: 8px;
+    text-align: center;
+    color: #006ae2;
+    font-weight: 500;
+    background: #fff;
+    cursor: pointer;
+    width: 200px;
+}
+
+.search_btn_box button span {
+    padding: 3px 0;
+    padding-right: 30px;
+    background: url(https://www.gov.kr/2023/img/ico_search.svg) no-repeat center right;
+}
+
+.search_btn_box button.active {
+    background: #006ae2;
+}
+
+.search_btn_box button.active span {
+    color: #fff;
+    background: url(https://www.gov.kr/2023/img/ico_search_btn_hover.png) no-repeat center right;
+}
 
 
 /*통합검색*/
-.right_cont_box{margin-left:60px; text-align: left;}
-.result_cont_list .total_txt{float:right; margin-top:12px;}
-.result_cont_list:after{content:""; display:block; clear:both;}
-.list_font17{font-size:17px; letter-spacing: -0.43px; color:#222 !important; font-weight: bold; line-height: 21px;}
-.result_li_box{padding:16px 10px; border-bottom:1px solid #e3e3e3; box-sizing: border-box;}
-.result_li_box>div{position:relative; padding-right:126px; }
-.result_li_box .small_btn{position:absolute; right:0; top:50%; transform:translateY(-50%); padding: 0; text-align: center; width: 104px;}
-.result_li_box .list_info_txt{margin-top:5px; font-size:15px; color:#444; font-weight: 400; letter-spacing: -0.38px;}
-.result_li_box .list_info_txt + .badge_box{margin-top:5px;}
-.result_li_box.img_box{min-height:138px;}
-.result_li_box.img_box>div{padding-left:180px; padding-right:0; }
-.result_li_box.img_box>div img{position:absolute; top:0; left:0;  width:160px; height:100px; }
-.result_li_box.full_box>div{padding:0;}
-.half_box{display:flex; flex-wrap:wrap;}
-.half_box > li{flex-basis:50%; border-bottom:0;}
-.half_box > li:nth-child(2n-1){position:relative;}
-.half_box > li:nth-child(2n-1):after{content:""; display:block; position:absolute; width:200%; height:1px; bottom:0; left:0; background: #e3e3e3;}
-.half_box .result_li_box.img_box img{position:absolute; left:0; width:80px; height:100%;}
-.half_box .result_li_box.img_box>div{padding-left:100px; background:url(../img/image_thumb_bak.png) no-repeat center left;}
-.list_info_box{margin-top:12px;}
-.list_info_box li+li{margin-top:4px;}
-.list_info_box span{font-size:15px; letter-spacing: -0.38px; color:#666; display:inline-block;}
-.list_info_box .ellipsis1 span{display:inline;}
-.list_info_box span+span{position:relative; padding-left:6px; margin-left:6px; }
-.list_info_box span+span:before{content:""; position:absolute; display:block; width:1px; height:14px; background:#ccc;  top:4px; left:0;}
-.img_top_list{display:flex; flex-wrap:wrap; padding:0 10px; padding-left:0; box-sizing: border-box; border-bottom:1px solid #e3e3e3; justify-content: space-between; justify-content:start; }
-.img_top_list > li{flex-basis:calc( 33.33% - ( 26px /3 )); padding:16px 0; border:0; margin-left:8px;}
-.img_top_list .result_li_box >div{position:relative; padding-top:214px;}
-.img_top_list .result_li_box >div img{position:absolute; top:0; left:0; width:278px; height:198px; width:100%;}
-.cont_tit + .tab_container.type2{margin-top:-1px;}
-.badge_box.block_box{margin-top:8px;}
-.badge_box.block_box span{display:block;line-height: 1.5;}
-.badge_box.block_box span + span{position:inherit; padding:0; margin:0; }
-.badge_box a:hover span,
-.badge_box a:focus span{cursor: pointer; text-decoration: underline;}
+.right_cont_box {
+    margin-left: 60px;
+    text-align: left;
+}
 
-.cont_list_box{margin-top:24px;}
-.cont_list_box{font-size:0;}
-.cont_list_box li{display:inline-block; padding:23px 40px; width:calc( ( 100% - 60px ) /4 ); border-radius: 16px; box-sizing:border-box; vertical-align:top; min-height:131px; background:#f4f4f4;}
-.cont_list_box li +li{margin-left:20px;}
-.cont_list_box li p+span{margin-top:10px;}
+.result_cont_list .total_txt {
+    float: right;
+    margin-top: 12px;
+}
+
+.result_cont_list:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.list_font17 {
+    font-size: 17px;
+    letter-spacing: -0.43px;
+    color: #222 !important;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.result_li_box {
+    padding: 16px 10px;
+    border-bottom: 1px solid #e3e3e3;
+    box-sizing: border-box;
+}
+
+.result_li_box>div {
+    position: relative;
+    padding-right: 126px;
+}
+
+.result_li_box .small_btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    text-align: center;
+    width: 104px;
+}
+
+.result_li_box .list_info_txt {
+    margin-top: 5px;
+    font-size: 15px;
+    color: #444;
+    font-weight: 400;
+    letter-spacing: -0.38px;
+}
+
+.result_li_box .list_info_txt+.badge_box {
+    margin-top: 5px;
+}
+
+.result_li_box.img_box {
+    min-height: 138px;
+}
+
+.result_li_box.img_box>div {
+    padding-left: 180px;
+    padding-right: 0;
+}
+
+.result_li_box.img_box>div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 100px;
+}
+
+.result_li_box.full_box>div {
+    padding: 0;
+}
+
+.half_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.half_box>li {
+    flex-basis: 50%;
+    border-bottom: 0;
+}
+
+.half_box>li:nth-child(2n-1) {
+    position: relative;
+}
+
+.half_box>li:nth-child(2n-1):after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 200%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background: #e3e3e3;
+}
+
+.half_box .result_li_box.img_box img {
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 100%;
+}
+
+.half_box .result_li_box.img_box>div {
+    padding-left: 100px;
+    background: url(https://www.gov.kr/2023/img/image_thumb_bak.png) no-repeat center left;
+}
+
+.list_info_box {
+    margin-top: 12px;
+}
+
+.list_info_box li+li {
+    margin-top: 4px;
+}
+
+.list_info_box span {
+    font-size: 15px;
+    letter-spacing: -0.38px;
+    color: #666;
+    display: inline-block;
+}
+
+.list_info_box .ellipsis1 span {
+    display: inline;
+}
+
+.list_info_box span+span {
+    position: relative;
+    padding-left: 6px;
+    margin-left: 6px;
+}
+
+.list_info_box span+span:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 14px;
+    background: #ccc;
+    top: 4px;
+    left: 0;
+}
+
+.img_top_list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    padding-left: 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e3e3e3;
+    justify-content: space-between;
+    justify-content: start;
+}
+
+.img_top_list>li {
+    flex-basis: calc(33.33% - (26px /3));
+    padding: 16px 0;
+    border: 0;
+    margin-left: 8px;
+}
+
+.img_top_list .result_li_box>div {
+    position: relative;
+    padding-top: 214px;
+}
+
+.img_top_list .result_li_box>div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 278px;
+    height: 198px;
+    width: 100%;
+}
+
+.cont_tit+.tab_container.type2 {
+    margin-top: -1px;
+}
+
+.badge_box.block_box {
+    margin-top: 8px;
+}
+
+.badge_box.block_box span {
+    display: block;
+    line-height: 1.5;
+}
+
+.badge_box.block_box span+span {
+    position: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.badge_box a:hover span,
+.badge_box a:focus span {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cont_list_box {
+    margin-top: 24px;
+}
+
+.cont_list_box {
+    font-size: 0;
+}
+
+.cont_list_box li {
+    display: inline-block;
+    padding: 23px 40px;
+    width: calc((100% - 60px) /4);
+    border-radius: 16px;
+    box-sizing: border-box;
+    vertical-align: top;
+    min-height: 131px;
+    background: #f4f4f4;
+}
+
+.cont_list_box li+li {
+    margin-left: 20px;
+}
+
+.cont_list_box li p+span {
+    margin-top: 10px;
+}
 
 /*정책자료*/
-.sel_top_box{display:block; padding:15px 0; text-align: right; border-bottom:1px solid #e3e3e3;}
-.sel_top_box:after{content:""; display:block; clear:both;}
-.sel_top_box + .sel_top_box{margin-top:-19px; text-align:left; background:#fff;}
+.sel_top_box {
+    display: block;
+    padding: 15px 0;
+    text-align: right;
+    border-bottom: 1px solid #e3e3e3;
+}
 
-.homepage .sel_top_box{display: flex; justify-content: space-between;}
-.homepage .radio_wrap{display: flex; align-items:center; }
-.homepage .radio_wrap .rad_box+.rad_box{margin-left:20px;}
-.homepage .radio_wrap .rad_box label span{font-size:15px; }
-.right_cont_box .sel_top_box{ }
-.right_cont_box .sel_top_box .radio_wrap{float:left; line-height: 32px; display:flex;}
-.right_cont_box .sel_top_box .radio_wrap .rad_box+.rad_box{margin-left:20px;}
+.sel_top_box:after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
-.content_inner_box{padding:30px 0 80px 0;}
+.sel_top_box+.sel_top_box {
+    margin-top: -19px;
+    text-align: left;
+    background: #fff;
+}
+
+.homepage .sel_top_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homepage .radio_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.homepage .radio_wrap .rad_box+.rad_box {
+    margin-left: 20px;
+}
+
+.homepage .radio_wrap .rad_box label span {
+    font-size: 15px;
+}
+
+.right_cont_box .sel_top_box {}
+
+.right_cont_box .sel_top_box .radio_wrap {
+    float: left;
+    line-height: 32px;
+    display: flex;
+}
+
+.right_cont_box .sel_top_box .radio_wrap .rad_box+.rad_box {
+    margin-left: 20px;
+}
+
+.content_inner_box {
+    padding: 30px 0 80px 0;
+}
 
 /*달력 서치 -상담예약*/
-.advice_txt{font-size:14px; letter-spacing: -0.35px; font-weight: 400; color:#444;}
-.date_search_box{display: flex; justify-content: center; align-items: center;margin-top:10px; margin-bottom:50px; padding:24px 0; border-radius: 16px; background:#eff1f5;}
-.date_search_box .txt_ipt{position:relative; font-size:0;}
-.date_search_box .txt_ipt input{padding: 0 36px 0 12px; border:1px solid #ccc; font-size:15px; color:#444; background:#fff; border-radius: 4px; line-height: 30px; width:148px; box-sizing: border-box; letter-spacing: -0.38px;}
-.date_search_box .txt_ipt button{position:absolute; width:24px; height:24px; right:12px; top:50%; transform:translateY(-50%); background:url(https://www.gov.kr/2023/img/ic_line_calendar.png) no-repeat center; cursor: pointer;}
-.date_search_box .txt_ipt + span{color:#444; font-size:15px; margin:0 16px;}
-.date_search_box .btn_search{margin-left:10px; width:60px; height:32px; border:1px solid #888; border-radius:8px; font-size:15px; color:#444; background:#fff;}
+.advice_txt {
+    font-size: 14px;
+    letter-spacing: -0.35px;
+    font-weight: 400;
+    color: #444;
+}
+
+.date_search_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 24px 0;
+    border-radius: 16px;
+    background: #eff1f5;
+}
+
+.date_search_box .txt_ipt {
+    position: relative;
+    font-size: 0;
+}
+
+.date_search_box .txt_ipt input {
+    padding: 0 36px 0 12px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    color: #444;
+    background: #fff;
+    border-radius: 4px;
+    line-height: 30px;
+    width: 148px;
+    box-sizing: border-box;
+    letter-spacing: -0.38px;
+}
+
+.date_search_box .txt_ipt button {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(https://www.gov.kr/2023/img/ic_line_calendar.png) no-repeat center;
+    cursor: pointer;
+}
+
+.date_search_box .txt_ipt+span {
+    color: #444;
+    font-size: 15px;
+    margin: 0 16px;
+}
+
+.date_search_box .btn_search {
+    margin-left: 10px;
+    width: 60px;
+    height: 32px;
+    border: 1px solid #888;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #444;
+    background: #fff;
+}
 
 /*table*/
-.tbl_box table{margin-left:-1px; width:100%; border-spacing: 0; border-style:none; padding:0;border-top:1px solid #666; }
-.tbl_box table th{padding:12px 0; font-size:15px; font-weight:500; color:#222; letter-spacing:-0.38px; line-height:19px; border-bottom:1px solid #e3e3e3; background:#f5f6f7;}
+.tbl_box table {
+    margin-left: -1px;
+    width: 100%;
+    border-spacing: 0;
+    border-style: none;
+    padding: 0;
+    border-top: 1px solid #666;
+}
+
+.tbl_box table th {
+    padding: 12px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #222;
+    letter-spacing: -0.38px;
+    line-height: 19px;
+    border-bottom: 1px solid #e3e3e3;
+    background: #f5f6f7;
+}
+
 .tbl_box table thead th,
-.tbl_box table tbody td{border-left:1px solid #e3e3e3;}
-.tbl_box table tbody td{padding:12px 10px; font-size:15px; font-weight: 400; color:#444; letter-spacing: -0.38px; line-height:19px; text-align: center; border-bottom:1px solid #e3e3e3;}
-.tbl_box table tbody .empty{padding:33px 0;}
+.tbl_box table tbody td {
+    border-left: 1px solid #e3e3e3;
+}
+
+.tbl_box table tbody td {
+    padding: 12px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #444;
+    letter-spacing: -0.38px;
+    line-height: 19px;
+    text-align: center;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.tbl_box table tbody .empty {
+    padding: 33px 0;
+}
+
 .tbl_box.detail th,
-.tbl_box.detail td{text-align: left; padding-right:20px; padding-left:20px;}
-.tbl_box.detail th + td{}
+.tbl_box.detail td {
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.tbl_box.detail th+td {}
 
 /*설문조사 팝업 - 다른곳에서 사용 불가 ( 가이드 안맞음)*/
-.survey_pop + .dim{display:none; position: fixed; inset: 0px; width: 100%; height: 100%; background-color: rgb(0, 0, 0); opacity: 0.5; z-index: 9999;}
-.survey_pop{display:none; position:fixed; z-index:99999; padding:30px; width:680px; top:30px;left:50%; transform:translateX(-50%); border-radius:16px; background:#fff; box-sizing: border-box;}
-.survey_pop .survey_inner_top > img{width:84px;}
-.survey_pop .survey_inner_top{display:flex; justify-content: space-between;}
-.survey_pop .survey_inner_top .pop_btn_close{width:24px; height:24px; background:#fff;}
-.survey_pop .survey_inner_top .pop_btn_close img{width:100%;}
-.survey_pop .survey_title{display:block; text-align:center; font-weight:bold; font-size:28px; color:#033075; letter-spacing: -1.4px;}
-.survey_pop .survey_title + p{margin-top:20px; font-size:14px; color:#444; font-weight: 400; letter-spacing: -0.4px; word-break:keep-all; }
-.survey_txt_box{margin-top:20px;}
-.survey_txt_box label{display:block; font-size:16px; color:#222; font-weight: 500; letter-spacing: -0.45px;}
-.survey_txt_box div{margin-top:10px;}
-.survey_txt_box input{padding:11px 16px 10px; border:1px solid #ccc; border-radius: 8px; width:100%; font-size:14px; color:#444; box-sizing: border-box;}
-.survey_txt_box input::placeholder {color:#b7b7b7 !important; font-family:Waping, sans-serif !important; font-weight:300; font-size: 13px;}
-.survey_txt_box input::-webkit-input-placeholder {color:#b7b7b7 !important; font-family:Waping, sans-serif !important; font-weight:300; font-size: 13px;}
-.survey_txt_box input:-ms-input-placeholder {color:#b7b7b7 !important; font-family:Waping, sans-serif !important; font-weight:300; font-size: 13px;}
-.survey_txt_box input::-moz-placeholder {color:#b7b7b7 !important; font-family:Waping, sans-serif !important; font-weight:300; font-size: 13px;}
-.survey_txt_box input:-moz-placeholder {color:#b7b7b7 !important; font-family:Waping, sans-serif !important; font-weight:300; font-size: 13px;}
+.survey_pop+.dim {
+    display: none;
+    position: fixed;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    z-index: 9999;
+}
 
-.survey_txt_box.bak_{padding:24px; border-radius:16px; background:#e2edff;}
-.survey_txt_box.bak_ p{font-size:14px; line-height: 1.5; letter-spacing: -0.4px; color:#000; word-break:keep-all;}
-.survey_txt_box.bak_ p span{box-shadow: rgb(255 223 80 / 50%) 0px -11px 0px inset; font-weight: bold;}
-.survey_txt_box.bak_ .txt{margin-top:16px; text-indent: -17px; padding-left:17px;}
-.survey_pop .btn_wrap{margin-top:30px; margin-bottom:10px; text-align: center;}
-.survey_pop .btn_wrap a{padding:0 24px; font-weight: 500; font-size:14px; line-height: 42px;}
-.survey_pop .btn_wrap a:first-child{background:#033075; color:#fff !important;}
-.survey_pop .btn_wrap a+a{margin-left:10px;}
+.survey_pop {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    padding: 30px;
+    width: 680px;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 16px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.survey_pop .survey_inner_top>img {
+    width: 84px;
+}
+
+.survey_pop .survey_inner_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.survey_pop .survey_inner_top .pop_btn_close {
+    width: 24px;
+    height: 24px;
+    background: #fff;
+}
+
+.survey_pop .survey_inner_top .pop_btn_close img {
+    width: 100%;
+}
+
+.survey_pop .survey_title {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    color: #033075;
+    letter-spacing: -1.4px;
+}
+
+.survey_pop .survey_title+p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #444;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    word-break: keep-all;
+}
+
+.survey_txt_box {
+    margin-top: 20px;
+}
+
+.survey_txt_box label {
+    display: block;
+    font-size: 16px;
+    color: #222;
+    font-weight: 500;
+    letter-spacing: -0.45px;
+}
+
+.survey_txt_box div {
+    margin-top: 10px;
+}
+
+.survey_txt_box input {
+    padding: 11px 16px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 14px;
+    color: #444;
+    box-sizing: border-box;
+}
+
+.survey_txt_box input::placeholder {
+    color: #b7b7b7 !important;
+    font-family: Waping, sans-serif !important;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.survey_txt_box input::-webkit-input-placeholder {
+    color: #b7b7b7 !important;
+    font-family: Waping, sans-serif !important;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.survey_txt_box input:-ms-input-placeholder {
+    color: #b7b7b7 !important;
+    font-family: Waping, sans-serif !important;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.survey_txt_box input::-moz-placeholder {
+    color: #b7b7b7 !important;
+    font-family: Waping, sans-serif !important;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.survey_txt_box input:-moz-placeholder {
+    color: #b7b7b7 !important;
+    font-family: Waping, sans-serif !important;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.survey_txt_box.bak_ {
+    padding: 24px;
+    border-radius: 16px;
+    background: #e2edff;
+}
+
+.survey_txt_box.bak_ p {
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+    color: #000;
+    word-break: keep-all;
+}
+
+.survey_txt_box.bak_ p span {
+    box-shadow: rgb(255 223 80 / 50%) 0px -11px 0px inset;
+    font-weight: bold;
+}
+
+.survey_txt_box.bak_ .txt {
+    margin-top: 16px;
+    text-indent: -17px;
+    padding-left: 17px;
+}
+
+.survey_pop .btn_wrap {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.survey_pop .btn_wrap a {
+    padding: 0 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 42px;
+}
+
+.survey_pop .btn_wrap a:first-child {
+    background: #033075;
+    color: #fff !important;
+}
+
+.survey_pop .btn_wrap a+a {
+    margin-left: 10px;
+}
 
 /* 조직도 */
-.top_sel_box{padding: 24px 40px; margin-bottom:10px; border-radius:16px; background:#eff1f5; display:flex; justify-content:space-between;}
-.top_sel_box .sel_inner_box{display:flex; align-items:center;}
-.top_sel_box .sel_inner_box label{font-size:15px; font-weight: bold;}
-.top_sel_box .sel_inner_box select{margin-left:4px; padding:0 28px 0 12px; min-width:187px; height:32px; font-size:15px; letter-spacing:-0.38px; border:1px solid #ccc; border-radius: 4px; appearance:none; color:#444; background:#fff url(../img/icon_sel_arrow.png) no-repeat center right 12px;}
-.btn_xs{display:inline-block; width:60px; font-size:15px; font-weight:500; letter-spacing: -0.38px; line-height:30px; color:#444 !important; text-align:center; border-radius: 4px; border:1px solid #888; background:#fff; cursor:pointer;}
-.btn_xs:disabled{    background-color: #f1f1f1;
+.top_sel_box {
+    padding: 24px 40px;
+    margin-bottom: 10px;
+    border-radius: 16px;
+    background: #eff1f5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_sel_box .sel_inner_box {
+    display: flex;
+    align-items: center;
+}
+
+.top_sel_box .sel_inner_box label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.top_sel_box .sel_inner_box select {
+    margin-left: 4px;
+    padding: 0 28px 0 12px;
+    min-width: 187px;
+    height: 32px;
+    font-size: 15px;
+    letter-spacing: -0.38px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+    color: #444;
+    background: #fff url(https://www.gov.kr/2023/img/icon_sel_arrow.png) no-repeat center right 12px;
+}
+
+.btn_xs {
+    display: inline-block;
+    width: 60px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.38px;
+    line-height: 30px;
+    color: #444 !important;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #888;
+    background: #fff;
+    cursor: pointer;
+}
+
+.btn_xs:disabled {
+    background-color: #f1f1f1;
     color: #919191 !important;
-    border-color: #ccc; cursor: inherit;
+    border-color: #ccc;
+    cursor: inherit;
 }
-select + .btn_xs,
-.btn_xs+ .btn_xs{margin-left:4px;}
-.btn_blue{border:1px solid #4d70a4; color:#033075 !important;}
-.org_down{display:inline-block; margin-right:4px; float:right;}
-.org_down span{padding:2px 0; padding-left:24px; font-size:15px; font-weight: 500; color:#033075; background:url(https://www.gov.kr/2023/img/icon_18_download.png) no-repeat center left;}
+
+select+.btn_xs,
+.btn_xs+.btn_xs {
+    margin-left: 4px;
+}
+
+.btn_blue {
+    border: 1px solid #4d70a4;
+    color: #033075 !important;
+}
+
+.org_down {
+    display: inline-block;
+    margin-right: 4px;
+    float: right;
+}
+
+.org_down span {
+    padding: 2px 0;
+    padding-left: 24px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #033075;
+    background: url(https://www.gov.kr/2023/img/icon_18_download.png) no-repeat center left;
+}
 
 
-.org_box{position:relative; display:inline-block; margin-top:8px; height:1106px; background:url(https://www.gov.kr/2023/img/line.png) no-repeat center top 40px; clear:both; text-align: center;}
-.org_box *{letter-spacing: -0.38px;}
-.org_box ul{font-size:0;}
-.org_box li{display:inline-block;}
-.org_box li span{border: 1px solid #838b9b; border-radius: 4px; color: #222; font-size: 15px; display: inline-block; width: 180px; text-align: center; letter-spacing: -0.38px; height: 36px; line-height: 36px; box-sizing: border-box;}
-.org_box li .org_bg_blue{line-height: 40px; height: 40px; border:0; color:#fff; font-size:16px; font-weight:500; background:#006ae2;}
-.org_box li a{display:block;}
+.org_box {
+    position: relative;
+    display: inline-block;
+    margin-top: 8px;
+    height: 1106px;
+    background: url(https://www.gov.kr/2023/img/line.png) no-repeat center top 40px;
+    clear: both;
+    text-align: center;
+}
+
+.org_box * {
+    letter-spacing: -0.38px;
+}
+
+.org_box ul {
+    font-size: 0;
+}
+
+.org_box li {
+    display: inline-block;
+}
+
+.org_box li span {
+    border: 1px solid #838b9b;
+    border-radius: 4px;
+    color: #222;
+    font-size: 15px;
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+    letter-spacing: -0.38px;
+    height: 36px;
+    line-height: 36px;
+    box-sizing: border-box;
+}
+
+.org_box li .org_bg_blue {
+    line-height: 40px;
+    height: 40px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background: #006ae2;
+}
+
+.org_box li a {
+    display: block;
+}
+
 .org_box li a:hover,
-.org_box li a:focus{text-decoration: underline;}
-.organ_1{position:absolute; top:77px;}
-.organ_2{position:absolute; top:77px; right:0px; text-align: center;}
-.organ_2 ul {margin-top:37px;}
-.organ_2 ul li span{font-size:13px; color:#444; font-weight: 400; width:132px; background:#eff1f5;}
-.organ_2 ul li+li{margin-left:8px;}
-.organ_3{position:absolute; top:223px;}
-.organ_3 li:last-child{margin-left:36px;}
-.organ_4{position:absolute; top:223px; right:186px;}
-.organ_5{position:absolute; top:223px; right:0px;}
-.organ_6{padding-top:255px;}
-.org_7{margin-top:36px;}
-.org_7>li+li{margin-left:36px !important;}
-.org_7>li:last-child{margin-left:0 !important;}
-[class^=organ_]>li+li{margin-left:6px;}
-.org_box .org_veritcal{margin-top:37px; padding-left:145px; box-sizing: border-box;}
-.org_box .org_veritcal>li+ li{margin-left:30px;}
-.org_box .org_veritcal span{width:36px; height:196px; writing-mode:vertical-lr; text-align: left; padding-top:15px;}
-.org_box .org_veritcal span a{margin-left:-1px;}
-.org_box .ml_75{margin-left:75px !important;}
-.org_box .orglv__{display:flex; margin-left:-175px; margin-top:37px;}
-.org_box .orglv__ li+li{margin-left:9px;}
-.org_box .orglv__ ul{margin-top:37px;}
-.org_box .orglv__ ul span{font-weight:400; font-size:15px; border:1px solid #b4bac7; color:#444;; background:#eff1f5;}
-.org_box .orglv__ ul li+li{margin-left:6px;}
-.org_box .orglv__ .org_v14 a{font-size:14px; letter-spacing: -2.9px;}
-
-
-
-
-@media only screen and (max-width: 1279px){
-	.content_result_box{padding:0 20px; box-sizing: border-box;}
-	.survey_pop{display:none;}
-	.survey_pop + .dim{display:none;}
+.org_box li a:focus {
+    text-decoration: underline;
 }
 
-@media only screen and (max-width: 1157px){
-    .gov_2023_f .contentsWrap.l2 .contents{width:74%;}
-    .content_box{margin:30px 16px;}
-    
-    /* 조직도 */
-    .top_sel_box{padding:24px 124px; flex-wrap:wrap;}
-    .top_sel_box .sel_inner_box{margin-bottom:10px;}
-    .top_sel_box .sel_inner_box:last-child{margin-bottom:0px;}
-    .top_sel_box .sel_inner_box select{min-width: 200px;}    
-	.org_box{display:block; margin-top:18px; max-width:760px; margin:0 auto; padding-top:8px; background:none; clear:both; height:auto;}
-    .org_box .type2>li{display:block; }
-	.org_box li .org_bg_blue{display:block; margin:0 auto; max-width:364px; margin-bottom:32px;}
-	.org_box li span{width:100%;}
-	.org_box [class^=organ_]{position:inherit; width:calc( 50% - 16px );}
-	.org_box [class^=organ_]>li{ margin-left:0; width:100%; }
-	.org_box [class^=organ_]>li + li{margin-top:6px;}
-	.org_box [class^=organ_] + [class^=organ_]{margin-top:32px;}
-	.org_box [class^=organ_]:nth-child(3){margin-top:0;}
-	.org_box ul.org_r+ .org_r{margin-top:6px;}
-	.org_box>ul>li:after{content:""; display:block; clear:both;}
-	.org_l{float:left !important;}
-	.org_r{float:right !important;}
-    .org_box .orglv__{display:flex; margin-left:0; flex-flow: wrap; justify-content: space-between; margin-top:21px;}
-	.org_box .org_double{display:flex; flex-wrap: wrap; margin-top: 8px !important; }
-	.org_box .org_double li{flex:1 0 calc(50% - 3px); }
-	.org_box .org_double li span{white-space: nowrap; width: 100%; font-size: 15px;}
-	.org_box .org_double li +li{margin-top:0; margin-left:0 !important;}
-	.org_box .org_double li:NTH-CHILD(2n){margin-left:6px !important;}
-	.org_box .org_double li:NTH-CHILD(n+3) { margin-top: 4px;}
-    .org_box .orglv__ li+li{margin-left:0;}
-    .org_box .orglv__ >li{position:inherit !important; width:calc( 50% - 16px ); max-width: 364px;  margin-top:16px;}
-	.org_box .organ_6{display:inline-block; width:100%; padding:0;}
-	.org_box .org_7{margin-top:32px; width:100%;}
-	.org_box .org_7>li,
-	.org_box .org_veritcal>li:not(:last-child){width:calc( 50% - 16px ); max-width: 364px;}
-	.org_box .org_7:after,
-	.org_veritcal:after{content:""; display:block; clear:both;}
-	.org_box .org_7>li{margin-top:0 !important;}
-	.org_box .org_7>li:last-child{margin-top:32px; max-width: inherit; width:100%;}
-	.org_box .org_7>li +li{margin-left:0 !important;}
-	.org_box .org_veritcal{width:100%; padding:0; position:relative;}
-	.org_box .org_veritcal>li+li{margin-top:0; margin-left:0;}
-	.org_box .org_veritcal .org_l{position:absolute; left:0;}
-	.org_box .org_veritcal .org_r{position:absolute; right:0; float:inherit !important;}
-	.org_box .org_veritcal>li:nth-child(1),.org_box ul.org_veritcal>li:nth-child(4){top:0;}
-	.org_box .org_veritcal>li:nth-child(2),.org_box ul.org_veritcal>li:nth-child(5){top:42px;}
-	.org_box .org_veritcal>li:nth-child(3),.org_box ul.org_veritcal>li:nth-child(6){top:84px;}
-	.org_box .org_veritcal>li:nth-child(7){top:126px;}
-	.org_box .org_veritcal>li:nth-child(8){top:168px;}
-	.org_box .org_veritcal>li:nth-child(9){margin-top:206px;}
-	.org_box .org_veritcal span{writing-mode:inherit; width:inherit; height:inherit; width:100%; padding-top:0; text-align: center;}
-    .org_box .ml_75{margin-left:0;}
-	
+.organ_1 {
+    position: absolute;
+    top: 77px;
 }
 
-@media only screen and (max-width: 1024px){
-    .gov_2023_f .contentsWrap.l2 .contents{padding:0 10px; width:100%;}
-    .email_wrap .ipt_wrap + select{width:calc( ( 100% / 3 ) - 18px )}
-    .icon_txt_box .icon_txt{font-size:15px;}
-    .icon_txt_box .sm_txt{font-size:13px;}
-    .right_cont_box{margin-left:30px;}
-    .sel_top_box .plus_btn select{min-width:inherit;}
-    
-    .homepage .sel_top_box{display:inherit;}
-	.homepage .radio_wrap{display:flex; margin-bottom:13px;}
-	.homepage .radio_wrap .rad_box{flex-basis:50%; text-align: left;}
-	.homepage .radio_wrap .rad_box label span{font-size:14px;}
-	.homepage .plus_btn{width:100%;}
-	.homepage .plus_btn select{width:100%;}
-	.homepage .plus_btn select + select{margin-left:0;}
-	.homepage .sel_box +.sel_box{margin-top:8px;}
+.organ_2 {
+    position: absolute;
+    top: 77px;
+    right: 0px;
+    text-align: center;
 }
 
-@media only screen and (max-width: 805px){
-	.mt40{margin-top:20px !important}
-	.mo_only{display: inline-block !important; }
-	.pc_only,
-	.pc_only_block{display: none !important;}
-	.mo_only_block{display:block !important;}
-    .contentsWrap.l2 .contents{padding:0 0 50px 0;}
-    .gov_2023_f.content_wrap{margin:10px; margin-bottom:-50px}
-    .content_inner_box{padding:20px 16px 55px 16px;}
-    .cont_txt_20{font-size:16px;}
-    .cont_txt_18{font-size:15px;}
-    .cont_txt_16{font-size:14px; font-weight:500; margin-top:8px;}
-    .content_top_info{padding:15px 22px;}
-    .content_top_info .list_info li{font-size:14px; line-height: 21px; letter-spacing: -0.28px; text-indent: -5px;}
-    .content_inner_title{margin-top:40px; margin-bottom:15px;}
-    .content_inner_title h3{font-size:16px; line-height: 24px; letter-spacing: -0.4px; color:#444;}
-    .content_inner_title h3+.font-blue{font-weight: 400; font-size: 16px;}
-    .cont_title_right_wrap{float:inherit; display:block; margin-top:15px; padding-top:20px; text-align: right; border-top:2px solid #033075}
-    .cont_title_right_wrap span{padding-left:31px; margin-left:0px; margin-right:16px; font-size:12px; line-height: 19px; letter-spacing: -0.3px;}
-    .cont_title_right_wrap span:before{width:25px; height:16px; border-radius: 2px; top: 50%; transform: translateY(-50%);}
+.organ_2 ul {
+    margin-top: 37px;
+}
 
-    .content_mid_info li{padding-left:22px; font-size:13px; line-height: 20px; letter-spacing: -0.32px; background:url(../img/mo_ico_info.png) no-repeat top 3px left; background-size:16px;}
-    .content_mid_info li+li{margin-top:7px;}
-    
-    .gov_2023_f .input_wrap .ipt_wrap, .gov_2023_f .input_wrap select{width:calc( ( 100% / 3 ) - 19px ); display:inline-block;  }
-    .gov_2023_f .input_wrap .ipt_wrap input, .gov_2023_f .input_wrap select{padding:0 12px; border:1px solid #bdbdbd; border-radius: 7px; font-size:15px; height:40px; width:calc( 100% - 26px );}
-    .chk_default{margin-bottom:14px;}
-    .chk_default input[type="radio"] + label{padding-left:30px; font-size:15px; line-height: 23px;}
-    .chk_default input[type="radio"] + label:before{width:20px; height:20px;}
+.organ_2 ul li span {
+    font-size: 13px;
+    color: #444;
+    font-weight: 400;
+    width: 132px;
+    background: #eff1f5;
+}
 
-    .gov_2023_f .chk_scroll_wrap{overflow: auto;}
-    .gov_2023_f .chk_scroll_wrap .chk_guide_wrap{padding-bottom:10px; min-width: 500px;}
-    .gov_2023_f .chk_scroll_wrap + .content_inner_title{margin-top:30px;}
-    .chk_guide_wrap input[type="radio"] + label{padding:9px 16px; font-size:14px; font-weight: 400; line-height: 20px; letter-spacing: -0.35px; border: 1px solid #033075; border-radius: 24px;}
-    .chk_guide_wrap input[type="radio"]:checked + label{font-weight: bold;}
-    .chk_guide_wrap .chk_wrap+.chk_wrap{margin-left:7px;}
-    .chk_guide_wrap + .bg_wrap{margin-top:15px; min-height: 109px;}
-    
+.organ_2 ul li+li {
+    margin-left: 8px;
+}
 
-    .tel_wrap .ipt_wrap +.ipt_wrap{padding-left:18px; margin-left:7px;}
-    .tel_wrap .ipt_wrap +.ipt_wrap:before{width:10px;}
+.organ_3 {
+    position: absolute;
+    top: 223px;
+}
 
-    .gov_2023_f .bg_wrap{padding:24px 18px; }
-    .gov_2023_f .bg_wrap .content_mid_info{margin-top:12px;}
+.organ_3 li:last-child {
+    margin-left: 36px;
+}
 
-    .gov_2023_f .btn_wrap{margin-top:40px;}
-    .gov_2023_f .btn_wrap a{font-size:16px; font-weight: bold; padding:16px; width:calc(50% - 8px)}
-    .gov_2023_f .btn_wrap a+a{margin-left:12px;}
-    
-    .content_bot_info{margin-top:55px; margin-left:-20px; margin-right:-20px; padding:25px 32px 32px; border:0; background:#ededed;}
-    .content_bot_info .tit{padding-left:30px; margin-top:0; font-size:15px; line-height: 23px; background:url(../img/mo_ico_info_circle.png) no-repeat center left; background-size:24px;}
-    .content_bot_info .tit+.list_info{margin-top:11px;}
-    .content_bot_info .list_info li{font-size:14px; line-height: 21px; color:#444;;}
-    
-	.gov_2023_f .textarea_box{padding:10px; border:1px solid #ccc; border-radius: 4px ;}
-    .gov_2023_f .textarea_wrap textarea{font-size:15px; line-height: 23px; letter-spacing: -0.37px;}
-    .gov_2023_f .textarea_wrap textarea::placeholder{font-size:15px; color:#888;}
+.organ_4 {
+    position: absolute;
+    top: 223px;
+    right: 186px;
+}
 
-    .time_wrap .time_table{padding:16px; padding-left:6px; padding-bottom:25px; padding-top:0; margin-top:-8px; border:0; border-bottom:2px solid #033075; border-radius: inherit;}
-    .time_wrap input[type="radio"]+label{margin:0; width:calc( 50% - 11px );}
-    .time_wrap input[type="radio"]+label:nth-child(2n){margin-left:10px; margin-top:12px;}
-    .time_wrap input[type="radio"]+label span{font-size:14px;}
-    .time_wrap input[type="radio"]:checked+label span{padding-right: 25px;}
-    .time_wrap input[type="radio"]:checked+label span:after{width:18px; height:18px; background:#006ae2 url(../img/ic16_check_line_mo.png) no-repeat center; background-size:50%;}
-    .time_wrap + .content_mid_info{margin-top:15px;}
-    .time_wrap .time_end{ border-radius: 0; height: calc( 100% - -43px); top:-45px;}
-    .time_wrap .time_end p{font-size:19px; line-height: 25px; letter-spacing: -0.5px; font-weight: bold;}
-    
-    /*guide*/
-    .content_box{margin:0 16px; margin-top:5px;}
-    .tab_content_box{min-height: 334px;}
-    .tabs_box{border:0; border-bottom:1px solid #ccc; border-radius: 0;}
-    .tabs_box li a{padding:15px 0; line-height:1.25; color:#666; }
-    .tabs_box li.active a{border-radius: 0; color:#033075; border:0; font-weight: bold;border-bottom:4px solid #033075; background:none;}
-    .tabs_box li +li:before{display: none;}
-    
-    .icon_txt_box{padding:0; border-radius: 8px;}
-    .icon_txt_box div{display:flex; flex-direction: column; justify-content:center; padding:4px 0; padding-left:71px; margin:16px 24px; text-align: left; min-height:40px;}
-    .icon_txt_box .icon_txt{font-size:15px; letter-spacing: -0.75px; line-height: 1.5; }
-    .icon_txt_box .sm_txt{font-size:13px; letter-spacing: -0.65px; line-height: 0.92; margin-top:5px; }
-    
-    .btn_wrap_new{margin-top:40px;}
-    .btn_wrap_new a{padding:15px 16px; font-size:16px; font-weight: bold; min-width: inherit; width:calc( 50% - 8px );}
-    
-    .badge_box span{line-height:26px; font-size:13px; letter-spacing: -0.65px;}
-    .badge_box .badge_gray{padding:0 8px; border:2px solid #ccc; line-height: 24px;}
-    
-    .input_wrap_new .ipt_wrap input, 
-    .input_wrap_new select{padding:0 12px; height:40px;}
-    .input_wrap_new .ipt_wrap input::placeholder{font-size:15px;line-height: 40px;}
-    .content_result_box{padding:0;}
-    .result_ico_box{padding-left:40px; font-size:16px; line-height:24px; letter-spacing: -0.8px; }
-    .result_ico_box.ico_success{background:url(../img/ico32_success_m.png) no-repeat center left; background-size:28px;}
-    .result_ico_box.ico_fail{background:url(../img/ico48_fail_m.png) no-repeat center left; background-size:28px;}
-    .result_ico_box p{font-size:16px; line-height:1.5; letter-spacing: -0.8px;}
-    .result_txt p{font-size:15px; letter-spacing: -0.75px; line-height: 1.5;}
-    .result_txt span{font-size:13px; line-height: 22px; letter-spacing: -0.65px;}
-    .info_box_new{padding:20px 16px; margin:0 -16px;  border:0; background:#ededed;}
-    .info_box_new .info_title{padding:3px 0; padding-left:30px; font-size:15px; line-height: 1.53; letter-spacing: -0.75px; background:url(../img/mo_ico_info_circle.png) no-repeat center left; background-size:24px;}
-    .info_box_new .info_list li{font-size:14px; letter-spacing: -0.28px;}
-    .info_box_new .info_list li+li{margin-top:5px;}
-    .info_box_new .info_title + .info_list{margin-left:10px; margin-top:10px;}
-    .info_box_new.line{margin:0; margin-top:20px; padding:30px 20px;}
-    .info_box_bg{margin-top:16px; padding:24px 20px; border-radius: 10px; background:#eef6ff;}
-    .info_box_bg .info_list li{font-size:14px; font-weight: 400;}
-    .info_box_bg .info_list li b{color:#222; font-weight: bold;}
-    
-    .info_normal{margin:0 16px;}
-    .info_normal .icon_txt{padding-left:22px; font-size:13px; background:url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_notice_mo.png) no-repeat top 3px left; background-size:16px;}
-    .info_normal .icon_txt+ .link_txt{display:block; margin-left:22px;}
-    
-    .link_txt a{font-size:14px; line-height: 1.86; font-weight: 500;}
-    .link_txt.medium a{ background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_arrow_mo.png) no-repeat center right;background-size:16px;}
-    .label_inp{margin:0; width:100%;}
-    .label_inp label{display:block; position:unset; transform:inherit; font-size:15px; line-height: 1.43; letter-spacing: -0.75px;}
-    .label_inp label +.ipt_wrap{margin-top:10px;}
-    .label_inp + .label_inp{margin-top:30px;}
-    .label_inp .sub_label{display: inline-block; margin-left:5px; font-size:13px; line-height: 1.65; letter-spacing: -0.65px;}
-    
-    .ico1{background:url(../img/ico_line_cert1_m.png) no-repeat left center; background-size:50px;}
-	.ico2{background:url(../img/ico_line_cert2_m.png) no-repeat left center; background-size:50px;}
-	.ico3{background:url(../img/ico_line_cert3_m.png) no-repeat left center; background-size:50px;}
-	.ico4{background:url(../img/ico_line_cert4_m.png) no-repeat left center; background-size:50px;}
-	.ico5{background:url(../img/ico_line_cert5_m.png) no-repeat left center; background-size:50px;}
-	.ico6{background:url(../img/ico_line_cert6_m.png) no-repeat left center; background-size:50px;}
-    
-    .id_pw_box .con_box{margin-top:40px; margin-bottom:55px;}
-    .id_pw_box .tab_title{font-size:16px; letter-spacing: -0.5px; margin-bottom:30px;}
-    .id_pw_box .icon_txt_box{display:block; width: inherit;}
-    .id_pw_box .icon_txt_box + .icon_txt_box{margin-left:0; margin-top:10px;}
-    .id_pw_box input[type="password"]{width:100%; font-size:18px; line-height:40px; height:40px; vertical-align: middle;}
-    .id_pw_box input[type="password"]::placeholder{font-size:15px;}
-    .id_pw_box .content_top_info{margin-top:30px; padding:20px; text-align: left !important;}
-    .id_pw_box .result_txt{margin-top:30px; font-size:15px; letter-spacing: -0.75px; }
-    .id_pw_box .info_box_new{margin-top:55px; margin-bottom:-55px; }
-    .id_pw_box .info_box_new.no_line{margin-top:55px; padding:20px 16px;}
-    .info_box_new .info_title + .link_txt{margin-left:12px;}
-    .id_pw_box .textarea_info{width:100%;}
-    .id_pw_box .textarea_info+ .btn_wrap_new{margin-top:40px;}
-    
-    .cont_wrap_2023{margin-bottom:55px;}
-    .content_top_search_box{padding:24px 16px; background:url(../img/bg_230516_mo.png) no-repeat center; background-size:cover;}
-    .input_search_box{}
-    .input_search_box input[type="text"]{padding:12px 70px 12px 16px; font-size:16px; letter-spacing: -0.4px; line-height: 20px;}
-    .input_search_box .btn_del{width:18px; right:52px;}
-    .input_search_box .btn_del img{width:100%;}
-    .input_search_box .btn_search{right:16px;}
-    .search_box_layer {padding:16px; top:54px;}
-    .search_box_layer li a{padding:0; font-size:15px; line-height:20px;}
-    .search_box_layer li+li{margin-top:6px;}
-    .search_box_layer .keyword_auto{display:block; border-right:0;}
-    .search_box_layer .direct_service{margin-top:16px; padding-top:16px; border-top:1px solid #e3e3e3; display:block;}
-    .search_box_layer .direct_service p{margin-left:0; margin-bottom:10px; font-size:16px;}
-    .search_box_layer .direct_service a{margin-left:0;}
-    .keyword_layer_inner{height:inherit;}
-    
-    
-    .total_sum_box{margin:0 16px; margin-top:20px; margin-bottom:30px;display: flex; justify-content: space-between; align-items: center;}
-    .total_sum_box p{font-size:20px;}
-    button.sort_tit{width:32px; height:32px; background:#fff;}
-    button.sort_tit img{width:100%;}
-    
-    .mo_tab_box{white-space: nowrap; width: 100%; overflow-x: scroll; padding:0 20px; box-sizing: border-box; }
-    .mo_tab_box::-webkit-scrollbar{display:none}
-    .mo_tab_box li+li{margin-left:24px;}
-    .mo_tab_box li a{padding:0; padding-bottom:9px; font-size:16px; font-weight: normal;}
-    .mo_tab_box li + li:before{display:none;}
-    .mo_tab_box li.active a{margin:0; border-bottom:3px solid #033075;}
-    
-    .left_menu_box{position: fixed; background: #fff; display: none; width: 100%; bottom: 82px; padding: 25px 0; padding-bottom:0; border-radius: 20px 20px 0 0; box-sizing: border-box; z-index:9999; padding-bottom:5px; margin-bottom:-5px;}
-    .left_menu_box .search_sort{padding-left:20px; padding-right:20px; border-bottom:1px solid #e3e3e3; padding-bottom:25px;}
-    .left_menu_box .search_sort .sort_tit{font-size:20px; padding-left:0; background:inherit;}
-    .layer_mask{background:rgba(0,0,0,0.5);position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 999;}
-    .layer_close{width:30px; height:30px; background:url(../img/ico_close_btn_mo.png) no-repeat center; background-size:24px;}
-    
-    .right_cont_box{margin:0 16px;}
-    .cont_tit{margin-top:40px; padding-bottom:10px; align-items:center;}
-    .cont_tit.no_line{margin-top:50px;}
-    .new_h20 {display: flex; align-items: center;}
-    .new_h20 span{margin-left:6px; color:#888; font-size:14px;}
-    a.total_txt{font-size:14px; background:url(../img/ico_arrow_g_mo.png) no-repeat center right; background-size:16px;}
-    
-    .result_li_box{padding:16px 0;}
-    .result_li_box>div{padding-right:0; position: inherit;}
-    .result_li_box .small_btn{position:inherit; transform:inherit; margin-top:12px;}
-    .result_li_box .list_info_txt{font-size: 14px;}
-    .full_mo_btn{display:block; text-align: center; line-height:34px; font-size:13px; width:100% !important;}
-    .list_font17{font-size:15px; }
-    
-    .type2 .tab_content_box{margin-top:45px;}
-    .tab_container.type2 .tabs_box{margin:0 -20px; overflow-x: scroll; overflow-y:hidden; position:absolute; width:100%;  margin:0;  left:0;  box-sizing: border-box; white-space: nowrap;}
-    .type2 .tabs_box li a{font-size:14px; line-height: inherit; padding:10px 0;}
-    .type2 .tabs_box li.active a{display:inherit;}
-    .type2 .tabs_box li a .count{font-size:12px;}
-    .type2 .tabs_box li+li{margin-left:20px;}
-    .result_li_box.img_box>div{padding:0;}
-    .result_li_box.img_box>div img{position:inherit; width:100%; height:auto; margin-bottom:12px;}
-    .icon_qna_q{padding-left:26px; background:url(../img/ico_q_mo.png) no-repeat top left; background-size:20px;}
-    .icon_qna_a{padding-left:26px; background:url(../img/ico_a_mo.png) no-repeat top left; background-size:20px;}
-    .sel_box{margin-right:0;}
-    .sel_box +.sel_box{margin-top:8px;}
-    .sel_box select{padding-left:6px; padding-right:28px; min-width:84px;padding:5px; font-size:14px;}
-    .sel_top_box + .sel_top_box{padding-top:0;}
-    .sel_box+.sort_tit{margin-left:20px;}
-	.plus_btn{padding-right:68px; width:100%;}
-	.plus_btn .small_btn{font-size:14px;padding:0 17px; }
-	.plus_btn select{width:100%;font-size:14px; font-weight: 400; padding:6px 12px; padding-right:40px;}
-	.double_sel{padding:0;}
-	.double_sel>div.lo{width:calc( 50% - 6px ); margin-top:0;}
-	.double_sel>div.lo+.lo{margin-left:10px;}
-	/*.double_sel .small_btn{position:inherit; width:100%; text-align: center; margin-top:8px;}*/
-    .accor_tit .check_box label span:before,
-    .accor_tit .check_box input[type="checkbox"]:checked + label span:after{right:0; left:inherit;}
-    
-    .search_sort_list{overflow: hidden;  overflow-y: scroll; height: 56vh;}
-    .search_sort_list li{padding:0 20px; border-bottom:1px solid #e3e3e3;}
-    .search_sort_list .left_tit{font-size:16px; }
-    .search_sort_list .arrow_btn{width:20px; height:20px; background:url(../img/btn_arrow_up_mo.png) no-repeat center; background-size:20px;}
-    
-    .search_btn_box{position: fixed; bottom: 0; padding: 15px 16px; display: flex; width: 100%; box-sizing: border-box; justify-content: space-between; background: #fff; border-top: 1px solid #e3e3e3;}
-    .search_btn_box .btn_reset{padding:15px 14px; padding-left:42px; color:#666; font-size:16px; font-weight:bold; width:auto; text-align:left; border:0; background:url(../img/ico_reset_mo.png) no-repeat center left 14px; background-size:20px;}
-	.search_btn_box .btn_reset:focus, .search_btn_box .btn_reset:hover{background:url(../img/ico_reset_hover_mo.png) no-repeat center left 14px; color:#006ae2;  background-size:20px; }
-	.search_btn_box button{width: calc( 100% - 120px );}
-	.search_btn_box button span{font-size:16px; font-weight: bold;}
-	.left_cont{margin-bottom:20px;}
-	.left_cont > div{margin-top:12px;}
-	.check_box label span, .rad_box label span{font-size:14px;}
-	.input_field{padding:6px 12px; font-size:14px;}
-	
-	.pagination_box > ul > li{margin:0px 3px;}
-	.pagination_box > ul > li > a{min-width: 32px; width:inherit; height: 32px; font-size: 15px; line-height: 30px;}
+.organ_5 {
+    position: absolute;
+    top: 223px;
+    right: 0px;
+}
 
-	.sel_top_box{padding:16px 0;}
-	.half_box > li{flex-basis:100%; position:relative;}
-	.half_box > li:after{content: ""; display: block; position: absolute; width: 200%; height: 1px; bottom: 0; left: 0; background: #e3e3e3;}
-	.half_box .result_li_box.img_box>div{padding-left:92px; min-height:107px;}
-	.half_box .result_li_box.img_box>div img{width:80px; height:100%; margin-bottom:0; position:absolute;}
-	.list_info_box{margin-top:8px;}
-	.list_info_box span{font-size:13px;}
-	.ellipsis1{-webkit-line-clamp:2;}
-	.img_top_list{padding:0;}
-	.img_top_list > li{flex-basis:calc( 50% - 15px );}
-	.img_top_list .result_li_box >div{padding-top:0;}
-	.img_top_list .result_li_box >div img{width:100%; height:auto; position:inherit; margin-bottom:12px;}
-	
-	
-	.cont_list_box{margin-top:20px;}
-	.cont_list_box li{display:block; width:100%; min-height:inherit; padding:22px 20px;}
-	.cont_list_box li +li{margin:0; margin-top:20px;}
-	.cont_list_box li p+span{margin-top:8px;}
-	
-	.info_list_normal li{font-size:14px; font-weight: 400; line-height: 1.5;}
-	.info_list_normal li + li{margin-top:8px;}
-	.info_list_normal li:nth-child(n+10){padding-left:20px; text-indent: -20px;}
-	.qr_box{display:none;}
-	
-	/*상담예약*/
-	.advice_box{padding:0 16px; margin:0;}
-	.advice_box .tabs_box{margin:0 !important;}
-	.mt50{margin-top:40px !important;}
-	.advice_txt{font-size:13px;}
-	.date_search_box{flex-wrap:wrap; margin-top:8px; margin-bottom:40px; padding:24px; border-radius: 8px;}
-	.date_search_box .txt_ipt + span{font-size:14px; margin:0 11px;}
-	.date_search_box .txt_ipt{width:calc( (100% / 2 ) - 15px );}
-	.date_search_box .txt_ipt input{width:100%; line-height:34px; font-size:14px;}
-	.date_search_box .btn_search{margin:0; margin-top:12px; width:100%; font-size:14px;}
-	.tbl_box table tbody td{font-size:14px;}
-	.tbl_box table+table{margin-top:-1px;}
-	.tbl_box.detail th, .tbl_box.detail td{padding:10px 12px;}
-	.tbl_box.detail table th{min-width:140px;}
-	.tbl_box table tbody .empty{padding:37px 0; text-align: center;}
-	.date_search_box .txt_ipt button{background:url(https://www.gov.kr/2023/img/ic_line_calendar_mo.png) no-repeat center; background-size:cover;}
+.organ_6 {
+    padding-top: 255px;
+}
+
+.org_7 {
+    margin-top: 36px;
+}
+
+.org_7>li+li {
+    margin-left: 36px !important;
+}
+
+.org_7>li:last-child {
+    margin-left: 0 !important;
+}
+
+[class^=organ_]>li+li {
+    margin-left: 6px;
+}
+
+.org_box .org_veritcal {
+    margin-top: 37px;
+    padding-left: 145px;
+    box-sizing: border-box;
+}
+
+.org_box .org_veritcal>li+li {
+    margin-left: 30px;
+}
+
+.org_box .org_veritcal span {
+    width: 36px;
+    height: 196px;
+    writing-mode: vertical-lr;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.org_box .org_veritcal span a {
+    margin-left: -1px;
+}
+
+.org_box .ml_75 {
+    margin-left: 75px !important;
+}
+
+.org_box .orglv__ {
+    display: flex;
+    margin-left: -175px;
+    margin-top: 37px;
+}
+
+.org_box .orglv__ li+li {
+    margin-left: 9px;
+}
+
+.org_box .orglv__ ul {
+    margin-top: 37px;
+}
+
+.org_box .orglv__ ul span {
+    font-weight: 400;
+    font-size: 15px;
+    border: 1px solid #b4bac7;
+    color: #444;
+    ;
+    background: #eff1f5;
+}
+
+.org_box .orglv__ ul li+li {
+    margin-left: 6px;
+}
+
+.org_box .orglv__ .org_v14 a {
+    font-size: 14px;
+    letter-spacing: -2.9px;
+}
+
+
+
+
+@media only screen and (max-width: 1279px) {
+    .content_result_box {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .survey_pop {
+        display: none;
+    }
+
+    .survey_pop+.dim {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1157px) {
+    .gov_2023_f .contentsWrap.l2 .contents {
+        width: 74%;
+    }
+
+    .content_box {
+        margin: 30px 16px;
+    }
 
     /* 조직도 */
-    .organization{margin-top:11px;}
-    .btn_xs{font-size:14px;}
-    .top_sel_box{padding:24px;}
-    .top_sel_box .sel_inner_box{margin-bottom:8px; width:100%;}
-    .top_sel_box .sel_inner_box label{font-size:16px;}
-    .top_sel_box .sel_inner_box select{margin-left:12px; font-size:14px; min-width: inherit; width:calc( 100% - 158px );}
-    .org_box [class^=organ_]{width:100%;}
-    .org_box li span{font-size: 14px; height:32px; line-height: 32px;}
-    .org_box li .org_bg_blue{margin-bottom:24px; font-size:14px; max-width: 100%; line-height: 32px; height:32px;}
+    .top_sel_box {
+        padding: 24px 124px;
+        flex-wrap: wrap;
+    }
+
+    .top_sel_box .sel_inner_box {
+        margin-bottom: 10px;
+    }
+
+    .top_sel_box .sel_inner_box:last-child {
+        margin-bottom: 0px;
+    }
+
+    .top_sel_box .sel_inner_box select {
+        min-width: 200px;
+    }
+
+    .org_box {
+        display: block;
+        margin-top: 18px;
+        max-width: 760px;
+        margin: 0 auto;
+        padding-top: 8px;
+        background: none;
+        clear: both;
+        height: auto;
+    }
+
+    .org_box .type2>li {
+        display: block;
+    }
+
+    .org_box li .org_bg_blue {
+        display: block;
+        margin: 0 auto;
+        max-width: 364px;
+        margin-bottom: 32px;
+    }
+
+    .org_box li span {
+        width: 100%;
+    }
+
+    .org_box [class^=organ_] {
+        position: inherit;
+        width: calc(50% - 16px);
+    }
+
+    .org_box [class^=organ_]>li {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .org_box [class^=organ_]>li+li {
+        margin-top: 6px;
+    }
+
+    .org_box [class^=organ_]+[class^=organ_] {
+        margin-top: 32px;
+    }
+
+    .org_box [class^=organ_]:nth-child(3) {
+        margin-top: 0;
+    }
+
+    .org_box ul.org_r+.org_r {
+        margin-top: 6px;
+    }
+
+    .org_box>ul>li:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .org_l {
+        float: left !important;
+    }
+
+    .org_r {
+        float: right !important;
+    }
+
+    .org_box .orglv__ {
+        display: flex;
+        margin-left: 0;
+        flex-flow: wrap;
+        justify-content: space-between;
+        margin-top: 21px;
+    }
+
+    .org_box .org_double {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 8px !important;
+    }
+
+    .org_box .org_double li {
+        flex: 1 0 calc(50% - 3px);
+    }
+
+    .org_box .org_double li span {
+        white-space: nowrap;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .org_box .org_double li+li {
+        margin-top: 0;
+        margin-left: 0 !important;
+    }
+
+    .org_box .org_double li:NTH-CHILD(2n) {
+        margin-left: 6px !important;
+    }
+
+    .org_box .org_double li:NTH-CHILD(n+3) {
+        margin-top: 4px;
+    }
+
+    .org_box .orglv__ li+li {
+        margin-left: 0;
+    }
+
+    .org_box .orglv__>li {
+        position: inherit !important;
+        width: calc(50% - 16px);
+        max-width: 364px;
+        margin-top: 16px;
+    }
+
+    .org_box .organ_6 {
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+    }
+
+    .org_box .org_7 {
+        margin-top: 32px;
+        width: 100%;
+    }
+
     .org_box .org_7>li,
-    .org_box .org_veritcal>li:not(:last-child){width: 100%; max-width: 100%;}
-    .org_box [class^=organ_]>li + li{margin-top:4px;}
-    .org_box [class^=organ_] + [class^=organ_]{margin-top:24px;}
-    .org_box [class^=organ_]:nth-child(3){margin-top:4px;}
-    .org_box .organ_4{float:left !important; margin-top:4px !important; width:calc( 50% - 3px)}
-    .org_box .organ_5{margin-top:4px !important; width:calc( 50% - 3px);}
-    .org_box .org_7{margin-top:0;}
-    .org_box .org_7>li +li{margin-top:4px !important;}
-    .org_box .org_veritcal{margin-top:24px;}
+    .org_box .org_veritcal>li:not(:last-child) {
+        width: calc(50% - 16px);
+        max-width: 364px;
+    }
+
+    .org_box .org_7:after,
+    .org_veritcal:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .org_box .org_7>li {
+        margin-top: 0 !important;
+    }
+
+    .org_box .org_7>li:last-child {
+        margin-top: 32px;
+        max-width: inherit;
+        width: 100%;
+    }
+
+    .org_box .org_7>li+li {
+        margin-left: 0 !important;
+    }
+
+    .org_box .org_veritcal {
+        width: 100%;
+        padding: 0;
+        position: relative;
+    }
+
+    .org_box .org_veritcal>li+li {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .org_box .org_veritcal .org_l {
+        position: absolute;
+        left: 0;
+    }
+
+    .org_box .org_veritcal .org_r {
+        position: absolute;
+        right: 0;
+        float: inherit !important;
+    }
+
+    .org_box .org_veritcal>li:nth-child(1),
+    .org_box ul.org_veritcal>li:nth-child(4) {
+        top: 0;
+    }
+
+    .org_box .org_veritcal>li:nth-child(2),
+    .org_box ul.org_veritcal>li:nth-child(5) {
+        top: 42px;
+    }
+
+    .org_box .org_veritcal>li:nth-child(3),
+    .org_box ul.org_veritcal>li:nth-child(6) {
+        top: 84px;
+    }
+
+    .org_box .org_veritcal>li:nth-child(7) {
+        top: 126px;
+    }
+
+    .org_box .org_veritcal>li:nth-child(8) {
+        top: 168px;
+    }
+
+    .org_box .org_veritcal>li:nth-child(9) {
+        margin-top: 206px;
+    }
+
+    .org_box .org_veritcal span {
+        writing-mode: inherit;
+        width: inherit;
+        height: inherit;
+        width: 100%;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .org_box .ml_75 {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .gov_2023_f .contentsWrap.l2 .contents {
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    .email_wrap .ipt_wrap+select {
+        width: calc((100% / 3) - 18px)
+    }
+
+    .icon_txt_box .icon_txt {
+        font-size: 15px;
+    }
+
+    .icon_txt_box .sm_txt {
+        font-size: 13px;
+    }
+
+    .right_cont_box {
+        margin-left: 30px;
+    }
+
+    .sel_top_box .plus_btn select {
+        min-width: inherit;
+    }
+
+    .homepage .sel_top_box {
+        display: inherit;
+    }
+
+    .homepage .radio_wrap {
+        display: flex;
+        margin-bottom: 13px;
+    }
+
+    .homepage .radio_wrap .rad_box {
+        flex-basis: 50%;
+        text-align: left;
+    }
+
+    .homepage .radio_wrap .rad_box label span {
+        font-size: 14px;
+    }
+
+    .homepage .plus_btn {
+        width: 100%;
+    }
+
+    .homepage .plus_btn select {
+        width: 100%;
+    }
+
+    .homepage .plus_btn select+select {
+        margin-left: 0;
+    }
+
+    .homepage .sel_box+.sel_box {
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (max-width: 805px) {
+    .mt40 {
+        margin-top: 20px !important
+    }
+
+    .mo_only {
+        display: inline-block !important;
+    }
+
+    .pc_only,
+    .pc_only_block {
+        display: none !important;
+    }
+
+    .mo_only_block {
+        display: block !important;
+    }
+
+    .contentsWrap.l2 .contents {
+        padding: 0 0 50px 0;
+    }
+
+    .gov_2023_f.content_wrap {
+        margin: 10px;
+        margin-bottom: -50px
+    }
+
+    .content_inner_box {
+        padding: 20px 16px 55px 16px;
+    }
+
+    .cont_txt_20 {
+        font-size: 16px;
+    }
+
+    .cont_txt_18 {
+        font-size: 15px;
+    }
+
+    .cont_txt_16 {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 8px;
+    }
+
+    .content_top_info {
+        padding: 15px 22px;
+    }
+
+    .content_top_info .list_info li {
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.28px;
+        text-indent: -5px;
+    }
+
+    .content_inner_title {
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    .content_inner_title h3 {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.4px;
+        color: #444;
+    }
+
+    .content_inner_title h3+.font-blue {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .cont_title_right_wrap {
+        float: inherit;
+        display: block;
+        margin-top: 15px;
+        padding-top: 20px;
+        text-align: right;
+        border-top: 2px solid #033075
+    }
+
+    .cont_title_right_wrap span {
+        padding-left: 31px;
+        margin-left: 0px;
+        margin-right: 16px;
+        font-size: 12px;
+        line-height: 19px;
+        letter-spacing: -0.3px;
+    }
+
+    .cont_title_right_wrap span:before {
+        width: 25px;
+        height: 16px;
+        border-radius: 2px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .content_mid_info li {
+        padding-left: 22px;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: -0.32px;
+        background: url(https://www.gov.kr/2023/img/mo_ico_info.png) no-repeat top 3px left;
+        background-size: 16px;
+    }
+
+    .content_mid_info li+li {
+        margin-top: 7px;
+    }
+
+    .gov_2023_f .input_wrap .ipt_wrap,
+    .gov_2023_f .input_wrap select {
+        width: calc((100% / 3) - 19px);
+        display: inline-block;
+    }
+
+    .gov_2023_f .input_wrap .ipt_wrap input,
+    .gov_2023_f .input_wrap select {
+        padding: 0 12px;
+        border: 1px solid #bdbdbd;
+        border-radius: 7px;
+        font-size: 15px;
+        height: 40px;
+        width: calc(100% - 26px);
+    }
+
+    .chk_default {
+        margin-bottom: 14px;
+    }
+
+    .chk_default input[type="radio"]+label {
+        padding-left: 30px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .chk_default input[type="radio"]+label:before {
+        width: 20px;
+        height: 20px;
+    }
+
+    .gov_2023_f .chk_scroll_wrap {
+        overflow: auto;
+    }
+
+    .gov_2023_f .chk_scroll_wrap .chk_guide_wrap {
+        padding-bottom: 10px;
+        min-width: 500px;
+    }
+
+    .gov_2023_f .chk_scroll_wrap+.content_inner_title {
+        margin-top: 30px;
+    }
+
+    .chk_guide_wrap input[type="radio"]+label {
+        padding: 9px 16px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.35px;
+        border: 1px solid #033075;
+        border-radius: 24px;
+    }
+
+    .chk_guide_wrap input[type="radio"]:checked+label {
+        font-weight: bold;
+    }
+
+    .chk_guide_wrap .chk_wrap+.chk_wrap {
+        margin-left: 7px;
+    }
+
+    .chk_guide_wrap+.bg_wrap {
+        margin-top: 15px;
+        min-height: 109px;
+    }
+
+
+    .tel_wrap .ipt_wrap+.ipt_wrap {
+        padding-left: 18px;
+        margin-left: 7px;
+    }
+
+    .tel_wrap .ipt_wrap+.ipt_wrap:before {
+        width: 10px;
+    }
+
+    .gov_2023_f .bg_wrap {
+        padding: 24px 18px;
+    }
+
+    .gov_2023_f .bg_wrap .content_mid_info {
+        margin-top: 12px;
+    }
+
+    .gov_2023_f .btn_wrap {
+        margin-top: 40px;
+    }
+
+    .gov_2023_f .btn_wrap a {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 16px;
+        width: calc(50% - 8px)
+    }
+
+    .gov_2023_f .btn_wrap a+a {
+        margin-left: 12px;
+    }
+
+    .content_bot_info {
+        margin-top: 55px;
+        margin-left: -20px;
+        margin-right: -20px;
+        padding: 25px 32px 32px;
+        border: 0;
+        background: #ededed;
+    }
+
+    .content_bot_info .tit {
+        padding-left: 30px;
+        margin-top: 0;
+        font-size: 15px;
+        line-height: 23px;
+        background: url(https://www.gov.kr/2023/img/mo_ico_info_circle.png) no-repeat center left;
+        background-size: 24px;
+    }
+
+    .content_bot_info .tit+.list_info {
+        margin-top: 11px;
+    }
+
+    .content_bot_info .list_info li {
+        font-size: 14px;
+        line-height: 21px;
+        color: #444;
+        ;
+    }
+
+    .gov_2023_f .textarea_box {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .gov_2023_f .textarea_wrap textarea {
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: -0.37px;
+    }
+
+    .gov_2023_f .textarea_wrap textarea::placeholder {
+        font-size: 15px;
+        color: #888;
+    }
+
+    .time_wrap .time_table {
+        padding: 16px;
+        padding-left: 6px;
+        padding-bottom: 25px;
+        padding-top: 0;
+        margin-top: -8px;
+        border: 0;
+        border-bottom: 2px solid #033075;
+        border-radius: inherit;
+    }
+
+    .time_wrap input[type="radio"]+label {
+        margin: 0;
+        width: calc(50% - 11px);
+    }
+
+    .time_wrap input[type="radio"]+label:nth-child(2n) {
+        margin-left: 10px;
+        margin-top: 12px;
+    }
+
+    .time_wrap input[type="radio"]+label span {
+        font-size: 14px;
+    }
+
+    .time_wrap input[type="radio"]:checked+label span {
+        padding-right: 25px;
+    }
+
+    .time_wrap input[type="radio"]:checked+label span:after {
+        width: 18px;
+        height: 18px;
+        background: #006ae2 url(https://www.gov.kr/2023/img/ic16_check_line_mo.png) no-repeat center;
+        background-size: 50%;
+    }
+
+    .time_wrap+.content_mid_info {
+        margin-top: 15px;
+    }
+
+    .time_wrap .time_end {
+        border-radius: 0;
+        height: calc(100% - -43px);
+        top: -45px;
+    }
+
+    .time_wrap .time_end p {
+        font-size: 19px;
+        line-height: 25px;
+        letter-spacing: -0.5px;
+        font-weight: bold;
+    }
+
+    /*guide*/
+    .content_box {
+        margin: 0 16px;
+        margin-top: 5px;
+    }
+
+    .tab_content_box {
+        min-height: 334px;
+    }
+
+    .tabs_box {
+        border: 0;
+        border-bottom: 1px solid #ccc;
+        border-radius: 0;
+    }
+
+    .tabs_box li a {
+        padding: 15px 0;
+        line-height: 1.25;
+        color: #666;
+    }
+
+    .tabs_box li.active a {
+        border-radius: 0;
+        color: #033075;
+        border: 0;
+        font-weight: bold;
+        border-bottom: 4px solid #033075;
+        background: none;
+    }
+
+    .tabs_box li+li:before {
+        display: none;
+    }
+
+    .icon_txt_box {
+        padding: 0;
+        border-radius: 8px;
+    }
+
+    .icon_txt_box div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 4px 0;
+        padding-left: 71px;
+        margin: 16px 24px;
+        text-align: left;
+        min-height: 40px;
+    }
+
+    .icon_txt_box .icon_txt {
+        font-size: 15px;
+        letter-spacing: -0.75px;
+        line-height: 1.5;
+    }
+
+    .icon_txt_box .sm_txt {
+        font-size: 13px;
+        letter-spacing: -0.65px;
+        line-height: 0.92;
+        margin-top: 5px;
+    }
+
+    .btn_wrap_new {
+        margin-top: 40px;
+    }
+
+    .btn_wrap_new a {
+        padding: 15px 16px;
+        font-size: 16px;
+        font-weight: bold;
+        min-width: inherit;
+        width: calc(50% - 8px);
+    }
+
+    .badge_box span {
+        line-height: 26px;
+        font-size: 13px;
+        letter-spacing: -0.65px;
+    }
+
+    .badge_box .badge_gray {
+        padding: 0 8px;
+        border: 2px solid #ccc;
+        line-height: 24px;
+    }
+
+    .input_wrap_new .ipt_wrap input,
+    .input_wrap_new select {
+        padding: 0 12px;
+        height: 40px;
+    }
+
+    .input_wrap_new .ipt_wrap input::placeholder {
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .content_result_box {
+        padding: 0;
+    }
+
+    .result_ico_box {
+        padding-left: 40px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.8px;
+    }
+
+    .result_ico_box.ico_success {
+        background: url(https://www.gov.kr/2023/img/ico32_success_m.png) no-repeat center left;
+        background-size: 28px;
+    }
+
+    .result_ico_box.ico_fail {
+        background: url(https://www.gov.kr/2023/img/ico48_fail_m.png) no-repeat center left;
+        background-size: 28px;
+    }
+
+    .result_ico_box p {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: -0.8px;
+    }
+
+    .result_txt p {
+        font-size: 15px;
+        letter-spacing: -0.75px;
+        line-height: 1.5;
+    }
+
+    .result_txt span {
+        font-size: 13px;
+        line-height: 22px;
+        letter-spacing: -0.65px;
+    }
+
+    .info_box_new {
+        padding: 20px 16px;
+        margin: 0 -16px;
+        border: 0;
+        background: #ededed;
+    }
+
+    .info_box_new .info_title {
+        padding: 3px 0;
+        padding-left: 30px;
+        font-size: 15px;
+        line-height: 1.53;
+        letter-spacing: -0.75px;
+        background: url(https://www.gov.kr/2023/img/mo_ico_info_circle.png) no-repeat center left;
+        background-size: 24px;
+    }
+
+    .info_box_new .info_list li {
+        font-size: 14px;
+        letter-spacing: -0.28px;
+    }
+
+    .info_box_new .info_list li+li {
+        margin-top: 5px;
+    }
+
+    .info_box_new .info_title+.info_list {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .info_box_new.line {
+        margin: 0;
+        margin-top: 20px;
+        padding: 30px 20px;
+    }
+
+    .info_box_bg {
+        margin-top: 16px;
+        padding: 24px 20px;
+        border-radius: 10px;
+        background: #eef6ff;
+    }
+
+    .info_box_bg .info_list li {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .info_box_bg .info_list li b {
+        color: #222;
+        font-weight: bold;
+    }
+
+    .info_normal {
+        margin: 0 16px;
+    }
+
+    .info_normal .icon_txt {
+        padding-left: 22px;
+        font-size: 13px;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_notice_mo.png) no-repeat top 3px left;
+        background-size: 16px;
+    }
+
+    .info_normal .icon_txt+.link_txt {
+        display: block;
+        margin-left: 22px;
+    }
+
+    .link_txt a {
+        font-size: 14px;
+        line-height: 1.86;
+        font-weight: 500;
+    }
+
+    .link_txt.medium a {
+        background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_arrow_mo.png) no-repeat center right;
+        background-size: 16px;
+    }
+
+    .label_inp {
+        margin: 0;
+        width: 100%;
+    }
+
+    .label_inp label {
+        display: block;
+        position: unset;
+        transform: inherit;
+        font-size: 15px;
+        line-height: 1.43;
+        letter-spacing: -0.75px;
+    }
+
+    .label_inp label+.ipt_wrap {
+        margin-top: 10px;
+    }
+
+    .label_inp+.label_inp {
+        margin-top: 30px;
+    }
+
+    .label_inp .sub_label {
+        display: inline-block;
+        margin-left: 5px;
+        font-size: 13px;
+        line-height: 1.65;
+        letter-spacing: -0.65px;
+    }
+
+    .ico1 {
+        background: url(https://www.gov.kr/2023/img/ico_line_cert1_m.png) no-repeat left center;
+        background-size: 50px;
+    }
+
+    .ico2 {
+        background: url(https://www.gov.kr/2023/img/ico_line_cert2_m.png) no-repeat left center;
+        background-size: 50px;
+    }
+
+    .ico3 {
+        background: url(https://www.gov.kr/2023/img/ico_line_cert3_m.png) no-repeat left center;
+        background-size: 50px;
+    }
+
+    .ico4 {
+        background: url(https://www.gov.kr/2023/img/ico_line_cert4_m.png) no-repeat left center;
+        background-size: 50px;
+    }
+
+    .ico5 {
+        background: url(https://www.gov.kr/2023/img/ico_line_cert5_m.png) no-repeat left center;
+        background-size: 50px;
+    }
+
+    .ico6 {
+        background: url(https://www.gov.kr/2023/img/ico_line_cert6_m.png) no-repeat left center;
+        background-size: 50px;
+    }
+
+    .id_pw_box .con_box {
+        margin-top: 40px;
+        margin-bottom: 55px;
+    }
+
+    .id_pw_box .tab_title {
+        font-size: 16px;
+        letter-spacing: -0.5px;
+        margin-bottom: 30px;
+    }
+
+    .id_pw_box .icon_txt_box {
+        display: block;
+        width: inherit;
+    }
+
+    .id_pw_box .icon_txt_box+.icon_txt_box {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .id_pw_box input[type="password"] {
+        width: 100%;
+        font-size: 18px;
+        line-height: 40px;
+        height: 40px;
+        vertical-align: middle;
+    }
+
+    .id_pw_box input[type="password"]::placeholder {
+        font-size: 15px;
+    }
+
+    .id_pw_box .content_top_info {
+        margin-top: 30px;
+        padding: 20px;
+        text-align: left !important;
+    }
+
+    .id_pw_box .result_txt {
+        margin-top: 30px;
+        font-size: 15px;
+        letter-spacing: -0.75px;
+    }
+
+    .id_pw_box .info_box_new {
+        margin-top: 55px;
+        margin-bottom: -55px;
+    }
+
+    .id_pw_box .info_box_new.no_line {
+        margin-top: 55px;
+        padding: 20px 16px;
+    }
+
+    .info_box_new .info_title+.link_txt {
+        margin-left: 12px;
+    }
+
+    .id_pw_box .textarea_info {
+        width: 100%;
+    }
+
+    .id_pw_box .textarea_info+.btn_wrap_new {
+        margin-top: 40px;
+    }
+
+    .cont_wrap_2023 {
+        margin-bottom: 55px;
+    }
+
+    .content_top_search_box {
+        padding: 24px 16px;
+        background: url(https://www.gov.kr/2023/img/bg_230516_mo.png) no-repeat center;
+        background-size: cover;
+    }
+
+    .input_search_box {}
+
+    .input_search_box input[type="text"] {
+        padding: 12px 70px 12px 16px;
+        font-size: 16px;
+        letter-spacing: -0.4px;
+        line-height: 20px;
+    }
+
+    .input_search_box .btn_del {
+        width: 18px;
+        right: 52px;
+    }
+
+    .input_search_box .btn_del img {
+        width: 100%;
+    }
+
+    .input_search_box .btn_search {
+        right: 16px;
+    }
+
+    .search_box_layer {
+        padding: 16px;
+        top: 54px;
+    }
+
+    .search_box_layer li a {
+        padding: 0;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .search_box_layer li+li {
+        margin-top: 6px;
+    }
+
+    .search_box_layer .keyword_auto {
+        display: block;
+        border-right: 0;
+    }
+
+    .search_box_layer .direct_service {
+        margin-top: 16px;
+        padding-top: 16px;
+        border-top: 1px solid #e3e3e3;
+        display: block;
+    }
+
+    .search_box_layer .direct_service p {
+        margin-left: 0;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .search_box_layer .direct_service a {
+        margin-left: 0;
+    }
+
+    .keyword_layer_inner {
+        height: inherit;
+    }
+
+
+    .total_sum_box {
+        margin: 0 16px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .total_sum_box p {
+        font-size: 20px;
+    }
+
+    button.sort_tit {
+        width: 32px;
+        height: 32px;
+        background: #fff;
+    }
+
+    button.sort_tit img {
+        width: 100%;
+    }
+
+    .mo_tab_box {
+        white-space: nowrap;
+        width: 100%;
+        overflow-x: scroll;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .mo_tab_box::-webkit-scrollbar {
+        display: none
+    }
+
+    .mo_tab_box li+li {
+        margin-left: 24px;
+    }
+
+    .mo_tab_box li a {
+        padding: 0;
+        padding-bottom: 9px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .mo_tab_box li+li:before {
+        display: none;
+    }
+
+    .mo_tab_box li.active a {
+        margin: 0;
+        border-bottom: 3px solid #033075;
+    }
+
+    .left_menu_box {
+        position: fixed;
+        background: #fff;
+        display: none;
+        width: 100%;
+        bottom: 82px;
+        padding: 25px 0;
+        padding-bottom: 0;
+        border-radius: 20px 20px 0 0;
+        box-sizing: border-box;
+        z-index: 9999;
+        padding-bottom: 5px;
+        margin-bottom: -5px;
+    }
+
+    .left_menu_box .search_sort {
+        padding-left: 20px;
+        padding-right: 20px;
+        border-bottom: 1px solid #e3e3e3;
+        padding-bottom: 25px;
+    }
+
+    .left_menu_box .search_sort .sort_tit {
+        font-size: 20px;
+        padding-left: 0;
+        background: inherit;
+    }
+
+    .layer_mask {
+        background: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    }
+
+    .layer_close {
+        width: 30px;
+        height: 30px;
+        background: url(https://www.gov.kr/2023/img/ico_close_btn_mo.png) no-repeat center;
+        background-size: 24px;
+    }
+
+    .right_cont_box {
+        margin: 0 16px;
+    }
+
+    .cont_tit {
+        margin-top: 40px;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+
+    .cont_tit.no_line {
+        margin-top: 50px;
+    }
+
+    .new_h20 {
+        display: flex;
+        align-items: center;
+    }
+
+    .new_h20 span {
+        margin-left: 6px;
+        color: #888;
+        font-size: 14px;
+    }
+
+    a.total_txt {
+        font-size: 14px;
+        background: url(https://www.gov.kr/2023/img/ico_arrow_g_mo.png) no-repeat center right;
+        background-size: 16px;
+    }
+
+    .result_li_box {
+        padding: 16px 0;
+    }
+
+    .result_li_box>div {
+        padding-right: 0;
+        position: inherit;
+    }
+
+    .result_li_box .small_btn {
+        position: inherit;
+        transform: inherit;
+        margin-top: 12px;
+    }
+
+    .result_li_box .list_info_txt {
+        font-size: 14px;
+    }
+
+    .full_mo_btn {
+        display: block;
+        text-align: center;
+        line-height: 34px;
+        font-size: 13px;
+        width: 100% !important;
+    }
+
+    .list_font17 {
+        font-size: 15px;
+    }
+
+    .type2 .tab_content_box {
+        margin-top: 45px;
+    }
+
+    .tab_container.type2 .tabs_box {
+        margin: 0 -20px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        left: 0;
+        box-sizing: border-box;
+        white-space: nowrap;
+    }
+
+    .type2 .tabs_box li a {
+        font-size: 14px;
+        line-height: inherit;
+        padding: 10px 0;
+    }
+
+    .type2 .tabs_box li.active a {
+        display: inherit;
+    }
+
+    .type2 .tabs_box li a .count {
+        font-size: 12px;
+    }
+
+    .type2 .tabs_box li+li {
+        margin-left: 20px;
+    }
+
+    .result_li_box.img_box>div {
+        padding: 0;
+    }
+
+    .result_li_box.img_box>div img {
+        position: inherit;
+        width: 100%;
+        height: auto;
+        margin-bottom: 12px;
+    }
+
+    .icon_qna_q {
+        padding-left: 26px;
+        background: url(https://www.gov.kr/2023/img/ico_q_mo.png) no-repeat top left;
+        background-size: 20px;
+    }
+
+    .icon_qna_a {
+        padding-left: 26px;
+        background: url(https://www.gov.kr/2023/img/ico_a_mo.png) no-repeat top left;
+        background-size: 20px;
+    }
+
+    .sel_box {
+        margin-right: 0;
+    }
+
+    .sel_box+.sel_box {
+        margin-top: 8px;
+    }
+
+    .sel_box select {
+        padding-left: 6px;
+        padding-right: 28px;
+        min-width: 84px;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .sel_top_box+.sel_top_box {
+        padding-top: 0;
+    }
+
+    .sel_box+.sort_tit {
+        margin-left: 20px;
+    }
+
+    .plus_btn {
+        padding-right: 68px;
+        width: 100%;
+    }
+
+    .plus_btn .small_btn {
+        font-size: 14px;
+        padding: 0 17px;
+    }
+
+    .plus_btn select {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 6px 12px;
+        padding-right: 40px;
+    }
+
+    .double_sel {
+        padding: 0;
+    }
+
+    .double_sel>div.lo {
+        width: calc(50% - 6px);
+        margin-top: 0;
+    }
+
+    .double_sel>div.lo+.lo {
+        margin-left: 10px;
+    }
+
+    /*.double_sel .small_btn{position:inherit; width:100%; text-align: center; margin-top:8px;}*/
+    .accor_tit .check_box label span:before,
+    .accor_tit .check_box input[type="checkbox"]:checked+label span:after {
+        right: 0;
+        left: inherit;
+    }
+
+    .search_sort_list {
+        overflow: hidden;
+        overflow-y: scroll;
+        height: 56vh;
+    }
+
+    .search_sort_list li {
+        padding: 0 20px;
+        border-bottom: 1px solid #e3e3e3;
+    }
+
+    .search_sort_list .left_tit {
+        font-size: 16px;
+    }
+
+    .search_sort_list .arrow_btn {
+        width: 20px;
+        height: 20px;
+        background: url(https://www.gov.kr/2023/img/btn_arrow_up_mo.png) no-repeat center;
+        background-size: 20px;
+    }
+
+    .search_btn_box {
+        position: fixed;
+        bottom: 0;
+        padding: 15px 16px;
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        justify-content: space-between;
+        background: #fff;
+        border-top: 1px solid #e3e3e3;
+    }
+
+    .search_btn_box .btn_reset {
+        padding: 15px 14px;
+        padding-left: 42px;
+        color: #666;
+        font-size: 16px;
+        font-weight: bold;
+        width: auto;
+        text-align: left;
+        border: 0;
+        background: url(https://www.gov.kr/2023/img/ico_reset_mo.png) no-repeat center left 14px;
+        background-size: 20px;
+    }
+
+    .search_btn_box .btn_reset:focus,
+    .search_btn_box .btn_reset:hover {
+        background: url(https://www.gov.kr/2023/img/ico_reset_hover_mo.png) no-repeat center left 14px;
+        color: #006ae2;
+        background-size: 20px;
+    }
+
+    .search_btn_box button {
+        width: calc(100% - 120px);
+    }
+
+    .search_btn_box button span {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .left_cont {
+        margin-bottom: 20px;
+    }
+
+    .left_cont>div {
+        margin-top: 12px;
+    }
+
+    .check_box label span,
+    .rad_box label span {
+        font-size: 14px;
+    }
+
+    .input_field {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .pagination_box>ul>li {
+        margin: 0px 3px;
+    }
+
+    .pagination_box>ul>li>a {
+        min-width: 32px;
+        width: inherit;
+        height: 32px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .sel_top_box {
+        padding: 16px 0;
+    }
+
+    .half_box>li {
+        flex-basis: 100%;
+        position: relative;
+    }
+
+    .half_box>li:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 200%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background: #e3e3e3;
+    }
+
+    .half_box .result_li_box.img_box>div {
+        padding-left: 92px;
+        min-height: 107px;
+    }
+
+    .half_box .result_li_box.img_box>div img {
+        width: 80px;
+        height: 100%;
+        margin-bottom: 0;
+        position: absolute;
+    }
+
+    .list_info_box {
+        margin-top: 8px;
+    }
+
+    .list_info_box span {
+        font-size: 13px;
+    }
+
+    .ellipsis1 {
+        -webkit-line-clamp: 2;
+    }
+
+    .img_top_list {
+        padding: 0;
+    }
+
+    .img_top_list>li {
+        flex-basis: calc(50% - 15px);
+    }
+
+    .img_top_list .result_li_box>div {
+        padding-top: 0;
+    }
+
+    .img_top_list .result_li_box>div img {
+        width: 100%;
+        height: auto;
+        position: inherit;
+        margin-bottom: 12px;
+    }
+
+
+    .cont_list_box {
+        margin-top: 20px;
+    }
+
+    .cont_list_box li {
+        display: block;
+        width: 100%;
+        min-height: inherit;
+        padding: 22px 20px;
+    }
+
+    .cont_list_box li+li {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .cont_list_box li p+span {
+        margin-top: 8px;
+    }
+
+    .info_list_normal li {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    .info_list_normal li+li {
+        margin-top: 8px;
+    }
+
+    .info_list_normal li:nth-child(n+10) {
+        padding-left: 20px;
+        text-indent: -20px;
+    }
+
+    .qr_box {
+        display: none;
+    }
+
+    /*상담예약*/
+    .advice_box {
+        padding: 0 16px;
+        margin: 0;
+    }
+
+    .advice_box .tabs_box {
+        margin: 0 !important;
+    }
+
+    .mt50 {
+        margin-top: 40px !important;
+    }
+
+    .advice_txt {
+        font-size: 13px;
+    }
+
+    .date_search_box {
+        flex-wrap: wrap;
+        margin-top: 8px;
+        margin-bottom: 40px;
+        padding: 24px;
+        border-radius: 8px;
+    }
+
+    .date_search_box .txt_ipt+span {
+        font-size: 14px;
+        margin: 0 11px;
+    }
+
+    .date_search_box .txt_ipt {
+        width: calc((100% / 2) - 15px);
+    }
+
+    .date_search_box .txt_ipt input {
+        width: 100%;
+        line-height: 34px;
+        font-size: 14px;
+    }
+
+    .date_search_box .btn_search {
+        margin: 0;
+        margin-top: 12px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .tbl_box table tbody td {
+        font-size: 14px;
+    }
+
+    .tbl_box table+table {
+        margin-top: -1px;
+    }
+
+    .tbl_box.detail th,
+    .tbl_box.detail td {
+        padding: 10px 12px;
+    }
+
+    .tbl_box.detail table th {
+        min-width: 140px;
+    }
+
+    .tbl_box table tbody .empty {
+        padding: 37px 0;
+        text-align: center;
+    }
+
+    .date_search_box .txt_ipt button {
+        background: url(https://www.gov.kr/2023/img/ic_line_calendar_mo.png) no-repeat center;
+        background-size: cover;
+    }
+
+    /* 조직도 */
+    .organization {
+        margin-top: 11px;
+    }
+
+    .btn_xs {
+        font-size: 14px;
+    }
+
+    .top_sel_box {
+        padding: 24px;
+    }
+
+    .top_sel_box .sel_inner_box {
+        margin-bottom: 8px;
+        width: 100%;
+    }
+
+    .top_sel_box .sel_inner_box label {
+        font-size: 16px;
+    }
+
+    .top_sel_box .sel_inner_box select {
+        margin-left: 12px;
+        font-size: 14px;
+        min-width: inherit;
+        width: calc(100% - 158px);
+    }
+
+    .org_box [class^=organ_] {
+        width: 100%;
+    }
+
+    .org_box li span {
+        font-size: 14px;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .org_box li .org_bg_blue {
+        margin-bottom: 24px;
+        font-size: 14px;
+        max-width: 100%;
+        line-height: 32px;
+        height: 32px;
+    }
+
+    .org_box .org_7>li,
+    .org_box .org_veritcal>li:not(:last-child) {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .org_box [class^=organ_]>li+li {
+        margin-top: 4px;
+    }
+
+    .org_box [class^=organ_]+[class^=organ_] {
+        margin-top: 24px;
+    }
+
+    .org_box [class^=organ_]:nth-child(3) {
+        margin-top: 4px;
+    }
+
+    .org_box .organ_4 {
+        float: left !important;
+        margin-top: 4px !important;
+        width: calc(50% - 3px)
+    }
+
+    .org_box .organ_5 {
+        margin-top: 4px !important;
+        width: calc(50% - 3px);
+    }
+
+    .org_box .org_7 {
+        margin-top: 0;
+    }
+
+    .org_box .org_7>li+li {
+        margin-top: 4px !important;
+    }
+
+    .org_box .org_veritcal {
+        margin-top: 24px;
+    }
+
     .org_box .org_veritcal .org_r,
-    .org_box .org_veritcal .org_l{position:static;}
-    .org_box .org_veritcal>li+li{margin-top:4px;}
-    .org_box .ml_75{margin-left: 0 !important;}
-    .org_box .org_veritcal>li:nth-child(9){margin-top:12px;}
-    .org_box .orglv__ >li{width: 100%; max-width: 100%; margin-top:12px;}
-    .org_box .orglv__{margin-top:0;}
-    .org_box .org_double{margin-top:4px !important;}
-    .org_box .org_double li span{font-size:14px;}
-    
+    .org_box .org_veritcal .org_l {
+        position: static;
+    }
+
+    .org_box .org_veritcal>li+li {
+        margin-top: 4px;
+    }
+
+    .org_box .ml_75 {
+        margin-left: 0 !important;
+    }
+
+    .org_box .org_veritcal>li:nth-child(9) {
+        margin-top: 12px;
+    }
+
+    .org_box .orglv__>li {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 12px;
+    }
+
+    .org_box .orglv__ {
+        margin-top: 0;
+    }
+
+    .org_box .org_double {
+        margin-top: 4px !important;
+    }
+
+    .org_box .org_double li span {
+        font-size: 14px;
+    }
+
 
 }
 
-@media only screen and (max-width: 434px){
-	.search_btn_box button{width:calc( 100% - 105px );}
-	.search_btn_box button span{font-size:14px;}
-	.search_btn_box .btn_reset{font-size:14px;}
-	.tabs_box li a{font-size:16px;}
-	.tabs_box.mt20{margin-top:0 !important;}
-	
-	.pagination_box > ul > li > a{min-width: 25px; width:inherit; height: 25px; line-height: 23px; font-size: 13px;}
+@media only screen and (max-width: 434px) {
+    .search_btn_box button {
+        width: calc(100% - 105px);
+    }
+
+    .search_btn_box button span {
+        font-size: 14px;
+    }
+
+    .search_btn_box .btn_reset {
+        font-size: 14px;
+    }
+
+    .tabs_box li a {
+        font-size: 16px;
+    }
+
+    .tabs_box.mt20 {
+        margin-top: 0 !important;
+    }
+
+    .pagination_box>ul>li>a {
+        min-width: 25px;
+        width: inherit;
+        height: 25px;
+        line-height: 23px;
+        font-size: 13px;
+    }
 }
 
-@media only screen and (max-width: 360px){
-	.tabs_box li a{font-size:14px;}
+@media only screen and (max-width: 360px) {
+    .tabs_box li a {
+        font-size: 14px;
+    }
 
-	}
+}
