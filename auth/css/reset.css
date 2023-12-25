@@ -1,0 +1,687 @@
+@charset "UTF-8";
+
+/* reset with normalize */
+* {
+  word-break: normal;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+}
+
+html {
+  overflow: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+  letter-spacing: -.5px;
+  font-display: swap;
+}
+
+header,
+footer,
+main,
+section,
+article,
+nav,
+aside {
+  display: block;
+}
+
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset,
+hr {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+}
+
+input,
+select {
+  max-width: 100%;
+  vertical-align: middle;
+  line-height: 34px;
+  height: 34px;
+}
+
+input,
+select,
+button,
+textarea,
+optgroup {
+  margin: 0;
+  font-size: inherit;
+  color: inherit;
+  border-radius: 0;
+  border: 1px solid #ddd;
+}
+
+input {
+  height: 34px;
+  line-height: 34px;
+}
+
+input:-moz-read-only,
+input:disabled {
+  background: #fafafa;
+}
+
+input:read-only,
+input:disabled {
+  background: #fafafa;
+}
+
+input[readonly] {
+  background: #fafafa;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+address,
+em,
+i {
+  font-style: normal;
+}
+
+strong {
+  font-weight: 600;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: 0 none;
+  background: none;
+  cursor: pointer;
+}
+
+input[type='submit'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+img {
+  max-width: 100%;
+  border: 0 none;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+legend,
+.sr-only,
+.sr_only,
+.hidden,
+.blind,
+.IR,
+.title_hidden {
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0 none;
+  clip: rect(0, 0, 0, 0);
+}
+
+caption {
+  overflow: hidden;
+  width: 1px;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  clip: rect(0, 0, 0, 0);
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.hdn {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 0 0, 0 0)
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline-style: dashed;
+  outline-width: 2px;
+}
+
+button:focus-not(focus-visible),
+a:focus-not(focus-visible),
+input:focus-not(focus-visible) {
+  outline: 0
+}
+
+/* button:focus, a:focus, input:focus{outline: 1px dotted #f00;} */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+input,
+p,
+button,
+iframe,
+th,
+td,
+figure,
+aside {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*skip_nav*/
+/* .skip_nav a { background:rgba(0,0,0,0.4); color:#fff; font-size:16px; line-height:2; padding:10px; text-align:center; z-index:999; opacity:0; position:absolute; width:1px; height:1px; margin:-1px; overflow:hidden; clip-path: polygon(0 0, 0 0, 0 0)} */
+/* .skip_nav a:focus {opacity:1; transform:translate(0,60px); transition:opacity .3s ease-out, transform .3s ease-out, -webkit-transform .3s ease-out;} */
+.skip_nav {
+  position: relative;
+  height: 0;
+}
+
+.skip_nav a {
+  position: absolute;
+  left: 0px;
+  top: -35px;
+  width: 140px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  background: #333;
+  line-height: 30px;
+  z-index: 9999;
+}
+
+.skip_nav a:active,
+.skip_nav a:focus {
+  top: 0;
+}
+
+/* align */
+.fl {
+  float: left
+}
+
+.fr {
+  float: right
+}
+
+.txt_l {
+  text-align: left !important;
+}
+
+.txt_r {
+  text-align: right !important;
+}
+
+.txt_c {
+  text-align: center !important;
+}
+
+/* button */
+.standButton {
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.btnGray {
+  color: #fff;
+  background: #555;
+}
+
+.btnWGray {
+  color: #555;
+  background: #dfdfdf;
+}
+
+.btnDgray {
+  color: #fff;
+  background: #333;
+}
+
+.btnBlue {
+  color: #fff;
+  background: #6fa3de;
+}
+
+.btnGreen {
+  color: #fff;
+  background: #69c867;
+}
+
+.btnPurple {
+  color: #fff;
+  background: #7f87cf;
+}
+
+/* font style */
+.fcBlue {
+  color: #2b68a5 !important;
+}
+
+.fcGray {
+  color: #999;
+}
+
+.fcBlack {
+  color: #333;
+}
+
+.fcRed {
+  color: #B65959 !important;
+}
+
+.fcOrange {
+  color: #f98437;
+}
+
+.fcUline {
+  text-decoration: underline;
+}
+
+.fcBlod {
+  font-weight: 600;
+}
+
+/* margin style */
+.mt10 {
+  margin-top: 10px !important;
+}
+
+.mt20 {
+  margin-top: 20px !important;
+}
+
+.mt30 {
+  margin-top: 30px !important;
+}
+
+.mt40 {
+  margin-top: 40px !important;
+}
+
+.mt50 {
+  margin-top: 50px !important;
+}
+
+.ml15 {
+  margin-left: 15px;
+}
+
+.mr15 {
+  margin-right: 15px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.mr30 {
+  margin-right: 30px;
+}
+
+.mr50 {
+  margin-right: 50px;
+}
+
+.mr80 {
+  margin-right: 80px !important;
+}
+
+.mr100 {
+  margin-right: 100px;
+}
+
+
+.font-s {
+  font-size: 15px
+}
+
+/* 기존 화면 UI를 위해 잠시 살려놓은 스타일 */
+.imgTxt {
+  position: absolute;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  white-space: nowrap;
+  text-indent: -9999px;
+}
+
+/* 사파리 기본 css제거 */
+input[type=submit],
+input[type=button] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+/* grid */
+/* .row {margin-right: -15px; margin-left: -15px;} */
+.w46p {
+  width: 46%
+}
+
+.row::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* [class*="col-"] { position: relative; min-height: 1px; float: left; } */
+
+.col-xs-12 {
+  width: 100%;
+}
+
+.col-xs-11 {
+  width: 91.66666667%;
+}
+
+.col-xs-10 {
+  width: 83.33333333%;
+}
+
+.col-xs-9 {
+  width: 75%;
+}
+
+.col-xs-8 {
+  width: 66.66666667%;
+}
+
+.col-xs-7 {
+  width: 58.33333333%;
+}
+
+.col-xs-6 {
+  width: 50%;
+}
+
+.col-xs-5 {
+  width: 41.66666667%;
+}
+
+.col-xs-4 {
+  width: 33.33333333%;
+}
+
+.col-xs-3 {
+  width: 25%;
+}
+
+.col-xs-2 {
+  width: 16.66666667%;
+}
+
+.col-xs-1 {
+  width: 8.33333333%;
+}
+
+/* 시범서비스 */
+.lb_new {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3px 0 3px;
+  width: auto;
+  height: 14px;
+  font-size: 9px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #00b646;
+  border-radius: 3px;
+  vertical-align: super;
+  margin-left: 4px;
+}
+
+@media (min-width: 640px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-12 {
+    width: 100%;
+  }
+
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+
+  .col-md-9 {
+    width: 75%;
+  }
+
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  .col-lg-11 {
+    width: 91.66666667%;
+  }
+
+  .col-lg-10 {
+    width: 83.33333333%;
+  }
+
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  .col-lg-8 {
+    width: 66.66666667%;
+  }
+
+  .col-lg-7 {
+    width: 58.33333333%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-5 {
+    width: 41.66666667%;
+  }
+
+  .col-lg-4 {
+    width: 33.33333333%;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  .col-lg-2 {
+    width: 16.66666667%;
+  }
+
+  .col-lg-1 {
+    width: 8.33333333%;
+  }
+}
+
+/* Mobile Device */
+@media all and (max-width:450px) {
+
+  /* 
+	768px 미만 해상도의 모바일 기기를 위한 코드를 작성한다. 
+	모든 해상도에서 이 코드가 실행됨. 
+	미디어 쿼리를 지원하지 않는 모바일 기기를 위해 미디어 쿼리 구문을 사용하지 않는다. 
+*/
+  body {
+    font-size: 14px;
+    -webkit-appearance: none;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  .mobileVer {
+    display: none;
+  }
