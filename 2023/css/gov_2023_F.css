@@ -122,12 +122,12 @@ a.total_txt {
 
 /* font-color */
 .font-blue {
-    color: #006ae2 !important;
+    color: #00CD2F !important;
     font-weight: 500;
 }
 
 .font_blue_default {
-    color: #006ae2;
+    color: #00CD2F;
 }
 
 .advice_box .w100 {
@@ -393,11 +393,11 @@ a.total_txt {
 }
 
 .chk_default input[type="radio"]:checked+label {
-    color: #006ae2;
+    color: #00CD2F;
 }
 
 .chk_default input[type="radio"]:checked+label:before {
-    border: 6px solid #006ae2;
+    border: 6px solid #00CD2F;
 }
 
 .chk_guide_wrap input[type="radio"] {
@@ -765,7 +765,7 @@ a.total_txt {
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: #006ae2 url(https://www.gov.kr/2023/img/ic16_check_line.png) no-repeat center;
+    background: #00CD2F url(https://www.gov.kr/2023/img/ic16_check_line.png) no-repeat center;
 }
 
 .time_wrap input[type="radio"]:disabled+label {
@@ -1077,7 +1077,7 @@ a.total_txt {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.4px;
-    color: #006ae2 !important;
+    color: #00CD2F !important;
     text-underline-offset: 4px;
     background: url(https://www.gov.kr/2023/img/ico_arrow.png) no-repeat center right;
 }
@@ -1266,7 +1266,7 @@ a.total_txt {
 }
 
 .info_box_bg .info_list li b {
-    color: #006ae2;
+    color: #00CD2F;
 }
 
 .info_box_bg .info_list_normal {
@@ -1704,7 +1704,7 @@ input[type="checkbox"]:focus+label span:before {
 
 .input_field:focus,
 .input_field:hover {
-    border: 1px solid #006ae2;
+    border: 1px solid #00CD2F;
 }
 
 .input_wrap_new .ipt_wrap input,
@@ -2040,8 +2040,8 @@ input[type="checkbox"]:focus + label  {outline: rgb(3, 48, 117) solid 2px;}*/
     right: 64px;
 }
 
-.font_006ae2 {
-    color: #006ae2 !important;
+.font_00CD2F {
+    color: #00CD2F !important;
 }
 
 .font_eb193a {
@@ -2259,11 +2259,11 @@ input[type="checkbox"]:focus + label  {outline: rgb(3, 48, 117) solid 2px;}*/
 }
 
 .search_btn_box button {
-    border: 1px solid #006ae2;
+    border: 1px solid #00CD2F;
     padding: 12px 21px;
     border-radius: 8px;
     text-align: center;
-    color: #006ae2;
+    color: #00CD2F;
     font-weight: 500;
     background: #fff;
     cursor: pointer;
@@ -2277,7 +2277,7 @@ input[type="checkbox"]:focus + label  {outline: rgb(3, 48, 117) solid 2px;}*/
 }
 
 .search_btn_box button.active {
-    background: #006ae2;
+    background: #00CD2F;
 }
 
 .search_btn_box button.active span {
@@ -2987,7 +2987,7 @@ select+.btn_xs,
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-    background: #006ae2;
+    background: #00CD2F;
 }
 
 .org_box li a {
@@ -3738,7 +3738,7 @@ select+.btn_xs,
     .time_wrap input[type="radio"]:checked+label span:after {
         width: 18px;
         height: 18px;
-        background: #006ae2 url(https://www.gov.kr/2023/img/ic16_check_line_mo.png) no-repeat center;
+        background: #00CD2F url(https://www.gov.kr/2023/img/ic16_check_line_mo.png) no-repeat center;
         background-size: 50%;
     }
 
@@ -4510,7 +4510,7 @@ select+.btn_xs,
     .search_btn_box .btn_reset:focus,
     .search_btn_box .btn_reset:hover {
         background: url(https://www.gov.kr/2023/img/ico_reset_hover_mo.png) no-repeat center left 14px;
-        color: #006ae2;
+        color: #00CD2F;
         background-size: 20px;
     }
 

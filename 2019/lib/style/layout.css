@@ -545,7 +545,7 @@ html {
 }
 
 .search_box_list li:nth-child(-n+3) em {
-	background: #006ae2;
+	background: #00CD2F;
 }
 
 .search_box_list li+li {
@@ -720,7 +720,7 @@ html {
 .depth2_box .depth2_subbox li a:focus,
 .gnb-element .gnb-menu .depth2_tit:hover,
 .gnb-element .gnb-menu .depth2_tit:focus {
-	color: #006ae2;
+	color: #00CD2F;
 }
 
 .depth3_link {
@@ -735,7 +735,7 @@ html {
 
 .depth3_link a:hover span,
 .depth3_link a:focus span {
-	color: #006ae2;
+	color: #00CD2F;
 }
 
 .depth3_link span {
@@ -764,7 +764,7 @@ html {
 	margin-left: 6px;
 	padding: 1px 6px;
 	font-size: 11px;
-	color: #006ae2;
+	color: #00CD2F;
 	border-radius: 9px;
 	border: 1px solid #7eb8fb;
 	font-weight: 400;
@@ -905,7 +905,7 @@ html.nonscroll {
 .all_menu_box .all_depth2>li>div>a:hover,
 .all_menu_box .all_depth2>li>div>a:focus,
 .all_menu_box .all_depth2>li>div>a.active {
-	color: #006ae2;
+	color: #00CD2F;
 }
 
 .all_menu_box .mo_bedge {
@@ -1132,7 +1132,7 @@ html.nonscroll {
 }
 
 #footer>.private div.left ul li.private a {
-	color: #006ae2;
+	color: #00CD2F;
 	text-decoration: underline;
 }
 

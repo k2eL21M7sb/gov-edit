@@ -1092,7 +1092,7 @@ ul.news-list li a p.date {color:#777; margin-top:5px; line-height:18px;}
 .mygov_box .flex_cont li + li{margin-top:14px;}
 .mygov_box .flex_cont li .date{display:inline-block; min-width:90px; font-size:16px; color:#222; width:20%; white-space:pre;}
 .mygov_box .flex_cont li a{margin-left:30px; font-size:16px; color:#222; font-weight: 500; width:100%; display:flex;justify-content:space-between; }
-.mygov_box .flex_cont li .end_date{font-size:16px; font-weight:400; color:#006ae2; min-width:190px; text-align: right;}
+.mygov_box .flex_cont li .end_date{font-size:16px; font-weight:400; color:#00CD2F; min-width:190px; text-align: right;}
 .mygov_box .mygov_tab .tab-cont-wrap{ margin-top:20px;}
 .mygov_box .subsidy_my_box{margin-top:8px;}
 .mygov_box .subsidy_my_box .info_txt{font-size:16px; color:#666;}
@@ -1112,7 +1112,7 @@ ul.news-list li a p.date {color:#777; margin-top:5px; line-height:18px;}
 .mygov_box .my_history li:nth-child(2n){margin-left:30px; padding-left:30px; border-left:1px solid #e2e5eb;}
 .mygov_box .my_history li:nth-child(n+3){padding-top:12px;}
 .mygov_box .my_history li span{display:-webkit-box; width:200px; font-size:16px; font-weight: 500; color:#222; overflow:hidden; -webkit-line-clamp:1; -webkit-box-orient:vertical; text-overflow:ellipsis;}
-.mygov_box .my_history li span:last-child{font-weight: 400; color:#006ae2; width:150px; text-align: right; margin-left:20px;}
+.mygov_box .my_history li span:last-child{font-weight: 400; color:#00CD2F; width:150px; text-align: right; margin-left:20px;}
 .mygov_box .my_history ul::-webkit-scrollbar {width:6px; border-radius: 4px;}
 .mygov_box .my_history ul::-webkit-scrollbar-thumb {background-color: #ddd; border-radius: 4px;}
 .mygov_box .my_history ul::-webkit-scrollbar-track {background-color: #f1f1f1; border-radius: 4px;}

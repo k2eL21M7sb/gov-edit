@@ -5387,7 +5387,7 @@ a:hover {
 	}
 
 	.renew-main .anchor-group .active a {
-		color: #006ae2;
+		color: #00CD2F;
 	}
 
 	.renew-main .anchor-group .active span:after {
@@ -5397,7 +5397,7 @@ a:hover {
 		left: 0;
 		width: 100%;
 		height: 4px;
-		background-color: #006ae2;
+		background-color: #00CD2F;
 	}
 
 	/* visual-group */

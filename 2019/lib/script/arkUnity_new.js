@@ -251,8 +251,8 @@ function callAkcKwd_main(){
 							hkeyword = hkeyword.substr(0,hkeyword.lastIndexOf("</font>"));
 							
 							
-							//hkeyword = hkeyword.replace("<font style='color:#CC6633'>","<em class=\"font_006ae2\">");  //운영 개발 및 테스트
-							//hkeyword = hkeyword.replace(/<font style=\'color:#[\S]+\'>/g,'<em class=\"font_006ae2\">'); //운영
+							//hkeyword = hkeyword.replace("<font style='color:#CC6633'>","<em class=\"font_00CD2F\">");  //운영 개발 및 테스트
+							//hkeyword = hkeyword.replace(/<font style=\'color:#[\S]+\'>/g,'<em class=\"font_00CD2F\">'); //운영
 							//hkeyword = hkeyword.replace(/<\/font>/g,'</em>');
 							hkeyword = replaceToSpan(hkeyword);
 							 
@@ -309,7 +309,7 @@ function callAkcKwd_main(){
 function replaceToSpan(hkeyword){
 	var rt = hkeyword;
 	rt = rt.replace(/<font style=\'font-size:[\S]+px\'>/g, '');
-	rt = rt.replace(/<font style=\'color:#[\S]+\'>/g,'<em class=\"font_006ae2\">');
+	rt = rt.replace(/<font style=\'color:#[\S]+\'>/g,'<em class=\"font_00CD2F\">');
 	rt = rt.replace(/<\/font>/g,'</em>');
 //	rt = rt.replace(/<\/font>/g,'');
 	
@@ -372,7 +372,7 @@ function callApply_main(){
 					}   
 					
 					//cappBizNM = cappBizNM.replace("<!HS>","<mark class=\"marker-text\">");  //하이라이팅 처리
-					cappBizNM = cappBizNM.replace("<!HS>","<em class=\"font_006ae2\">");  //하이라이팅 처리
+					cappBizNM = cappBizNM.replace("<!HS>","<em class=\"font_00CD2F\">");  //하이라이팅 처리
 					//cappBizNM = cappBizNM.replace("<!HE>","</mark>");					
 					cappBizNM = cappBizNM.replace("<!HE>","</em>");					
 					
@@ -418,7 +418,7 @@ function callApply_main(){
 					cappBizNM = this.TTL;
 					
 					//cappBizNM = cappBizNM.replace("<!HS>","<mark class=\"marker-text\">");  //하이라이팅 처리
-					cappBizNM = cappBizNM.replace("<!HS>","<em class=\"font_006ae2\">");  //하이라이팅 처리
+					cappBizNM = cappBizNM.replace("<!HS>","<em class=\"font_00CD2F\">");  //하이라이팅 처리
 					//cappBizNM = cappBizNM.replace("<!HE>","</mark>");					
 					cappBizNM = cappBizNM.replace("<!HE>","</em>");		
 					
