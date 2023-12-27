@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.renew2022-wrap a {text-decoration:none;}
+.renew2022-wrap em {font-style: normal;}
+.renew2022-wrap .ir {font-size:0; text-indent:-9999px;}
+
+/* ------------------------------ lnb ------------------------------ */
+
+/* MyGOV lnb */
+.mygov-renew.renew2022-wrap .lnb-aside {padding:20px 30px 0 0;}
+.mygov-renew.renew2022-wrap.contentsWrap.l2 .lnb-aside {padding:0 30px 0 0;}
+.lnb-aside {display:block; padding:0 30px 50px 0; width:260px; height:100%; float:left; box-sizing: border-box; z-index:99;}
+.lnb-aside h2.lnb-tit {width:100%; height:44px; padding:0; font-size:24px; color:#333; border-bottom:2px solid #000}
+.lnb-aside h2.lnb-tit a {font-weight:400;}
+.lnb-aside .bot-banner {margin:20px 0 0;}
+.lnb-aside .bot-banner a {display:block;}
+
+@media print {
+    .lnb-aside {display: none;}
+}
+
+@media screen and (max-width: 1280px) {
+    .lnb-aside {display:none;}
+}
+
+#lnb-depth { display:block; width:100%;}
+#lnb-depth ul {}
+#lnb-depth > ul li a {position:relative; font-weight:500;}
+#lnb-depth > ul li a:focus {text-decoration:none;}
+
+#lnb-depth > ul > li { margin:0; line-height:50px; border-bottom:1px solid #999;}
+#lnb-depth > ul > li > a {display:block; height:50px; margin:0; padding:0; line-height:50px; color:#111; font-size:16px; font-weight:bold; vertical-align: middle;}
+#lnb-depth > ul > li > a.inner-br {line-height:20px; padding:10px 0;}
+#lnb-depth > ul > li > a:hover,
+#lnb-depth > ul > li.on > a {text-decoration:none; color:#3370dc; }
+#lnb-depth > ul > li > a:hover {text-decoration:underline;}
+
+#lnb-depth .on ul.depth-2,
+#lnb-depth .active ul.depth-2 {display:block;}
+#lnb-depth ul.depth-2 {overflow:hidden; border:1px solid #999; border-width:1px 0 0 0; background:#f5f5f5;}
+#lnb-depth ul.depth-2 > li { width:100%; line-height:34px;}
+#lnb-depth ul.depth-2 > li > a {display:block; margin:0 20px; padding:0; height:34px; line-height:36px; font-size:13px; color:#111; border-bottom:1px solid #ccc; }
+#lnb-depth ul.depth-2 > li:last-child > a {border:0;}
+#lnb-depth ul.depth-2 > li > a:hover {text-decoration:underline;}
+#lnb-depth ul.depth-2 > li:hover,
+#lnb-depth ul.depth-2 > li.on {background:#f44336;}
+#lnb-depth ul.depth-2 > li:hover > a,
+#lnb-depth ul.depth-2 > li.on > a {color:#fff;}
+#lnb-depth ul.depth-2 > li.on > a:hover {color:#fff; text-decoration: underline;}

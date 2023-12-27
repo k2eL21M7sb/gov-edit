@@ -133,48 +133,6 @@ $(function () {
         setMyFaveSvcList();
     }
 
-    getPopword();
-
-    function getPopword() {
-        $.ajax({
-            type: "POST",
-            url: "/search/popword",
-            success: function (data) {
-                setPopword(data);
-                //rmUI.keywordRoll.activateRoll();	//롤링 시작 호출
-            }
-        });
-    }
-
-    function setPopword(data) {
-
-        var popword_html = "";
-        var popword_html2 = "";
-        var popword_lst = $('#popword');
-        var popword_lst2 = $('#popword2');
-        var i = 1;
-
-        $.each(data.Data.Query, function () {
-            if (i < 6) {
-                popword_html += "<div class='swiper-slide'><a href=\"javascript:;\"  onclick=\"javascript:$('#headerSearchForm input[name=srhQuery]').val('" + this.content + "'); moreViewSearch('N');\"><span>" + i + "</span> " + this.content + "</a></div>";
-
-                popword_html2 += "<li><a href=\"javascript:;\"  onclick=\"javascript:$('#headerSearchForm input[name=srhQuery]').val('" + this.content + "'); moreViewSearch('N');\"><strong>" + i + "</strong>" + this.content + "</a></li>";
-
-                i++;
-            }
-            else {
-                return false;
-            }
-        });
-
-        popword_lst.html(popword_html);
-        popword_lst2.html(popword_html2);
-    }
-
-
-
-
-
     // 코로나 생활지원비 비로그인시 로그인후 실행 flag
     var cvdRec = "";
     if (cvdRec == "Y") {
