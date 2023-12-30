@@ -361,7 +361,7 @@ function cookieSave(cookieNm) {
     if (beforeCockieChk == "N") {
         beforeCockieChk = "Y";
         cookieClickYn = "Y";
-        $(".btn-alldayclose span").css("color", '#1a6fa6');
+        $(".btn-alldayclose span").css("color", '#46a61a');
         $(".btn-alldayclose").css("background", 'url(https://www.gov.kr/renewMain/img/popup/pop_system_check01_hover.png) no-repeat center left');
     } else {
         beforeCockieChk = "N";

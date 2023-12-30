@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Waping';
+    src: url('https://cdn.jsdelivr.net/gh/waping-kr/fonts/Waping.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo" !important;
+}
+
 /* common */
 .hide,
 caption,
@@ -230,7 +241,7 @@ legend,
     color: #fff;
     font-size: 22px;
     letter-spacing: -1px;
-    background: #1a6fa6;
+    background: #46a61a;
     word-break: keep-all;
     box-sizing: border-box;
 }
@@ -240,7 +251,7 @@ legend,
 }
 
 .popWrap .system-type .inr-content .bg-blue {
-    background: #1a6fa6;
+    background: #46a61a;
 }
 
 .popWrap .system-type .inr-content div+div {
@@ -309,7 +320,7 @@ legend,
 .popWrap .system-type .inr-content .callcenter-list {
     padding: 5px 10px 6px 60px;
     vertical-align: top;
-    background: #1a6fa6;
+    background: #46a61a;
     border-radius: 30px;
     box-sizing: border-box;
     margin-top: 18px;
@@ -373,7 +384,7 @@ legend,
 }
 
 .popWrap .system-type .pop-body .close-box button:hover span {
-    color: #1a6fa6;
+    color: #46a61a;
 }
 
 .popWrap .system-type .pop-body .close-box:after {
@@ -399,7 +410,7 @@ legend,
 }
 
 .popWrap .system-type .pop-body .close-box .btn-dayclose:hover span {
-    color: #1a6fa6;
+    color: #46a61a;
 }
 
 .popWrap .system-type .pcView.header-img-none .inr-header {
@@ -452,7 +463,7 @@ legend,
     left: 0;
     content: '\25C6';
     display: block;
-    color: #1a6fa6;
+    color: #46a61a;
     font-size: 8px;
 }
 
@@ -468,7 +479,7 @@ legend,
     padding: 6px 0;
     padding-left: 10px;
     padding-right: 32px;
-    border: 1px solid #1a6fa6;
+    border: 1px solid #46a61a;
     border-radius: 5px;
     background: #e8f0f6;
 }
@@ -500,7 +511,7 @@ legend,
 
 .popWrap.type2 .system-type .inr-content .date-list li .coupon_wrap li .price {
     font-size: 12px;
-    color: #1a6fa6;
+    color: #46a61a;
 }
 
 .popWrap.type3 .system-type {
@@ -1172,7 +1183,7 @@ legend,
     color: #fff;
     text-align: center;
     border-radius: 18px;
-    background: #1a6fa6;
+    background: #46a61a;
 }
 
 .popWrap .system-type .inr-btn a {
@@ -1263,14 +1274,6 @@ legend,
     max-width: 450px;
 }
 
-/* font */
-@font-face {
-    font-family: 'Waping';
-    src: url('https://cdn.jsdelivr.net/gh/waping-kr/fonts/Waping.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
 /*2천만 이벤트 팝업*/
 .pc_v {
     display: block;
@@ -1291,7 +1294,6 @@ legend,
 
 .popWrap .event_pop {
     max-width: 760px;
-    font-family: 'Waping';
     margin-bottom: 80px;
 }
 
@@ -1326,10 +1328,6 @@ legend,
 .event_pop img {
     z-index: 999;
     position: relative;
-}
-
-.event_pop b {
-    font-family: 'Waping';
 }
 
 .event_pop .cont_wrap {

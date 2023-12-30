@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Waping';
+    src: url('https://cdn.jsdelivr.net/gh/waping-kr/fonts/Waping.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo" !important;
+}
+
 .header-search-inbox .voice-btn {
     background: transparent;
     font-size: 3rem;

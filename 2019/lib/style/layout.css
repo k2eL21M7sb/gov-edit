@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Waping';
+    src: url('https://cdn.jsdelivr.net/gh/waping-kr/fonts/Waping.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo" !important;
+}
+
 html {
 	position: relative;
 }
@@ -138,7 +149,6 @@ html {
 	width: 100%;
 	max-width: 1280px;
 	margin: 0 auto;
-	font-family: "Open Sans", sans-serif;
 }
 
 /* 211025 수정 */
@@ -1075,7 +1085,6 @@ html.nonscroll {
 	display: block;
 	padding: 3px 12px;
 	text-align: left;
-	font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo";
 }
 
 .renew-lang-select .toggle-target li a span {

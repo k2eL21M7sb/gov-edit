@@ -1,17 +1,25 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Waping';
+    src: url('https://cdn.jsdelivr.net/gh/waping-kr/fonts/Waping.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo" !important;
+}
+
 .pop-wrap.pop-mca .pop-inner .pop-guide-box {
-	font-family: 'Malgun Gothic', sans-serif;
 	font-weight: bold;
 }
 
 .pop-wrap.pop-mca .pop-inner .txt {
-	font-family: 'Malgun Gothic', sans-serif;
 	font-weight: bold;
 }
 
 .pop-wrap .pop-tit {
-	font-family: 'Malgun Gothic', sans-serif;
 	font-weight: bold;
 }
 
@@ -20,12 +28,10 @@
 }
 
 .pop-wrap .pop-inner .tbl-list.type2 thead th {
-	font-family: 'Malgun Gothic', sans-serif;
 	font-weight: bold;
 }
 
 .no-canvas .pop-wrap .pop-tit {
-	font-family: 'Dotum', sans-serif;
 	font-weight: bold;
 }
 
@@ -34,7 +40,6 @@
 }
 
 .no-canvas .pop-wrap .pop-inner .tbl-list.type2 thead th {
-	font-family: 'Dotum', sans-serif;
 	font-weight: bold;
 }
 

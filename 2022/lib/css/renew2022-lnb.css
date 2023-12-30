@@ -1,5 +1,16 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: 'Waping';
+    src: url('https://cdn.jsdelivr.net/gh/waping-kr/fonts/Waping.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo" !important;
+}
+
 .renew2022-wrap a {text-decoration:none;}
 .renew2022-wrap em {font-style: normal;}
 .renew2022-wrap .ir {font-size:0; text-indent:-9999px;}

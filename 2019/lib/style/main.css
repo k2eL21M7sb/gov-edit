@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Waping';
+    src: url('https://cdn.jsdelivr.net/gh/waping-kr/fonts/Waping.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo" !important;
+}
+
 section:after,
 .log-element .login-area .login-body:after,
 .log-element .login-before-area .login-before-right:after,
@@ -3970,7 +3981,6 @@ section .inner-element {
 	padding: 16px 0px;
 	box-sizing: border-box;
 	font-size: 16px;
-	font-family: 'notokr-medium';
 	letter-spacing: -0.4px;
 	font-weight: bold;
 	color: #fff;
@@ -5714,7 +5724,6 @@ section .inner-element {
 	padding-right: 32px;
 	font-size: 16px;
 	color: #004aaf;
-	font-family: 'notoKR-medium';
 }
 
 .notice-banner-element.type03 .notice-banner-list li:hover a,

@@ -1,31 +1,12 @@
 @font-face {
-  font-family: SpoqaHanSansNeo;
-  font-weight: 700;
-  src: local("SpoqaHanSansNeo Bold"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff2") format("woff2"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff") format("woff"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.otf") format("opentype");
-}
-
-@font-face {
-  font-family: SpoqaHanSansNeo;
-  font-weight: 500;
-  src: local("SpoqaHanSansNeo Medium"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff2") format("woff2"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff") format("woff"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.otf") format("opentype");
-}
-
-@font-face {
-  font-family: SpoqaHanSansNeo;
+  font-family: 'Waping';
+  src: url('https://cdn.jsdelivr.net/gh/waping-kr/fonts/Waping.woff') format('woff');
   font-weight: 400;
-  src: local("SpoqaHanSansNeo Regular"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff2") format("woff2"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff") format("woff"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.otf") format("opentype");
+  font-style: normal;
 }
 
-@font-face {
-  font-family: SpoqaHanSansNeo;
-  font-weight: 300;
-  src: local("SpoqaHanSansNeo Light"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.woff2") format("woff2"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.woff") format("woff"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.otf") format("opentype");
-}
-
-@font-face {
-  font-family: SpoqaHanSansNeo;
-  font-weight: 100;
-  src: local("SpoqaHanSansNeo Thin"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.woff2") format("woff2"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.woff") format("woff"), url("https://www.gov.kr/rcvfvrSvc/images/fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.otf") format("opentype");
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo" !important;
 }
 
 html,
@@ -62,7 +43,6 @@ i,
 li,
 dt,
 dd {
-  font-family: inherit;
   font-size: inherit;
   font-weight: normal;
   line-height: inherit;
@@ -141,7 +121,6 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 .gov-subsidy * {
-  font-family: -apple-system, BlinkMacSystemFont, SpoqaHanSansNeo, sans-serif, "Apple Gothic", "Apple SD Gothic Neo";
   font-weight: 400;
   letter-spacing: -0.025em;
   box-sizing: border-box;
@@ -586,7 +565,6 @@ textarea:focus::-webkit-input-placeholder {
 .gov-subsidy .inp-wrap .inp-box input[type="number"]::placeholder,
 .gov-subsidy .inp-wrap .inp-box input[type="password"]::placeholder,
 .gov-subsidy .inp-wrap .inp-box input[type="text"]::placeholder {
-  font-family: -apple-system, BlinkMacSystemFont, SpoqaHanSansNeo, sans-serif, "Apple Gothic", "Apple SD Gothic Neo";
   color: rgb(136, 136, 136);
   -webkit-text-fill-color: rgb(136, 136, 136);
   font-size: 16px !important;

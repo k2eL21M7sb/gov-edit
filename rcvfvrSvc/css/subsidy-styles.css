@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Waping';
+    src: url('https://cdn.jsdelivr.net/gh/waping-kr/fonts/Waping.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo" !important;
+}
+
 /* subsidy_hidden */
 .gov-subsidy .subsidy-dir {
     display: none;
@@ -5155,7 +5166,6 @@
 
 .gov-subsidy .service-app-wrap .status-td:nth-child(1) {
     width: 18%;
-    font-family: 'Roboto';
 }
 
 .gov-subsidy .service-app-wrap .status-td:nth-child(2) {
@@ -5167,7 +5177,6 @@
 
 .gov-subsidy .service-app-wrap .status-td:nth-child(3) {
     width: 18%;
-    font-family: 'Roboto';
 }
 
 .gov-subsidy .service-app-wrap .status-td:nth-child(4) {
@@ -6081,7 +6090,6 @@
 }
 
 .gov-subsidy .simple-search-wrap .simple-search-select .inp-wrap .inp-box input {
-    font-family: inherit;
     font-size: 15px;
     font-weight: 700;
     color: #444;

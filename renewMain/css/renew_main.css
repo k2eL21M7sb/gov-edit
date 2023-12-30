@@ -1,4 +1,16 @@
 @charset "UTF-8";
+
+@font-face {
+    font-family: 'Waping';
+    src: url('https://cdn.jsdelivr.net/gh/waping-kr/fonts/Waping.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Waping", sans-serif, "Apple Gothic", "Apple SD Gothic Neo" !important;
+}
+
 @import url('swiper.css');
 
 /* common gnb 공통으로 쓸 경우 삭제 */
@@ -119,8 +131,6 @@
 
 .renew-main * {
 	box-sizing: border-box;
-	font-family: '맑은 고딕', 'Malgun Gothic', sans-serif;
-
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
@@ -3405,7 +3415,6 @@
 
 .renew-main .match-service-tab .match-service-desc .color-type03 {
 	color: #f45600;
-	/* font-family: 'notokr-medium'; 0709 삭제 */
 }
 
 .renew-main .match-service-tab .match-service-desc .mpva_wrap {
@@ -3582,7 +3591,6 @@
 }
 
 .renew-main .match-service-group .match-foreigner-info p {
-	/*font-family: 'notokr-medium';*/
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 28px;
@@ -3595,13 +3603,11 @@
 
 .renew-main .match-service-group .match-foreigner-info p strong {
 	color: #518af7;
-	/*font-family: 'notokr-medium';
 	font-weight: normal;*/
 }
 
 .renew-main .match-service-group .match-foreigner-info p span {
 	color: #f45600;
-	/*font-family: 'notokr-medium';
 	font-weight: normal;*/
 }
 
@@ -3609,7 +3615,6 @@
 	display: block;
 	margin: 15px 0 57px;
 	color: #666;
-	/*font-family: 'notokr-medium';*/
 	font-size: 16px;
 	letter-spacing: -.4px;
 	font-weight: bold;
@@ -4392,18 +4397,6 @@ a:hover {
 	display: none;
 }
 
-/*.renew-main .customer-center .etc-list li a em{font-family: 'govFont'; font-size:17px; font-weight: bold;}
-
-@font-face {
-    font-family: 'govFont';
-    src: url('https://www.gov.kr/renewMain/font/govFont.eot');
-    src: url('https://www.gov.kr/renewMain/font/govFont.eot?#iefix') format('embedded-opentype'),
-        url('https://www.gov.kr/renewMain/font/govFont.woff') format('woff'),
-        url('https://www.gov.kr/renewMain/font/govFont.ttf') format('truetype');
-    font-weight: normal;
-}
-*/
-
 /* 210409 맞춤형서비스 이용동의 팝업 */
 .modal--large {
 	display: none;
@@ -4476,7 +4469,6 @@ a:hover {
 	position: relative;
 	font-size: 24px;
 	font-weight: bold;
-	font-family: 'Malgun Gothic', sans-serif;
 	color: #fff;
 }
 
@@ -6726,7 +6718,6 @@ a:hover {
 		background: #fff;
 	}
 
-	/*.renew-main .nation-wrap em{font-family: 'govFont'; font-size:18px;}*/
 	.renew-main .nation-wrap:before {
 		content: '';
 		position: absolute;
