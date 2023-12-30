@@ -125,7 +125,7 @@ input[type="checkbox"], input[type="radio"] {width:18px !important; height:18px;
 /* tag */
 .tagset {display:inline-block; padding:0 10px; font-size:12px; min-width:42px; height:20px; line-height:20px; text-align:center; border-radius:10px;}
 .tagset.medium {height:24px; line-height:24px; border-radius:12px;}
-.tag-navy {color:#fff; background:#0e3b64;}
+.tag-navy {color:#fff; background:#0e6428;}
 .tag-blue {color:#fff; background:#006fe6;}
 .tag-gray {color:#fff; background:#666;}
 
@@ -1228,7 +1228,7 @@ em.imp {display:inline-block; width:5px; height:5px; vertical-align:text-top; bo
 .info-link-list li dt.tit {font-size:16px; font-weight:bold; color:#333;}
 .info-link-list li dt.tit a {display:block; font-size:16px;}
 .info-link-list li dt:only-child {padding:20px 0;}
-.info-link-list li dt.tit span.tagset { color:#fff; background:#0e3b64; font-size:14px; line-height:24px; height:24px;}
+.info-link-list li dt.tit span.tagset { color:#fff; background:#0e6428; font-size:14px; line-height:24px; height:24px;}
 .info-link-list li dd.txt { font-size:13px; color:#333;}
 .info-link-list li > a.btn {position:absolute; right:0; top:50%; margin:-20px 0 0; min-width:100px; border-radius:0; text-align:center;}
 
@@ -1744,8 +1744,8 @@ em.imp {display:inline-block; width:5px; height:5px; vertical-align:text-top; bo
 .renew2022-wrap .title-box h2.no-bullet {font-size:18px !important; font-weight:bold !important;}
 .renew2022-wrap .search-sort {text-align:right;}
 .renew2022-wrap .search-sort .sch-rgt select { margin-bottom:10px; width: 100%; min-width: 150px;  border: 1px solid rgb(204, 204, 204); height: 40px; padding: 0px 0px 0px 10px; line-height: 40px;  }
-.renew2022-wrap .ibtn.navy { margin-right: 0px; border:0;  background-color:#0e3b64;}
-.renew2022-wrap .ibtn.form * { width:100%; height: 40px; line-height: 40px; border:0; background-color:#0e3b64; color:#fff;}
+.renew2022-wrap .ibtn.navy { margin-right: 0px; border:0;  background-color:#0e6428;}
+.renew2022-wrap .ibtn.form * { width:100%; height: 40px; line-height: 40px; border:0; background-color:#0e6428; color:#fff;}
 .renew2022-wrap .search-box { margin-bottom: 10px; margin-top: 10px; padding: 10px; text-align: left; background: rgb(248, 248, 250); border: 1px solid rgb(232, 233, 238); }
 
 .renew2022-wrap .sup-service-list > .txt {margin:24px 0 5px; font-size:16px; font-weight:bold; color:#232323;}

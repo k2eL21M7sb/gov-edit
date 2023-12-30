@@ -2606,7 +2606,7 @@ body.close .lnbAll {
 .footer-wrap .footer .foot-info .info .callcenter strong {
   position: relative;
   padding-left: 15px;
-  color: #0e3b64;}
+  color: #0e6428;}
 .footer-wrap .footer .foot-info .info .callcenter strong:before {
   content: '';
   position: absolute;
@@ -3365,7 +3365,7 @@ div.portal {
 .layerPopCnt .input_wrap {font-size:0; padding-top:30px;}
 .layerPopCnt .input_wrap a.large {min-width:141px; padding:0px 29px; height:44px; line-height:43px;}
 .layerPopCnt .input_wrap a.medium {min-width:90px; padding:0px 29px; height:44px; line-height:43px;}
-.layerPopCnt .input_wrap a.btn_blue {border:1px solid #0e3b64; color:#0e3b64;}
+.layerPopCnt .input_wrap a.btn_blue {border:1px solid #0e6428; color:#0e6428;}
 .layerPopCnt .input_wrap a.btn_gray {border:1px solid #666; color:#666;}
 .layerPopCnt .input_wrap a[class^="btn_"] {display:inline-block; font-family:'Malgun Gothic'; font-size:16px; font-weight:bold; letter-spacing:-0.5px; box-sizing:border-box;}
 .layerPopCnt .input_wrap a[class^="btn_"] + a[class^="btn_"] { margin-left:5px;}

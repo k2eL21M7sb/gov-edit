@@ -79,7 +79,7 @@ textarea.inbox:disabled {
 }
 
 .pcb {
-  color: #1f5c9b;
+  color: #61c91b;
 }
 
 .pcr {
@@ -591,7 +591,7 @@ textarea.inbox:disabled {
 .cs-guide-box .process-message {
   font-size: 17px;
   font-size: 1.7rem;
-  color: #1f5c9b;
+  color: #61c91b;
 }
 
 .cs-guide-box .submit-step {
@@ -614,8 +614,8 @@ textarea.inbox:disabled {
   height: 33px;
   line-height: 33px;
   text-align: center;
-  color: #1f5c9b;
-  border: 1px solid #1f5c9b;
+  color: #61c91b;
+  border: 1px solid #61c91b;
   background-color: #fff;
   border-radius: 3px;
 }
@@ -7705,7 +7705,7 @@ textarea.inbox:disabled {
 
 .cs-biz-tab li.current {
   border: 1px solid #07233c;
-  background-color: #0e3b64;
+  background-color: #0e6428;
 }
 
 .cs-biz-tab li.current a {
@@ -12174,7 +12174,7 @@ form+h2 {
     background-position: -200px 0; }
   .life-cycle-service .lc-tab li.current a {
     color: #fff;
-    background-color: #0e3b64; } */
+    background-color: #0e6428; } */
 .life-cycle-service .lc-title>* {
   display: inline-block;
 }
@@ -12495,7 +12495,7 @@ form+h2 {
             &.current {
                 a {
                     color: #fff;
-                    background-color: #0e3b64;
+                    background-color: #0e6428;
                 }
             }
         }
@@ -13202,7 +13202,7 @@ form+h2 {
   width: 102px;
   min-width: 102px !important;
   text-align: center;
-  background: #0e3b64;
+  background: #0e6428;
   margin-right: 0;
 }
 
@@ -15127,7 +15127,7 @@ form+h2 {
 
 .cs-minwon-cate li.current a {
   color: #fff;
-  background-color: #0e3b64;
+  background-color: #0e6428;
 }
 
 .cs-minwon-cate li.current.cate0 span a>span:before {
@@ -15176,7 +15176,7 @@ form+h2 {
 }
 
 .aside .as-con.as-shortcut ul.box-wrap li.bg_point a {
-  background-color: #e3fcdf;
+  background-color: #C4F79E;
 }
 
 .contentsWrap.r2n .aside .as-con.as-shortcut ul.box-wrap li a {
@@ -15190,7 +15190,7 @@ form+h2 {
 }
 
 .contentsWrap.r2n .aside .as-con.as-shortcut ul.box-wrap li.bg_point a {
-  background-color: #e3fcdf;
+  background-color: #C4F79E;
 }
 
 .cs-guide-box.center p strong .text {
