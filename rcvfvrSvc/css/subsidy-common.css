@@ -76,6 +76,16 @@ img {
   vertical-align: middle;
 }
 
+.gov-subsidy .card-wrap .wwnewbutton {
+  color: #fff;
+  background-color: #72a044;
+  font-weight: bold;
+  width:100%;
+  display: inline-block;
+  padding: 5px 3px;
+  border-radius: 8px;
+}
+
 .gov-subsidy a {
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -1394,7 +1404,6 @@ textarea:focus::-webkit-input-placeholder {
 .gov-subsidy .card-wrap .card-head {
   position: relative;
   margin-top: 14px;
-  height: 88px;
 }
 
 .gov-subsidy .card-wrap .card-head.line-clamp .card-title {
@@ -1577,8 +1586,8 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 .gov-subsidy .card-wrap .card-item:hover {
-  border: 1px solid rgb(0, 106, 226);
-  background-color: rgb(246, 251, 254);
+  border: 1px solid rgb(21, 146, 104);
+  background-color: rgb(245, 255, 252);
 }
 
 .gov-subsidy .card-wrap.mini .card-item {
@@ -1835,9 +1844,9 @@ textarea:focus::-webkit-input-placeholder {
   display: inline-block;
   padding: 6px;
   font-size: 13px;
-  color: rgb(0, 106, 226);
+  color: rgb(2, 126, 85);
   line-height: 15px;
-  border: 1px solid rgb(153, 195, 243);
+  border: 1px solid rgb(0, 139, 92);
   border-radius: 4px;
 }
 
@@ -4511,7 +4520,6 @@ textarea:focus::-webkit-input-placeholder {
 
   .gov-subsidy .card-wrap .card-head {
     margin-top: 12px;
-    height: 90px;
   }
 
   .gov-subsidy .card-wrap .card-tag span {
