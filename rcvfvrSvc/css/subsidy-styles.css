@@ -588,14 +588,14 @@
     margin-top: 0;
     width: 28px;
     height: 28px;
-    background: url(/rcvfvrSvc/images/contents/btn_main_paging_next.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_main_paging_next.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .subsidy-main .main-control .swiper-button-prev {
     left: auto;
     right: 54px;
-    background: url(/rcvfvrSvc/images/contents/btn_main_paging_prev.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_main_paging_prev.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -621,12 +621,12 @@
 }
 
 .gov-subsidy .subsidy-main .main-control .main-stop {
-    background: url(/rcvfvrSvc/images/contents/ico_s_stop_02.png) no-repeat center;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/ico_s_stop_02.png) no-repeat center;
     background-size: auto 100%;
 }
 
 .gov-subsidy .subsidy-main .main-control .main-start {
-    background: url(/rcvfvrSvc/images/contents/ico_s_start_02.png) no-repeat center;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/ico_s_start_02.png) no-repeat center;
     background-size: auto 100%;
 }
 
@@ -708,14 +708,14 @@
     margin-top: 0;
     width: 28px;
     height: 28px;
-    background: url(/rcvfvrSvc/images/contents/btn_main_paging_next.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_main_paging_next.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .mov-control .swiper-button-prev {
     left: auto;
     right: 28px;
-    background: url(/rcvfvrSvc/images/contents/btn_main_paging_prev.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_main_paging_prev.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -793,7 +793,7 @@
     top: 4px;
     width: 16px;
     height: 16px;
-    background: url(/rcvfvrSvc/images/contents/bg_select_arrow_02.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_select_arrow_02.png) no-repeat 0 0;
     background-size: auto 100%;
     transform: rotate(-90deg);
 }
@@ -827,12 +827,12 @@
 }
 
 .gov-subsidy .subsidy-main .banner-control .banner-stop {
-    background: url(/rcvfvrSvc/images/contents/ico_s_stop_02.png) no-repeat center;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/ico_s_stop_02.png) no-repeat center;
     background-size: auto 100%;
 }
 
 .gov-subsidy .subsidy-main .banner-control .banner-start {
-    background: url(/rcvfvrSvc/images/contents/ico_s_start_02.png) no-repeat center;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/ico_s_start_02.png) no-repeat center;
     background-size: auto 100%;
 }
 
@@ -863,7 +863,7 @@
     width: 100%;
     height: 142px;
     border-radius: 16px;
-    background: #d9e3f2 url(/rcvfvrSvc/images/contents/img_alarm.png) no-repeat center left 20px;
+    background: #d9e3f2 url(https://www.gov.kr/rcvfvrSvc/images/contents/img_alarm.png) no-repeat center left 20px;
     background-size: 126px 112px;
 }
 
@@ -897,7 +897,7 @@
     top: 4px;
     width: 16px;
     height: 16px;
-    background: url(/rcvfvrSvc/images/contents/bg_select_arrow_02.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_select_arrow_02.png) no-repeat 0 0;
     background-size: auto 100%;
     transform: rotate(-90deg);
 }
@@ -1040,7 +1040,7 @@
     top: 50%;
     width: 24px;
     height: 24px;
-    background: url(/rcvfvrSvc/images/contents/btn_update.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_update.png) no-repeat 0 0;
     background-size: auto 100%;
     transform: translateY(-50%);
 }
@@ -1091,7 +1091,7 @@
     padding: 68px 0 68px 310px;
     font-size: 0;
     text-align: center;
-    background: url(/rcvfvrSvc/images/contents/img_cookie_banner.png) no-repeat 110px bottom;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/img_cookie_banner.png) no-repeat 110px bottom;
     background-size: 264px 180px;
 }
 
@@ -1139,7 +1139,7 @@
 /* 상황별케이스 */
 .gov-subsidy .subsidy-main .top.main-logon {
     margin-top: 0;
-    background: #e2edff url(/rcvfvrSvc/images/contents/bg_area_mask02.png) no-repeat 79% 0;
+    background: #e2edff url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_area_mask02.png) no-repeat 79% 0;
     background-size: 670px auto;
 }
 
@@ -1169,7 +1169,7 @@
 }
 
 .gov-subsidy .main-logon-aside .btn-research{margin-top:24px; padding:0; width:100%; border:1px solid #dcc045; background:#ffdf50; box-shadow: inherit;}
-.gov-subsidy .main-logon-aside .btn-research span{padding-left:22px; background:url(/rcvfvrSvc/images/icon/icon_search.png) no-repeat center left;}
+.gov-subsidy .main-logon-aside .btn-research span{padding-left:22px; background:url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_search.png) no-repeat center left;}
 
 .gov-subsidy .main-logon-aside .inp-wrap .inp-box input {
     padding: 0 36px 0 12px;
@@ -1188,7 +1188,7 @@
     top: 50%;
     width: 16px;
     height: 16px;
-    background: url(/rcvfvrSvc/images/icon/icon-search-black.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-search-black.png) no-repeat 0 0;
     background-size: auto 100%;
     transform: translateY(-50%);
 }
@@ -1298,27 +1298,27 @@
 }
 
 .gov-subsidy .logon-status .status-link span.notice:before {
-    background: url(/rcvfvrSvc/images/contents/icon_main_notice.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/icon_main_notice.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .logon-status .status-link span.family:before {
-    background: url(/rcvfvrSvc/images/contents/icon_main_family.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/icon_main_family.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .logon-status .status-link span.personal:before {
-    background: url(/rcvfvrSvc/images/contents/icon_main_personal.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/icon_main_personal.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .logon-status .status-link span.attend:before {
-    background: url(/rcvfvrSvc/images/contents/icon_main_attend.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/icon_main_attend.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .logon-status .status-link span.service:before {
-    background: url(/rcvfvrSvc/images/contents/icon_main_service.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/icon_main_service.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -1426,7 +1426,7 @@
     top: 0;
     width: 24px;
     height: 24px;
-    background: url(/rcvfvrSvc/images/icon/icon-refresh-02.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-refresh-02.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -1474,12 +1474,12 @@
 }
 
 .gov-subsidy .subsidy-main .logon-board-wrap .no-service-box.no-agree:before {
-    background: url(/rcvfvrSvc/images/contents/bg_no_agree_pc.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_no_agree_pc.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .subsidy-main .logon-board-wrap .no-service-box.no-inquiry:before {
-    background: url(/rcvfvrSvc/images/contents/bg_no_inquiry_pc.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_no_inquiry_pc.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -1612,7 +1612,7 @@
     position: relative;
     padding: 31px 0 32px 210px;
     border-radius: 8px;
-    background: #d9e3f2 url(/rcvfvrSvc/images/contents/@bg_family_pc.png) no-repeat left 30px center;
+    background: #d9e3f2 url(https://www.gov.kr/rcvfvrSvc/images/contents/@bg_family_pc.png) no-repeat left 30px center;
     background-size: 160px 120px;
 }
 
@@ -1624,7 +1624,7 @@
     top: 50%;
     width: 32px;
     height: 32px;
-    background: url(/rcvfvrSvc/images/contents/btn_arrow_transparent.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_arrow_transparent.png) no-repeat 0 0;
     background-size: auto 100%;
     transform: translateY(-50%);
 }
@@ -1728,7 +1728,7 @@
     top: 0;
     width: 90px;
     height: 92px;
-    background: url(/rcvfvrSvc/images/contents/main_slide_gradient_left.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/main_slide_gradient_left.png) no-repeat 0 0;
     background-size: auto 100%;
     z-index: 5;
 }
@@ -1741,7 +1741,7 @@
     top: 0;
     width: 90px;
     height: 92px;
-    background: url(/rcvfvrSvc/images/contents/main_slide_gradient_right.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/main_slide_gradient_right.png) no-repeat 0 0;
     background-size: auto 100%;
     z-index: 5;
     
@@ -1758,13 +1758,13 @@
 
 .gov-subsidy .subsidy-main .logon-slide-wrap .swiper-button-next {
     right: 0;
-    background: #fff url(/rcvfvrSvc/images/contents/btn_main_paging_next.png) no-repeat 0 0;
+    background: #fff url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_main_paging_next.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .subsidy-main .logon-slide-wrap .swiper-button-prev {
     left: 0;
-    background: #fff url(/rcvfvrSvc/images/contents/btn_main_paging_prev.png) no-repeat 0 0;
+    background: #fff url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_main_paging_prev.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -1811,9 +1811,9 @@
 .gov-subsidy .toggle_sw_box .swich_tab2{margin-left:-7px;}
 .gov-subsidy .toggle_sw_box .swich_tab1 .toggle_label{padding-left:20px;}
 .gov-subsidy .toggle_sw_box .swich_tab2 .toggle_label{padding-right:20px;}
-.gov-subsidy .family_list_box li a{display:block; padding:11.5px 20px; padding-right:40px; border:1px solid #ededed; border-radius: 8px; font-size:18px; color:#666; background:url(/rcvfvrSvc/images/icon/icon_next.png) no-repeat center right 10px;}
+.gov-subsidy .family_list_box li a{display:block; padding:11.5px 20px; padding-right:40px; border:1px solid #ededed; border-radius: 8px; font-size:18px; color:#666; background:url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_next.png) no-repeat center right 10px;}
 .gov-subsidy .family_list_box li +li{margin-top:6px;}
-.gov-subsidy .family_list_box li.active a{border:1px solid #bdc9dc; color:#033075; background:#dbe7ff url(/rcvfvrSvc/images/icon/icon_next_on.png) no-repeat center right 10px;}
+.gov-subsidy .family_list_box li.active a{border:1px solid #bdc9dc; color:#033075; background:#dbe7ff url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_next_on.png) no-repeat center right 10px;}
 .gov-subsidy .family_list_box li.active span{ font-weight:500;}
 
 
@@ -1913,7 +1913,7 @@
 	padding-left:28px;
     font-size: 15px;
     font-weight: 700;
-    background: url(/rcvfvrSvc/images/contents/custom-setting.png) no-repeat left center;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/custom-setting.png) no-repeat left center;
     background-size: 24px 24px;
     color: #222;
 }
@@ -1949,7 +1949,7 @@
     padding: 2px 0;
     font-size: 14px;
     color: #444;
-    background:url(/rcvfvrSvc/images/icon/icon-arrow-black.png) no-repeat right;
+    background:url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-arrow-black.png) no-repeat right;
     background-size:12px;
 }
 .gov-subsidy .my-benefit-board .custom-set-wrap .set-box li a:focus,
@@ -1971,7 +1971,7 @@
     top: 10px;
     width: 40px;
     height: 40px;
-    background: url(/rcvfvrSvc/images/contents/btn_mybenefit.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_mybenefit.png) no-repeat 0 0;
     background-size: auto 100%;
     transform: rotate(180deg);
 }
@@ -2154,7 +2154,7 @@
     padding-left: 24px;
     font-size: 14px;
     color: #666;
-    background: url(/rcvfvrSvc/images/icon/icon-info.png) no-repeat top 3px left;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-info.png) no-repeat top 3px left;
     background-size: 16px 16px;
 }
 
@@ -2223,7 +2223,7 @@
     right: 0;
     width: 20px;
     height: 20px;
-    background: url(/rcvfvrSvc/images/detail/bg_select_arrow_02.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/detail/bg_select_arrow_02.png) no-repeat 0 0;
     background-size: auto 100%;
     transform: translateY(-50%) rotate(-90deg);
 }
@@ -2233,7 +2233,7 @@
 }
 
 .gov-subsidy .service-visual-wrap .btn-wrap .btn-lg.type-1 span::after{
-    background: url(/rcvfvrSvc/images/detail/arrow-move-site.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/detail/arrow-move-site.png) no-repeat 0 0;
     background-size: 100% auto;
     transform: translateY(-50%) rotate(0deg);
 }
@@ -2252,13 +2252,13 @@
 }
 
 .gov-subsidy .service-visual-wrap .btn-link-wrap .btn-share {
-    background: url(/rcvfvrSvc/images/detail/ico_share.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_share.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .service-visual-wrap .btn-link-wrap .btn-print {
     margin-left: 10px;
-    background: url(/rcvfvrSvc/images/detail/ico_print.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_print.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -2354,27 +2354,27 @@
 }
 
 .gov-subsidy .service-detail-list .term strong:before {
-    background: url(/rcvfvrSvc/images/detail/ico_term.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_term.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .service-detail-list .call strong:before {
-    background: url(/rcvfvrSvc/images/detail/ico_call.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_call.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .service-detail-list .method strong:before {
-    background: url(/rcvfvrSvc/images/detail/ico_method.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_method.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .service-detail-list .reception strong:before {
-    background: url(/rcvfvrSvc/images/detail/ico_reception.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_reception.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .service-detail-list .support strong:before {
-    background: url(/rcvfvrSvc/images/detail/ico_support.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_support.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -2403,7 +2403,7 @@
     top: 4px;
     width: 16px;
     height: 16px;
-    background: url(/rcvfvrSvc/images/detail/icon-info.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/detail/icon-info.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -2443,7 +2443,7 @@
     top: 50%;
     width: 24px;
     height: 24px;
-    background: url(/rcvfvrSvc/images/detail/ico_warn.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_warn.png) no-repeat 0 0;
     background-size: auto 100%;
     transform: translateY(-50%);
 }
@@ -2506,35 +2506,35 @@
 }
 
 .gov-subsidy .service-detail-wrap .detail-title.support-target::before {
-    background-image: url(/rcvfvrSvc/images/detail/ico_target.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_target.png);
 }
 
 .gov-subsidy .service-detail-wrap .detail-title.support-content::before {
-    background-image: url(/rcvfvrSvc/images/detail/ico_cont.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_cont.png);
 }
 
 .gov-subsidy .service-detail-wrap .detail-title.application-term::before {
-    background-image: url(/rcvfvrSvc/images/detail/ico_term.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_term.png);
 }
 
 .gov-subsidy .service-detail-wrap .detail-title.method::before {
-    background-image: url(/rcvfvrSvc/images/detail/ico_method.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_method.png);
 }
 
 .gov-subsidy .service-detail-wrap .detail-title.document::before {
-    background-image: url(/rcvfvrSvc/images/detail/ico_document.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_document.png);
 }
 
 .gov-subsidy .service-detail-wrap .detail-title.reception::before {
-    background-image: url(/rcvfvrSvc/images/detail/ico_reception.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_reception.png);
 }
 
 .gov-subsidy .service-detail-wrap .detail-title.call::before {
-    background-image: url(/rcvfvrSvc/images/detail/ico_call.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_call.png);
 }
 
 .gov-subsidy .service-detail-wrap .detail-title.url::before {
-    background-image: url(/rcvfvrSvc/images/detail/ico_url.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/detail/ico_url.png);
 }
 
 .gov-subsidy .service-detail-wrap .service-detail-inner {
@@ -2922,7 +2922,7 @@
     display: inline-block;
     width: 24px;
     height: 24px;
-    background: url(/rcvfvrSvc/images/icon/icon-refresh.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-refresh.png) no-repeat 0 0;
     background-size: auto 100%;
     vertical-align: middle;
 }
@@ -2932,7 +2932,7 @@
     margin-left: 16px;
     width: 24px;
     height: 24px;
-    background: url(/rcvfvrSvc/images/contents/btn_layer_close.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_layer_close.png) no-repeat 0 0;
     background-size: auto 100%;
     vertical-align: middle;
 }
@@ -2990,7 +2990,7 @@
     top: 3px;
     width: 20px;
     height: 20px;
-    background: url(/rcvfvrSvc/images/contents/bg_tab_on_02.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_tab_on_02.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -3110,11 +3110,11 @@
 .gov-subsidy .cus-guide-set-wrap .cus-guide-set-section.top .cus-set-step li:nth-child(1)::before{
     top: 0;
     left: 0;
-    background-image: url(/rcvfvrSvc/images/contents/cus-guide-step-woman.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/contents/cus-guide-step-woman.png);
 }
 
 .gov-subsidy .cus-guide-set-wrap .cus-guide-set-section.top .cus-set-step li:nth-child(2)::before{
-    background-image: url(/rcvfvrSvc/images/contents/cus-guide-step-man.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/contents/cus-guide-step-man.png);
     bottom: 0;
     left: -28px;
     width: 68px;
@@ -3122,7 +3122,7 @@
 }
 
 .gov-subsidy .cus-guide-set-wrap .cus-guide-set-section.top .cus-set-step li:nth-child(3)::before{
-    background-image: url(/rcvfvrSvc/images/contents/cus-guide-step-refresh.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/contents/cus-guide-step-refresh.png);
     top: 0;
     right: 0;
 }
@@ -3140,7 +3140,7 @@
 .gov-subsidy .cus-guide-set-wrap .cus-guide-set-section.mid .cus-set-step li:nth-child(1)::before{
     bottom: 0;
     right: 0;
-    background-image: url(/rcvfvrSvc/images/contents/cus-guide-step-check-02.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/contents/cus-guide-step-check-02.png);
 }
 
 .gov-subsidy .cus-guide-set-wrap .cus-guide-set-section.mid .cus-set-step li:nth-child(5)::before{
@@ -3148,7 +3148,7 @@
     height: 200px;
     bottom: -152px;
     right: 20px;
-    background-image: url(/rcvfvrSvc/images/contents/cus-guide-step-woman02.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/contents/cus-guide-step-woman02.png);
 }
 
 .gov-subsidy .cus-guide-set-wrap .cus-set-step li::after{
@@ -3159,7 +3159,7 @@
     right: -44px;
     width: 44px;
     height: 13px;
-    background: url(/rcvfvrSvc/images/contents/cus-guide-step-arrow-b.png) no-repeat top left;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/cus-guide-step-arrow-b.png) no-repeat top left;
     background-size: 100% auto;
     transform: translateY(-50%);
 }
@@ -3172,7 +3172,7 @@
     right: -44px;
     width: 44px;
     height: 13px;
-    background: url(/rcvfvrSvc/images/contents/cus-guide-step-arrow-g.png) no-repeat top left;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/cus-guide-step-arrow-g.png) no-repeat top left;
     background-size: 100% auto;
     transform: translateY(-50%);
 }
@@ -3215,7 +3215,7 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: url(/rcvfvrSvc/images/contents/cus-guide-step-trade.png) no-repeat top left;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/cus-guide-step-trade.png) no-repeat top left;
     background-size: 100% auto;
     transform: translateY(2px);
 }
@@ -3291,11 +3291,11 @@
 }
 
 .gov-subsidy .accordion-wrap.faq .accordion-title .ico{
-    background-image: url(/rcvfvrSvc/images/contents/icon-acc-q.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/contents/icon-acc-q.png);
 }
 
 .gov-subsidy .accordion-wrap.faq .accordion-cont .ico{
-    background-image: url(/rcvfvrSvc/images/contents/icon-acc-a.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/contents/icon-acc-a.png);
 }
 
 .gov-subsidy .cus-guide-set-wrap .cus-guide-set-section.bot .sec-btn-wrap .btn-lg{
@@ -3389,7 +3389,7 @@
     top: 50%;
     width: 14px;
     height: 10px;
-    background: url(/rcvfvrSvc/images/icon/ico_step_on.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/icon/ico_step_on.png) no-repeat 0 0;
     background-size: auto 100%;
     transform: translate(-50%, -50%);
 }
@@ -3400,7 +3400,7 @@
 }
 
 .gov-subsidy .family-mng-wrap .nodata-title.complete:before {
-    background: url(/rcvfvrSvc/images/contents/img_search_complete.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/img_search_complete.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -3473,7 +3473,7 @@
     top: 0;
     width: 64px;
     height: 64px;
-    background: url(/rcvfvrSvc/images/contents/img_search_nodata.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/img_search_nodata.png) no-repeat 0 0;
     background-size: auto 100%;
     transform: translateX(-50%);
 }
@@ -3495,7 +3495,7 @@
     top: 3px;
     width: 18px;
     height: 18px;
-    background: url(/rcvfvrSvc/images/icon/icon-info.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-info.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -4197,11 +4197,11 @@
 }
 
 .gov-subsidy .custom-alarm-wrap .what-9b-list li.phone p::before{
-    background-image: url(/rcvfvrSvc/images/contents/icon-9b-phone.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/contents/icon-9b-phone.png);
 }
 
 .gov-subsidy .custom-alarm-wrap .what-9b-list li.mail p::before{
-    background-image: url(/rcvfvrSvc/images/contents/icon-9b-mail.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/contents/icon-9b-mail.png);
 }
 
 .gov-subsidy .custom-alarm-wrap .guide-cont-link-wrap{
@@ -4247,11 +4247,11 @@
 }
 
 .gov-subsidy .custom-alarm-wrap .guide-cont-link:nth-child(1):before{
-    background-image: url(/rcvfvrSvc/images/contents/guide-cont-link-01.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/contents/guide-cont-link-01.png);
 }
 
 .gov-subsidy .custom-alarm-wrap .guide-cont-link:nth-child(2):before{
-    background-image: url(/rcvfvrSvc/images/contents/guide-cont-link-02.png);
+    background-image: url(https://www.gov.kr/rcvfvrSvc/images/contents/guide-cont-link-02.png);
 }
 
 .gov-subsidy .custom-alarm-wrap .guide-cont-link .txt-box{
@@ -4325,7 +4325,7 @@
     top: -3px;
     width: 32px;
     height: 32px;
-    background: url(/rcvfvrSvc/images/contents/ico_alarm02.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/ico_alarm02.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -4406,7 +4406,7 @@
 }
 
 .gov-subsidy .custom-alarm-wrap .nodata-title.no-alarm:before {
-    background: url(/rcvfvrSvc/images/contents/ico_alarm01.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/ico_alarm01.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 /* #0029 */
@@ -4910,7 +4910,7 @@
     top: 1px;
     width: 18px;
     height: 18px;
-    background: url(/rcvfvrSvc/images/icon/icon_clip.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_clip.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -4936,7 +4936,7 @@
     top: 3px;
     width: 16px;
     height: 16px;
-    background: url(/rcvfvrSvc/images/contents/btn_alarm_close.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_alarm_close.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -4989,7 +4989,7 @@
     transform: translateX(-50%);
     width: 64px;
     height:64px;
-    background: url(/rcvfvrSvc/images/contents/img_search_complete.png) no-repeat top left;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/img_search_complete.png) no-repeat top left;
     background-size: 100% auto;
 }
 
@@ -5284,7 +5284,7 @@
     display: block;
     width: 64px;
     height: 64px;
-    background: url(/rcvfvrSvc/images/contents/bg_view_more.png) no-repeat center;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_view_more.png) no-repeat center;
     background-size: 24px;
 }
 
@@ -5402,7 +5402,7 @@
 }
 
 .gov-subsidy .search-result-wrap .result-link:hover .icon-link {
-    background: url(/rcvfvrSvc/images/icon/icon-arrow-blue.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-arrow-blue.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -5416,7 +5416,7 @@
     margin-left: 7px;
     width: 7px;
     height: 11px;
-    background: url(/rcvfvrSvc/images/icon/icon-arrow-gray.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-arrow-gray.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -5509,7 +5509,7 @@
     top: 50%;
     width: 16px;
     height: 16px;
-    background: url(/rcvfvrSvc/images/contents/bg_view_more_black.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_view_more_black.png) no-repeat 0 0;
     background-size: auto 100%;
     transform: translateY(-50%);
 }
@@ -5603,7 +5603,7 @@
     top: 50%;
     width: 16px;
     height: 16px;
-    background: url(/rcvfvrSvc/images/contents/bg_select_arrow_02.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_select_arrow_02.png) no-repeat 0 0;
     background-size: auto 100%;
     transform: translateY(-50%);
 }
@@ -5735,7 +5735,7 @@
     display: inline-block;
     width: 32px;
     height: 32px;
-    background: url(/rcvfvrSvc/images/contents/btn_array.png) no-repeat center;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_array.png) no-repeat center;
     background-size: 16px 16px;
     vertical-align: middle;
 }
@@ -6257,7 +6257,7 @@
     top: 4px;
     width: 16px;
     height: 16px;
-    background: url(/rcvfvrSvc/images/icon/arrow-re-searching.png) no-repeat top left;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/icon/arrow-re-searching.png) no-repeat top left;
     background-size: 100% auto;
 }
 
@@ -6301,7 +6301,7 @@
     top: 2px;
     width: 20px;
     height: 20px;
-    background: url(/rcvfvrSvc/images/icon/icon-info.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-info.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -6347,17 +6347,17 @@
 }
 
 .gov-subsidy .simple-search-wrap > .tab-wrap > .tab-menu .tab-list:nth-child(1):before {
-    background: url(/rcvfvrSvc/images/contents/bg_simple_tab1.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_simple_tab1.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .simple-search-wrap > .tab-wrap > .tab-menu .tab-list:nth-child(2):before {
-    background: url(/rcvfvrSvc/images/contents/bg_simple_tab2.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_simple_tab2.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .simple-search-wrap > .tab-wrap > .tab-menu .tab-list:nth-child(3):before {
-    background: url(/rcvfvrSvc/images/contents/bg_simple_tab3.png) no-repeat 0 0;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_simple_tab3.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -6598,7 +6598,7 @@
     right: 0;
     width: 518px;
     height: 246px;
-    background: url(/rcvfvrSvc/images/contents/intro-secTop-img.png) no-repeat top left;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/intro-secTop-img.png) no-repeat top left;
     background-size: 100% auto;
 }
 
@@ -6791,22 +6791,22 @@
 }
 
 .gov-subsidy .subsidy-useway .step-img-list:nth-child(1)::before{
-    background: url(/rcvfvrSvc/images/contents/useway-offline-step01.png) no-repeat top left;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/useway-offline-step01.png) no-repeat top left;
     background-size: 100% auto;
 }
 
 .gov-subsidy .subsidy-useway .step-img-list:nth-child(2)::before{
-    background: url(/rcvfvrSvc/images/contents/useway-offline-step02.png) no-repeat top left;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/useway-offline-step02.png) no-repeat top left;
     background-size: 100% auto;
 }
 
 .gov-subsidy .subsidy-useway .step-img-list:nth-child(3)::before{
-    background: url(/rcvfvrSvc/images/contents/useway-offline-step03.png) no-repeat top left;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/useway-offline-step03.png) no-repeat top left;
     background-size: 100% auto;
 }
 
 .gov-subsidy .subsidy-useway .step-img-list:nth-child(4)::before{
-    background: url(/rcvfvrSvc/images/contents/useway-offline-step04.png) no-repeat top left;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/useway-offline-step04.png) no-repeat top left;
     background-size: 100% auto;
 }
 
@@ -6818,7 +6818,7 @@
     left: -65px;
     width: 68px;
     height: 76px;
-    background: url(/rcvfvrSvc/images/contents/useway-offline-step-arrow.png) no-repeat top left;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/useway-offline-step-arrow.png) no-repeat top left;
     background-size: 100% auto;
 }
 
@@ -6855,12 +6855,12 @@
 }
 
 .gov-subsidy .subsidy-useway .step-img-list-wrap.visiting .step-img-list:nth-child(1)::before{
-    background: url(/rcvfvrSvc/images/contents/useway-visiting-step01.png) no-repeat top left;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/useway-visiting-step01.png) no-repeat top left;
     background-size: 100% auto;
 }
 
 .gov-subsidy .subsidy-useway .step-img-list-wrap.visiting .step-img-list:nth-child(2)::before{
-    background: url(/rcvfvrSvc/images/contents/useway-visiting-step02.png) no-repeat top left;
+    background: url(https://www.gov.kr/rcvfvrSvc/images/contents/useway-visiting-step02.png) no-repeat top left;
     background-size: 100% auto;
 }
 
@@ -6919,13 +6919,13 @@
 
 .gov-subsidy .subsidy-useway .useway-slide-wrap .swiper-button-next {
     right: 14px;
-    background: #fff url(/rcvfvrSvc/images/contents/btn_main_paging_next.png) no-repeat 0 0;
+    background: #fff url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_main_paging_next.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
 .gov-subsidy .subsidy-useway .useway-slide-wrap .swiper-button-prev {
     left: 14px;
-    background: #fff url(/rcvfvrSvc/images/contents/btn_main_paging_prev.png) no-repeat 0 0;
+    background: #fff url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_main_paging_prev.png) no-repeat 0 0;
     background-size: auto 100%;
 }
 
@@ -6976,7 +6976,7 @@
 .gov-subsidy .inquire_box .inquire_sort{font-size:15px; line-height: 1.73; letter-spacing: -0.38px; color:#222; font-weight: bold;}
 .gov-subsidy .inquire_box .inquire_txt{position:relative; padding-left:6px; margin-left:6px; font-size:15px;  line-height: 1.73; letter-spacing: -0.38px; color:#222;}
 .gov-subsidy .inquire_box .inquire_txt:before{content:""; display:block; position:absolute; background:#ccc; width:1px; height:14px; left:-1px; top:4px;}
-.gov-subsidy .inquire_box .icon_call{padding-left:18px; background:url(/rcvfvrSvc/images/icon/icon_phone.png) no-repeat center left;}
+.gov-subsidy .inquire_box .icon_call{padding-left:18px; background:url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_phone.png) no-repeat center left;}
 
 
 
@@ -7341,7 +7341,7 @@
         margin-top: 12px;
         padding: 24px 16px;
         border-radius: 20px;
-        background: #f5f5f5 url(/rcvfvrSvc/images/contents/dir-alarm-img.png) no-repeat center right 16px;
+        background: #f5f5f5 url(https://www.gov.kr/rcvfvrSvc/images/contents/dir-alarm-img.png) no-repeat center right 16px;
         background-size: 60px 60px;
     }
 
@@ -7372,7 +7372,7 @@
         right: 0;
         width: 16px;
         height: 16px;
-        background: url(/rcvfvrSvc/images/contents/dir-link-arrow.png) no-repeat top left;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/contents/dir-link-arrow.png) no-repeat top left;
         background-size: 100% auto;
         transform: translateY(-50%);
     }
@@ -7404,7 +7404,7 @@
         right: 16px;
         width: 20px;
         height: 20px;
-        background: url(/rcvfvrSvc/images/contents/bg_view_more_mo.png) no-repeat top left;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_view_more_mo.png) no-repeat top left;
         background-size: 100% auto;
     }
 
@@ -7851,7 +7851,7 @@
         margin-bottom: -52px;
         padding: 22px 28px;
         text-align: left;
-        background: url(/rcvfvrSvc/images/contents/img_cookie_banner.png) no-repeat right 20px center;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/contents/img_cookie_banner.png) no-repeat right 20px center;
         background-size: 160px 110px;
     }
 
@@ -7948,7 +7948,7 @@
         margin-right: 12px;
         width: 32px;
         height: 32px;
-        background: url(/rcvfvrSvc/images/contents/btn_notice.png) no-repeat 0 0;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_notice.png) no-repeat 0 0;
         background-size: auto 100%;
         vertical-align: middle;
     }
@@ -7981,7 +7981,7 @@
         display: inline-block;
         width: 32px;
         height: 32px;
-        background: url(/rcvfvrSvc/images/contents/btn_setting.png) no-repeat 0 0;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/contents/btn_setting.png) no-repeat 0 0;
         background-size: auto 100%;
         vertical-align: middle;
     }
@@ -8097,12 +8097,12 @@
     }
     
     .gov-subsidy .subsidy-main .logon-board-wrap .no-service-box.no-agree:before {
-        background: url(/rcvfvrSvc/images/contents/bg_no_agree_mo.png) no-repeat 0 0;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_no_agree_mo.png) no-repeat 0 0;
         background-size: auto 100%;
     }
 
     .gov-subsidy .subsidy-main .logon-board-wrap .no-service-box.no-inquiry:before {
-        background: url(/rcvfvrSvc/images/contents/bg_no_inquiry_mo.png) no-repeat 0 0;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_no_inquiry_mo.png) no-repeat 0 0;
         background-size: auto 100%;
     }
     
@@ -8192,7 +8192,7 @@
     .gov-subsidy .subsidy-main .logon-board-wrap .logon-family-link {
         padding: 31px 0 32px 20px;
         border-radius: 12px;
-        background: #d9e3f2 url(/rcvfvrSvc/images/contents/@bg_family_mo.png) no-repeat right bottom;
+        background: #d9e3f2 url(https://www.gov.kr/rcvfvrSvc/images/contents/@bg_family_mo.png) no-repeat right bottom;
         background-size: 130px 120px;
     }
     
@@ -8221,7 +8221,7 @@
         top: 2px;
         width: 20px;
         height: 20px;
-        background: url(/rcvfvrSvc/images/icon/icon-arrow-black-02.png) no-repeat 0 0;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-arrow-black-02.png) no-repeat 0 0;
         background-size: auto 100%;
         transform: rotate(-90deg);
     }
@@ -8300,7 +8300,7 @@
         width: 32px;
         height: 32px;
         border-radius: 50%;
-        background: #fff url(/rcvfvrSvc/images/icon/icon-arrow-black.png) no-repeat center;
+        background: #fff url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-arrow-black.png) no-repeat center;
         background-size: 16px auto;
         transform: translateX(-50%) rotate(90deg);
         box-shadow: 3px 0 6px 0 rgba(0, 0, 0, 0.16);
@@ -8367,7 +8367,7 @@
         margin-left: 8px;
         width: 32px;
         height: 32px;
-        background: url(/rcvfvrSvc/images/icon/icon-input.png) no-repeat top left;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-input.png) no-repeat top left;
         background-size: 100% auto;
     }
 
@@ -9162,7 +9162,7 @@
         width: 16px;
         height: 16px;
         transform: translate(-50%, 0%);
-        background: url(/rcvfvrSvc/images/contents/cus-guide-step-arrow-b-02.png) no-repeat top left;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/contents/cus-guide-step-arrow-b-02.png) no-repeat top left;
         background-size: 100% auto;
     }
 
@@ -9178,7 +9178,7 @@
         width: 16px;
         height: 16px;
         transform: translate(-50%, 0%);
-        background: url(/rcvfvrSvc/images/contents/cus-guide-step-arrow-g-02.png) no-repeat top left;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/contents/cus-guide-step-arrow-g-02.png) no-repeat top left;
         background-size: 100% auto;
     }
 
@@ -9722,7 +9722,7 @@
     }
 
     .gov-subsidy .family-mng-table .status .state.on:before{
-        background: url(/rcvfvrSvc/images/contents/bg_state_on.png) no-repeat top left;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_state_on.png) no-repeat top left;
         background-size: 100% auto;
     }
 
@@ -10386,7 +10386,7 @@
         top: 50%;
         width: 16px;
         height: 16px;
-        background: url(/rcvfvrSvc/images/contents/bg_view_more_mo.png) no-repeat 0 0;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/contents/bg_view_more_mo.png) no-repeat 0 0;
         background-size: auto 100%;
         transform: translateY(-50%);
     }
@@ -10978,7 +10978,7 @@
         width: 70px;
         height: 70px;
         transform: translateX(-50%);
-        background: url(/rcvfvrSvc/images/contents/img_search_complete.png) no-repeat top left;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/contents/img_search_complete.png) no-repeat top left;
         background-size: 100% auto;
     }
 
@@ -11182,7 +11182,7 @@
         top: 0;
         width: 28px;
         height: 28px;
-        background: url(/rcvfvrSvc/images/icon/btn-white-circle.png) no-repeat top left;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/icon/btn-white-circle.png) no-repeat top left;
         background-size: 100% auto;
     }
 
@@ -11259,7 +11259,7 @@
         left: 50%;
         width: 343px;
         height: 163px;
-        background: url(/rcvfvrSvc/images/contents/intro-secTop-img.png) no-repeat top left;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/contents/intro-secTop-img.png) no-repeat top left;
         background-size: 100% auto;
         transform: translateX(-50%);
     }
@@ -11567,7 +11567,7 @@
         font-size: 18px;
         font-weight: 500;
         color: #222;
-        background: #fff url(/rcvfvrSvc/images/icon/icon-arrow-gray02.png) no-repeat calc(100% - 10px) center;
+        background: #fff url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-arrow-gray02.png) no-repeat calc(100% - 10px) center;
         background-size: 20px auto;
     }
     .gov-subsidy .subsidy-useway .useway-mo-slide .select-wrap + .pic-desc-wrap{ margin-top:42px;}
@@ -11597,7 +11597,7 @@
     
     .gov-subsidy .inquire_box .inquire_sort{font-size:14px; line-height: 0.93; letter-spacing: -0.7px; }
     .gov-subsidy .inquire_box .inquire_txt{font-size:14px; line-height: 0.93; letter-spacing: -0.7px; }
-    .gov-subsidy .inquire_box .icon_call{margin-left:3px; padding-left:15px; background:url(/rcvfvrSvc/images/icon/icon_phone_mo.png) no-repeat center left; background-size:14px;}
+    .gov-subsidy .inquire_box .icon_call{margin-left:3px; padding-left:15px; background:url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_phone_mo.png) no-repeat center left; background-size:14px;}
 }
 
 
@@ -11744,7 +11744,7 @@
     }
 
     .gov-subsidy .subsidy-main .cookie-banner-wrap {
-        background: url(/rcvfvrSvc/images/contents/img_cookie_banner.png) no-repeat right 5px bottom 5px;
+        background: url(https://www.gov.kr/rcvfvrSvc/images/contents/img_cookie_banner.png) no-repeat right 5px bottom 5px;
         background-size: 160px 110px;
     }
 
@@ -12228,7 +12228,7 @@
 
 
 .gov-subsidy.covid_guide_wrap .simple-visual-wrap{position:relative; padding:52px 445px 52px 0; }
-.gov-subsidy.covid_guide_wrap .simple-visual-wrap:before{content:""; display:block; position:absolute; right:92px; bottom:0; width:270px; height:200px; background: url(/rcvfvrSvc/images/contents/img_covid_pc.png) no-repeat bottom right;}
+.gov-subsidy.covid_guide_wrap .simple-visual-wrap:before{content:""; display:block; position:absolute; right:92px; bottom:0; width:270px; height:200px; background: url(https://www.gov.kr/rcvfvrSvc/images/contents/img_covid_pc.png) no-repeat bottom right;}
 .gov-subsidy.covid_guide_wrap .simple-visual-wrap p{text-align: left; letter-spacing: -0.7px;}
 .gov-subsidy.covid_guide_wrap .simple-visual-wrap .visual_txt{font-size:18px; font-weight:500; margin-top:28px; line-height:28px; letter-spacing: -0.55px;}
 .gov-subsidy.covid_guide_wrap .cont_sub_title_txt{margin:10px 0; line-height: 1.4;}
@@ -12241,7 +12241,7 @@
 .gov_table_wrap thead th+th{border-left:1px solid #bdbdbd;}
 .gov_table_wrap tbody td, .gov_table_wrap tbody th{padding:10px 0; font-size:16px; line-height: 22px; letter-spacing: -0.4px; color:#444; text-align:center; border-bottom:1px solid #bdbdbd; border-left:1px solid #bdbdbd;}
 .gov_table_wrap tbody th{border-left:0; background:#eff1f5;}
-.gov_table_wrap tbody a{padding-right:20px; color:#222; background:url(/rcvfvrSvc/images/contents/ic16_icon_move_pc.png) no-repeat right top 4px;}
+.gov_table_wrap tbody a{padding-right:20px; color:#222; background:url(https://www.gov.kr/rcvfvrSvc/images/contents/ic16_icon_move_pc.png) no-repeat right top 4px;}
 .gov_table_wrap tr:last-child{border-bottom:1px solid #bdbdbd;}
 .gov_table_wrap b{font-weight: bold;}
 .gov_bullet_type1{margin-top:20px;}
@@ -12256,16 +12256,16 @@
 
 
 .cont_sub_box{margin-top:24px; display: flex; justify-content: space-between; }
-.cont_sub_box .box_wrap{width:calc((100% - 30px)/2); padding: 45px 40px; padding-right:190px;  border:1px solid #ddd; border-radius: 10px; background:url(/rcvfvrSvc/images/contents/ico_online.png) no-repeat center right 45px;}
+.cont_sub_box .box_wrap{width:calc((100% - 30px)/2); padding: 45px 40px; padding-right:190px;  border:1px solid #ddd; border-radius: 10px; background:url(https://www.gov.kr/rcvfvrSvc/images/contents/ico_online.png) no-repeat center right 45px;}
 .cont_sub_box .box_wrap .box_txt{margin-top:19px; font-size:20px; line-height:32px; letter-spacing: -0.5px; font-weight: 500; color:#444;}
-.cont_sub_box .box_wrap.offline{background:url(/rcvfvrSvc/images/contents/ico_offline.png) no-repeat center right 45px;}
-.comment_r p{float:right; padding-left:28px; margin-top:12px; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: -0.4px; text-align: right; color: #666; background:url(/rcvfvrSvc/images/contents/ico_comment_pc.png) no-repeat center left;}
+.cont_sub_box .box_wrap.offline{background:url(https://www.gov.kr/rcvfvrSvc/images/contents/ico_offline.png) no-repeat center right 45px;}
+.comment_r p{float:right; padding-left:28px; margin-top:12px; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: -0.4px; text-align: right; color: #666; background:url(https://www.gov.kr/rcvfvrSvc/images/contents/ico_comment_pc.png) no-repeat center left;}
 .comment_r:after{content:""; display: block; clear:both;}
 .cont_sub_title_txt{font-size: 18px; font-weight: 500; font-stretch: normal; font-style: normal; line-height: 2; letter-spacing: -0.45px; text-align: left; color: #222;}
 .cont_txt_ex{margin:10px 0;font-size:16px; line-height:24px; letter-spacing: -0.4px; color:#222; font-weight: 400;}
-.nodata-title.confirm_type01:before{background:url(/rcvfvrSvc/images/contents/ic64_nodata.png) no-repeat center;}
-.nodata-title.confirm_type02:before{background:url(/rcvfvrSvc/images/contents/ic64_ok.png) no-repeat center;}
-.nodata-title.confirm_type03:before{background:url(/rcvfvrSvc/images/contents/ic64_no.png) no-repeat center;}
+.nodata-title.confirm_type01:before{background:url(https://www.gov.kr/rcvfvrSvc/images/contents/ic64_nodata.png) no-repeat center;}
+.nodata-title.confirm_type02:before{background:url(https://www.gov.kr/rcvfvrSvc/images/contents/ic64_ok.png) no-repeat center;}
+.nodata-title.confirm_type03:before{background:url(https://www.gov.kr/rcvfvrSvc/images/contents/ic64_no.png) no-repeat center;}
 .gov-subsidy.covid_guide_wrap .family-mng-wrap + .family-mng-wrap{margin-top:28px;}
 
 .gov-subsidy.covid_guide_wrap .subsidy-layer .base-income-wrap .call-num{padding-left:133px; font-size:12px; }
@@ -12309,7 +12309,7 @@
 .gov-subsidy .group_box .family-mng-inner .family-mng-input .check-box{}
 .gov-subsidy .group_box .family-mng-inner .family-mng-input input[type=checkbox]{display: block; position: absolute; left: 0; top: 44px; width: 24px; height: 24px; border: 1px solid #222; border-radius: 4px; background-color: #fff; transform: translateY(-50%);}
 .gov-subsidy .group_box .family-mng-inner .family-mng-input input[type=checkbox]:checked{border: 1px solid #006ae2; 
-    background: #006ae2 url(/rcvfvrSvc/images/icon/icon-chk-check_02.png) no-repeat center; background-size:14px;}
+    background: #006ae2 url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-chk-check_02.png) no-repeat center; background-size:14px;}
 .gov-subsidy .group_box .family-mng-inner .family-mng-input+.family-mng-input{margin-top:0; border-top:1px solid #e5e5e5;}
 .gov-subsidy .group_box .family-mng-inner .family-mng-input>div{margin-left:10px; width:calc( ( 100% - 20px ) /2 )}
 .gov-subsidy .group_box .family-mng-inner .family-mng-input>div:nth-child(n+4){margin-top:10px;}
@@ -12318,7 +12318,7 @@
 .gov-subsidy .group_box .desc-txt{margin-top:20px; font-size:14px; color:#444; }
 .gov-subsidy .group_box .desc-txt b{font-weight: bold; font-size: 15px; display: block;}
 .gov-subsidy .group_box .complete_box{margin:0 auto; padding-bottom:30px; border-bottom:1px solid #bdc9dc; text-align: center;}
-.gov-subsidy .group_box .complete_pop{display:inline-block; margin-top:10px; padding:12px 0; padding-left:64px; font-size:18px; font-weight: 500; color:#222; background:url(/rcvfvrSvc/images/icon/icon_complete.png) no-repeat center left;}
+.gov-subsidy .group_box .complete_pop{display:inline-block; margin-top:10px; padding:12px 0; padding-left:64px; font-size:18px; font-weight: 500; color:#222; background:url(https://www.gov.kr/rcvfvrSvc/images/icon/icon_complete.png) no-repeat center left;}
 .gov-subsidy .group_box .txt_16{margin-top:30px; font-size:16px; color:#444;}
 .gov-subsidy .group_box .complete_info{margin:0 auto; margin-top:16px; padding:12px 0; width:300px; border:1px solid #ccc; border-radius: 8px; background:#f5f5f5;}
 .gov-subsidy .group_box .complete_info span{font-size: 16px; color:#444; }
@@ -12326,11 +12326,11 @@
 .gov-subsidy .group_box .complete_info span + span:before{content:""; display:block; position:absolute; background:#ccc; width:1px; height:14px; left:0; top:50%; transform:translateY(-50%);}
 .gov-subsidy .group_box .complete_info +.complete_info{margin-top:10px;}
 .gov-subsidy .group_box .tool_box{position:relative;margin-top:20px; display:inline-block;}
-.gov-subsidy .group_box .tool_box .btn_tooltip{ font-size:15px; color:#888; padding-left:24px; background: url(/rcvfvrSvc/images/icon/icon-info.png) no-repeat center left; background-size:18px; text-decoration:underline;}
+.gov-subsidy .group_box .tool_box .btn_tooltip{ font-size:15px; color:#888; padding-left:24px; background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-info.png) no-repeat center left; background-size:18px; text-decoration:underline;}
 .gov-subsidy .group_box .tooltip{position:absolute; display:none; left:0; top:0px; padding:12px; width:300px; color:#fff; font-size:13px; font-weight:400; border:1px solid #777; border-radius: 8px; background:#888; box-shadow: 4px 6px 8px 0 rgba(0, 0, 0, 0.1); }
 .gov-subsidy .group_box .tooltip button{display:block; position:absolute; top:10px; right:10px; width:16px; height:16px; background:url(../images/contents/btn_tip_close.png) no-repeat center; background-size:16px;}
 .gov-subsidy .group_box .tooltip p+p{margin-top:10px;}
-.gov-subsidy .group_box .desc-txt.info_icon{margin-top:10px; font-size:15px; color:#888; padding-left:24px;  background: url(/rcvfvrSvc/images/icon/icon-info.png) no-repeat center left; background-size:18px; }
+.gov-subsidy .group_box .desc-txt.info_icon{margin-top:10px; font-size:15px; color:#888; padding-left:24px;  background: url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-info.png) no-repeat center left; background-size:18px; }
 
 
 .font_033075{color:#033075 !important;}
@@ -12375,7 +12375,7 @@
 
     .covid_guide_wrap{padding:0 16px; padding-top:44px;}
     .gov-subsidy.covid_guide_wrap .simple-visual-wrap{padding:0; background:none;}
-    .gov-subsidy.covid_guide_wrap .simple-visual-wrap:before{display:none; width:182px; height:122px; left: 50%; top:9px; transform: translateX(-50%); background:url(/rcvfvrSvc/images/contents/img_covid_mo.png) no-repeat bottom; background-size: 100% auto;}
+    .gov-subsidy.covid_guide_wrap .simple-visual-wrap:before{display:none; width:182px; height:122px; left: 50%; top:9px; transform: translateX(-50%); background:url(https://www.gov.kr/rcvfvrSvc/images/contents/img_covid_mo.png) no-repeat bottom; background-size: 100% auto;}
     .gov-subsidy.covid_guide_wrap .simple-visual-wrap p{font-size:25px; width:100%; letter-spacing: -1.25px;}
     .gov-subsidy.covid_guide_wrap .simple-visual-wrap .visual_txt{margin-top:17px; font-size:16px; line-height: 24px; letter-spacing: -0.8px; color:#444;}
     .gov_table_wrap *{}
@@ -12396,7 +12396,7 @@
     .gov_table_wrap .tbl_li .tbl_td em{color:#006ae2;}
     .gov_table_wrap .tbl_li_type>div{display:flex; justify-content: space-between; margin-top:10px; font-size:14px; line-height: 26px;}
     .gov_table_wrap .tbl_li_type span{color:#666;}
-    .gov_table_wrap .tbl_li_type a{padding-right: 20px; background: url(/rcvfvrSvc/images/contents/ic16_icon_move_mo.png) no-repeat right top 3px;  background-size: 16px auto;}
+    .gov_table_wrap .tbl_li_type a{padding-right: 20px; background: url(https://www.gov.kr/rcvfvrSvc/images/contents/ic16_icon_move_mo.png) no-repeat right top 3px;  background-size: 16px auto;}
 
 	.comment_r{width:calc( 100% + 120px );}
     .comment_r p{margin-top:20px; padding-right: 22px; float: inherit; text-align: left; font-size: 14px; line-height: 22px; letter-spacing: -0.7px; font-weight: normal;}
@@ -12465,7 +12465,7 @@
 	.gov-subsidy .group_box .tooltip{font-size:14px;}
 	.gov-subsidy .subsidy-layer .group_box .f_check_box li{font-size:14px;}
 	.gov-subsidy .group_box .tool_box .btn_tooltip{font-size:13px;}
-	.gov-subsidy .group_box .desc-txt.info_icon{font-size:13px; background:url(/rcvfvrSvc/images/icon/icon-info.png) no-repeat top left; background-size:18px;}
+	.gov-subsidy .group_box .desc-txt.info_icon{font-size:13px; background:url(https://www.gov.kr/rcvfvrSvc/images/icon/icon-info.png) no-repeat top left; background-size:18px;}
 	.gov-subsidy .subsidy-layer .group_box .f_check_box li:nth-child(2n){margin-left:30px;}
 }
 	
@@ -12489,10 +12489,10 @@
 .mt0{margin-top:0 !important;}
 .mt40{margin-top:40px !important;}
 .nodata_wrap_2023{padding:31px 0 !important;}
-.nodata_wrap_2023 .nodata-title{padding:12px 0; padding-left:64px; text-align:left; display:inline-block; background:url(/rcvfvrSvc/images/contents/icon_point_pc.png) no-repeat center left; }
+.nodata_wrap_2023 .nodata-title{padding:12px 0; padding-left:64px; text-align:left; display:inline-block; background:url(https://www.gov.kr/rcvfvrSvc/images/contents/icon_point_pc.png) no-repeat center left; }
 .nodata_wrap_2023 .nodata-title:before{display:none;}
-.nodata_wrap_2023 .nodata-title.complete{background:url(/rcvfvrSvc/images/contents/icon_complete_pc.png) no-repeat center left;}
-.info_wrap-guide-title{display:block; padding-left:48px; margin-bottom:25px; font-size:24px; letter-spacing: -0.6px; color:#222; line-height: 36px; font-weight: bold; background:url(/rcvfvrSvc/images/contents/line_info_pc.png) no-repeat center left;}
+.nodata_wrap_2023 .nodata-title.complete{background:url(https://www.gov.kr/rcvfvrSvc/images/contents/icon_complete_pc.png) no-repeat center left;}
+.info_wrap-guide-title{display:block; padding-left:48px; margin-bottom:25px; font-size:24px; letter-spacing: -0.6px; color:#222; line-height: 36px; font-weight: bold; background:url(https://www.gov.kr/rcvfvrSvc/images/contents/line_info_pc.png) no-repeat center left;}
 .info-guide-list li .btn-wrap{margin-top:8px;}
 .info_sub_title{display:block; margin-top:16px; font-size:16px; font-weight: bold; line-height:24px; letter-spacing: -0.4px; color:#444;}
 .info_sub_title +.info-guide-list{margin-top:12px;}
@@ -12535,10 +12535,10 @@ a.link_blue{color:#006ae2; text-decoration: underline;}
 @media (max-width: 1000px){
 	.nodata_wrap_2023{padding:10px 0 0 0 !important; padding-bottom:0;}
 	.nodata_wrap_2023.line__{padding:50px 0 !important; border-bottom:1px solid #bdc9dc;}
-	.nodata_wrap_2023 .nodata-title{padding-left:0; padding-top:60px; text-align:center; padding-bottom:0; background:url(/rcvfvrSvc/images/contents/icon_point_mo.png) no-repeat center top; background-size:48px;}
-	.nodata_wrap_2023 .nodata-title.complete{background:url(/rcvfvrSvc/images/contents/icon_complete_mo.png) no-repeat center top; background-size:48px;}
+	.nodata_wrap_2023 .nodata-title{padding-left:0; padding-top:60px; text-align:center; padding-bottom:0; background:url(https://www.gov.kr/rcvfvrSvc/images/contents/icon_point_mo.png) no-repeat center top; background-size:48px;}
+	.nodata_wrap_2023 .nodata-title.complete{background:url(https://www.gov.kr/rcvfvrSvc/images/contents/icon_complete_mo.png) no-repeat center top; background-size:48px;}
 	.gov-subsidy .add-family-btn-wrap.between_btn{margin-top:24px; text-align:center;}
-	.info_wrap-guide-title{margin-top:60px; margin-bottom:16px;padding-left:36px; background:url(/rcvfvrSvc/images/contents/line_info_mo.png) no-repeat center left; background-size:28px;}
+	.info_wrap-guide-title{margin-top:60px; margin-bottom:16px;padding-left:36px; background:url(https://www.gov.kr/rcvfvrSvc/images/contents/line_info_mo.png) no-repeat center left; background-size:28px;}
 	.gov-subsidy .family-mng-wrap .info_wrap-guide-title + .accordion-wrap{margin-top:0;}
 	.accordion-cont + .btn-accordion{border-top:1px solid #bdc0dc;}
 	.gov-subsidy .info-guide-list li{padding-left:8px;}
