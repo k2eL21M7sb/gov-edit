@@ -409,6 +409,27 @@ function mainPopupClose() {
 }
 
 //팝업닫기 localStorage
+function PopupCloseLs() {
+
+    if (cookieClickYn == "Y") {
+        var expVar = parseInt($("#" + cookieNmGlobal).val());
+        if (expVar == '' || isNaN(expVar)) {
+            expVar = 1;
+        }
+
+        var today = new Date();
+        today.setDate(today.getDate() + expVar);
+        var cookieExp = today;
+        //var cookieExpYYYMMDDHH = ''+cookieExp.getFullYear()+getMonthDayLenthConvert(cookieExp.getMonth()+1)+getMonthDayLenthConvert(cookieExp.getDate())+cookieExp.getHours();
+        var cookieExpYYYMMDD = '' + cookieExp.getFullYear() + getMonthDayLenthConvert(cookieExp.getMonth() + 1) + getMonthDayLenthConvert(cookieExp.getDate());
+        localStorage.setItem(cookieNmGlobal, cookieExpYYYMMDD);
+    }
+    $(".popWrap").hide();
+    $(".overlay").hide();
+    $("body").find(".dim").remove();
+    $('html').attr('style', 'overflow: auto;'); // 팝업 표출시 배경 스크롤 제한
+}
+
 function mainPopupCloseLs(id) {
 
     if (cookieClickYn == "Y") {
@@ -425,9 +446,9 @@ function mainPopupCloseLs(id) {
         localStorage.setItem(cookieNmGlobal, cookieExpYYYMMDD);
     }
     document.getElementById(id).remove();
-    $(".popWrap").hide();
-    $(".overlay").hide();
-    $("body").find(".dim").remove();
+    // $(".popWrap").hide();
+    // $(".overlay").hide();
+    // $("body").find(".dim").remove();
     $('html').attr('style', 'overflow: auto;'); // 팝업 표출시 배경 스크롤 제한
 }
 
