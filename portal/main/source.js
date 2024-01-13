@@ -409,7 +409,7 @@ function mainPopupClose() {
 }
 
 //팝업닫기 localStorage
-function mainPopupCloseLs() {
+function mainPopupCloseLs(id) {
 
     if (cookieClickYn == "Y") {
         var expVar = parseInt($("#" + cookieNmGlobal).val());
@@ -424,7 +424,7 @@ function mainPopupCloseLs() {
         var cookieExpYYYMMDD = '' + cookieExp.getFullYear() + getMonthDayLenthConvert(cookieExp.getMonth() + 1) + getMonthDayLenthConvert(cookieExp.getDate());
         localStorage.setItem(cookieNmGlobal, cookieExpYYYMMDD);
     }
-
+    document.getElementById(id).remove();
     $(".popWrap").hide();
     $(".overlay").hide();
     $("body").find(".dim").remove();
