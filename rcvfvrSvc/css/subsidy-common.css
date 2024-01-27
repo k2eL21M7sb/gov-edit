@@ -1376,11 +1376,11 @@ textarea:focus::-webkit-input-placeholder {
   position: relative;
   margin-right: 24px;
   width: calc(33.3333% - 16px);
-  height: 318px;
+  height: 620px;
   border: 1px solid rgb(221, 221, 221);
   border-radius: 16px;
   background-color: rgb(255, 255, 255);
-  overflow: hidden;
+  /* overflow: hidden;*/
 }
 
 .gov-subsidy .card-wrap .card-item+.card-item {
@@ -1844,7 +1844,8 @@ textarea:focus::-webkit-input-placeholder {
   display: inline-block;
   padding: 6px;
   font-size: 13px;
-  color: rgb(2, 126, 85);
+  color: white;
+  background-color: rgb(0, 179, 119);
   line-height: 15px;
   border: 1px solid rgb(0, 139, 92);
   border-radius: 4px;
@@ -4495,7 +4496,7 @@ textarea:focus::-webkit-input-placeholder {
   .gov-subsidy .card-wrap .card-item {
     margin-right: 12px;
     width: calc(50% - 6px);
-    height: 312px;
+    height: 600px;
   }
 
   .gov-subsidy .card-wrap .card-item+.card-item {
